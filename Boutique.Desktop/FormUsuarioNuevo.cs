@@ -16,7 +16,6 @@ namespace Boutique.Desktop
     public partial class FormUsuarioNuevo : Form
     {
 
-        private int _id;
         public FormUsuarioNuevo()
         {
             InitializeComponent();
