@@ -71,7 +71,7 @@ namespace Boutique.DataAcces.DAL
             return result;
         }
 
-        public bool Delete(int CategoriaId)
+        public bool Delete(int id)
         {
             bool result = false;
 
@@ -80,7 +80,7 @@ namespace Boutique.DataAcces.DAL
                 using (SqlCommand cmd = new SqlCommand("Ventas.SpCategoriaDelete", conn))
                 {
                     cmd.CommandType = CommandType.StoredProcedure;
-                    cmd.Parameters.AddWithValue("@CategoriaId", CategoriaId);
+                    cmd.Parameters.AddWithValue("@CategoriaId", id);
 
                     conn.Open();
 

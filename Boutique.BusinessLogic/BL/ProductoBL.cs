@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 namespace Boutique.BusinessLogic.BL
 {
     public  class ProductoBL
-    {
+    { 
 
         private static ProductoBL _instance;
 

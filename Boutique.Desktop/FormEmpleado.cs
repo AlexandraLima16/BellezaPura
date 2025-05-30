@@ -95,10 +95,34 @@ namespace Boutique.Desktop
 
                 FormEmpleadoNuevo frm = new FormEmpleadoNuevo(entity);
                 frm.ShowDialog();
-
             }
 
+            if (dataGridView1.CurrentRow.Cells["Eliminar"].Selected)
+            {
+                int id = (int)dataGridView1.CurrentRow.Cells["EmpleadoId"].Value;
+
+                DialogResult dr = MessageBox.Show("Realmente desea eliminar el registro?",
+                    "Confirmacion", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+                if (dr == DialogResult.Yes)
+                {
+                    if (EmpleadoBL.Instance.Delete(id))
+                    {
+                        MessageBox.Show("El registro se elimino con exito",
+                            "Informacion", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    }
+                }
+            }
+
+
+
+
+
             UpdateGrid();
+        }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
         }
     }
 }

@@ -75,12 +75,24 @@ namespace Boutique.Desktop
             }
             if (dataGridView1.CurrentRow.Cells["Eliminar"].Selected)
             {
-                MessageBox.Show("Eliminar" + dataGridView1.CurrentRow.Cells["PagoId"].Value.ToString());
-            }
-            UpdateGrid();
-            #endregion
 
-           
+                int id = (int)dataGridView1.CurrentRow.Cells["PagoId"].Value;
+
+                DialogResult dr = MessageBox.Show("Realmente desea eliminar el registro?",
+                    "Confirmacion", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+                if (dr == DialogResult.Yes)
+                {
+                    if (PagoBL.Instance.Delete(id))
+                    {
+                        MessageBox.Show("El registro se elimino con exito",
+                            "Informacion", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    }
+                }
+                UpdateGrid();
+                #endregion
+
+
+            }
         }
     }
 }

@@ -69,7 +69,7 @@ namespace Boutique.DataAcces.DAL
             return result;
         }
 
-        public bool Delete(int RolId)
+        public bool Delete(int id)
         {
             bool result = false;
 
@@ -78,7 +78,7 @@ namespace Boutique.DataAcces.DAL
                 using (SqlCommand cmd = new SqlCommand("Controlsistema.SpRolDelete", conn))
                 {
                     cmd.CommandType = CommandType.StoredProcedure;
-                    cmd.Parameters.AddWithValue("@RolId", RolId);
+                    cmd.Parameters.AddWithValue("@RolId", id);
 
                     conn.Open();
 

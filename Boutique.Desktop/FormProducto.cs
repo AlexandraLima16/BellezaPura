@@ -58,8 +58,8 @@ namespace Boutique.Desktop
                 int id = (int)dataGridView1.CurrentRow.Cells["ProductoId"].Value;
                 string nombre = dataGridView1.CurrentRow.Cells["Nombre"].Value.ToString();
                 string descripcion = dataGridView1.CurrentRow.Cells["Descripcion"].Value.ToString();
-                DateTime fechaIngreso = Convert.ToDateTime(dataGridView1.CurrentRow.Cells["FechaIngreso"].Value);
                 decimal precio = Convert.ToDecimal(dataGridView1.CurrentRow.Cells["Precio"].Value);
+                DateTime fechaIngreso = Convert.ToDateTime(dataGridView1.CurrentRow.Cells["FechaIngreso"].Value);
                 int marcaId = (int)dataGridView1.CurrentRow.Cells["MarcaId"].Value;
                 int categoriaId = (int)dataGridView1.CurrentRow.Cells["CategoriaId"].Value;
                 int estadoId = (int)dataGridView1.CurrentRow.Cells["EstadoId"].Value;
@@ -69,19 +69,32 @@ namespace Boutique.Desktop
                     ProductoId = id,
                     Nombre = nombre,
                     Descripcion = descripcion,
-                    FechaIngreso = fechaIngreso,  
                     Precio = precio,
+                    FechaIngreso = fechaIngreso,
                     MarcaId = marcaId,
                     CategoriaId=categoriaId,
                     EstadoId=estadoId
                 };
 
                 FormProductoNuevp frm = new FormProductoNuevp(entity);
+                frm.ShowDialog();
             }
             if (dataGridView1.CurrentRow.Cells["Eliminar"].Selected)
             {
-                MessageBox.Show("Eliminar" + dataGridView1.CurrentRow.Cells["ProductoId"].Value.ToString());
-            }
+                int id = (int)dataGridView1.CurrentRow.Cells["ProductoId"].Value;
+
+                DialogResult dr = MessageBox.Show("Realmente desea eliminar el registro?",
+                    "Confirmacion", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+                if (dr == DialogResult.Yes)
+                {
+                    if (ProductoBL.Instance.Delete(id))
+                    {
+                        MessageBox.Show("El registro se elimino con exito",
+                            "Informacion", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    }
+                }
+             }
+          }
         }
     }
-}
+

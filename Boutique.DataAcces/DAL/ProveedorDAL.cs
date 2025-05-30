@@ -81,16 +81,16 @@ namespace Boutique.DataAcces.DAL
             return result;
         }
 
-        public bool Delete(int ProveedorId)
+        public bool Delete(int id)
         {
             bool result = false;
 
             using (SqlConnection conn = new SqlConnection(_cadena))
             {
-                using (SqlCommand cmd = new SqlCommand("Ventas.SpProveedorDelete(", conn))
+                using (SqlCommand cmd = new SqlCommand("Ventas.SpProveedorDelete", conn))
                 {
                     cmd.CommandType = CommandType.StoredProcedure;
-                    cmd.Parameters.AddWithValue("@ProveedorId", ProveedorId);
+                    cmd.Parameters.AddWithValue("@ProveedorId", id);
 
                     conn.Open();
 

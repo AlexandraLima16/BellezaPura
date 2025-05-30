@@ -70,7 +70,7 @@ namespace Boutique.DataAcces.DAL
             return result;
         }
 
-        public bool Delete(int PagoId)
+        public bool Delete(int id)
         {
             bool result = false;
 
@@ -79,7 +79,7 @@ namespace Boutique.DataAcces.DAL
                 using (SqlCommand cmd = new SqlCommand("Ventas.SpPagoDelete", conn))
                 {
                     cmd.CommandType = CommandType.StoredProcedure;
-                    cmd.Parameters.AddWithValue("@PagoId", PagoId);
+                    cmd.Parameters.AddWithValue("@PagoId", id);
 
                     conn.Open();
 

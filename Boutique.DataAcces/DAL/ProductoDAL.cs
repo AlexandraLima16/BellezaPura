@@ -65,6 +65,7 @@ namespace Boutique.DataAcces.DAL
                     cmd.Parameters.AddWithValue("@Nombre", entity.Nombre);
                     cmd.Parameters.AddWithValue("@Descripcion", entity.Descripcion);
                     cmd.Parameters.AddWithValue("@Precio", entity.Precio);
+                    cmd.Parameters.AddWithValue("@FechaIngreso", entity.FechaIngreso);
                     cmd.Parameters.AddWithValue("@MarcaId", entity.MarcaId);
                     cmd.Parameters.AddWithValue("@CategoriaId", entity.CategoriaId);
                     cmd.Parameters.AddWithValue("@EstadoId", entity.EstadoId);
@@ -78,7 +79,7 @@ namespace Boutique.DataAcces.DAL
             return result;
         }
 
-        public bool Delete(int ProductoId)
+        public bool Delete(int id)
         {
             bool result = false;
 
@@ -87,7 +88,7 @@ namespace Boutique.DataAcces.DAL
                 using (SqlCommand cmd = new SqlCommand("Ventas.SpProductoDelete", conn))
                 {
                     cmd.CommandType = CommandType.StoredProcedure;
-                    cmd.Parameters.AddWithValue("@ProductolId", ProductoId);
+                    cmd.Parameters.AddWithValue("@ProductoId", id);
 
                     conn.Open();
 
@@ -124,9 +125,10 @@ namespace Boutique.DataAcces.DAL
                                 entity.Nombre = dr.GetString(1);
                                 entity.Descripcion = dr.GetString (2);
                                 entity.Precio = dr.GetDecimal(3);
-                                entity.MarcaId = dr.GetInt32(4);
-                                entity.CategoriaId = dr.GetInt32(5);
-                                entity.EstadoId = dr.GetInt32(6);
+                                entity.FechaIngreso = dr.GetDateTime(4);
+                                entity.MarcaId = dr.GetInt32(5);
+                                entity.CategoriaId = dr.GetInt32(6);
+                                entity.EstadoId = dr.GetInt32(7);
 
                                 result.Add(entity);
                             }

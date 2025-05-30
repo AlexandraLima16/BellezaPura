@@ -80,7 +80,18 @@ namespace Boutique.Desktop
             }
             if (dataGridView1.CurrentRow.Cells["Eliminar"].Selected)
             {
-                MessageBox.Show("Eliminar" + dataGridView1.CurrentRow.Cells["RolId"].Value.ToString());
+                int id = (int)dataGridView1.CurrentRow.Cells["RolId"].Value;
+
+                DialogResult dr = MessageBox.Show("Realmente desea eliminar el registro?",
+                    "Confirmacion", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+                if (dr == DialogResult.Yes)
+                {
+                    if (RolBL.Instance.Delete(id))
+                    {
+                        MessageBox.Show("El registro se elimino con exito",
+                            "Informacion", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    }
+                }
             }
             UpdateGrid();
             #endregion

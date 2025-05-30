@@ -134,16 +134,16 @@ namespace Boutique.DataAcces.DAL
             return result;
         }
 
-        public bool Delete(int EmpleadoId)
+        public bool Delete(int id)
         {
             bool result = false;
 
             using (SqlConnection conn = new SqlConnection(_cadena))
             {
-                using (SqlCommand cmd = new SqlCommand(" Controlsistema.SpEmpleadoDelete", conn))
+                using (SqlCommand cmd = new SqlCommand("Controlsistema.SpEmpleadoDelete", conn))
                 {
                     cmd.CommandType = CommandType.StoredProcedure;
-                    cmd.Parameters.AddWithValue("@EmpleadoId", EmpleadoId);
+                    cmd.Parameters.AddWithValue("@EmpleadoId", id);
 
                     conn.Open();
 
