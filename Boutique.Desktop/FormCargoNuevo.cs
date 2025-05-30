@@ -1,0 +1,95 @@
+﻿using Boutique.BusinessLogic.BL;
+using Boutique.Entity.Entidades;
+using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Security.Cryptography;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement;
+
+namespace Boutique.Desktop
+{
+    public partial class FormCargoNuevo : Form
+    {
+        private int _id = 0;
+        public FormCargoNuevo()
+        {
+            InitializeComponent();
+        }
+        public FormCargoNuevo(Cargo entity)
+        {
+            InitializeComponent();
+            comboBoxEstado.Enabled = true;
+            updateCombo();
+
+            this.Text = "Modificar Cargo";
+            _id = entity.CargoId;
+
+            txtTipoPago.Text = entity.TipoCargo;
+            comboBoxEstado.SelectedValue = entity.EstadoId;
+
+        }
+
+        private void updateCombo()
+        {
+            //Popiedad a mostrar la entity 
+
+            comboBoxEstado.DisplayMember = "NombreEstado";
+            //Propiedad de la llave  entity 
+            comboBoxEstado.ValueMember = "EstadoId";
+            comboBoxEstado.DataSource = EstadoBL.Instance.SelecAll();
+        }
+
+        private void FormCargoNuevo_Load(object sender, EventArgs e)
+        {
+            updateCombo();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Cargo entity = new Cargo()
+            {
+                TipoCargo = txtTipoPago.Text.Trim(),
+                EstadoId = (int)comboBoxEstado.SelectedValue
+            };
+
+            //Nuevo
+            if (_id == 0)
+            {
+                if (CargoBL.Instance.Insert(entity))
+                {
+                    MessageBox.Show("Registro Agregado con exito!", "Confirmacion",
+                        MessageBoxButtons.OK, MessageBoxIcon.Information);
+                }
+                else
+                {
+                    MessageBox.Show("Error al guardar el registro", "Error",
+                      MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+            }
+            else //editar
+            {
+                entity.CargoId = _id;
+                entity.EstadoId = (int)comboBoxEstado.SelectedValue;
+                if (CargoBL.Instance.Update(entity))
+                {
+                    MessageBox.Show("Registro editado con exito!", "Confirmacion",
+                        MessageBoxButtons.OK, MessageBoxIcon.Information);
+                }
+                else
+                {
+                    MessageBox.Show("Error al guardar el registro", "Error",
+                      MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+            }
+
+            this.Close();
+        }
+
+    }
+}

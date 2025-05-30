@@ -1,0 +1,269 @@
+C:\Users\GENESIS\Documents\BoutiqueProgram\Boutique.Desktop\bin\Debug\Boutique.Desktop.exe.config
+C:\Users\GENESIS\Documents\BoutiqueProgram\Boutique.Desktop\bin\Debug\Boutique.Desktop.exe
+C:\Users\GENESIS\Documents\BoutiqueProgram\Boutique.Desktop\bin\Debug\Boutique.Desktop.pdb
+C:\Users\GENESIS\Documents\BoutiqueProgram\Boutique.Desktop\obj\Debug\Boutique.Desktop.csproj.AssemblyReference.cache
+C:\Users\GENESIS\Documents\BoutiqueProgram\Boutique.Desktop\obj\Debug\Boutique.Desktop.FormCategorias.resources
+C:\Users\GENESIS\Documents\BoutiqueProgram\Boutique.Desktop\obj\Debug\Boutique.Desktop.MainMenu.resources
+C:\Users\GENESIS\Documents\BoutiqueProgram\Boutique.Desktop\obj\Debug\Boutique.Desktop.Properties.Resources.resources
+C:\Users\GENESIS\Documents\BoutiqueProgram\Boutique.Desktop\obj\Debug\Boutique.Desktop.csproj.GenerateResource.cache
+C:\Users\GENESIS\Documents\BoutiqueProgram\Boutique.Desktop\obj\Debug\Boutique.Desktop.csproj.CoreCompileInputs.cache
+C:\Users\GENESIS\Documents\BoutiqueProgram\Boutique.Desktop\obj\Debug\Boutique.Desktop.exe
+C:\Users\GENESIS\Documents\BoutiqueProgram\Boutique.Desktop\obj\Debug\Boutique.Desktop.pdb
+C:\Users\GENESIS\Documents\BoutiqueProgram\Boutique.Desktop\obj\Debug\Boutique.Desktop.FormPagos.resources
+C:\Users\GENESIS\Documents\BoutiqueProgram\Boutique.Desktop\obj\Debug\Boutique.Desktop.FormNuevoPago.resources
+C:\Users\GENESIS\Documents\BoutiqueProgram\Boutique.Desktop\obj\Debug\Boutique.Desktop.FormVentas.resources
+C:\Users\GENESIS\Documents\BoutiqueProgram\Boutique.Desktop\obj\Debug\Boutique.Desktop.FormCategoriasNuevo.resources
+C:\Users\GENESIS\Documents\BoutiqueProgram\Boutique.Desktop\obj\Debug\Boutique.Desktop.FormDetVenta.resources
+C:\Users\GENESIS\Documents\BoutiqueProgram\Boutique.Desktop\obj\Debug\Boutique.Desktop.FormMarcaNueva.resources
+C:\Users\GENESIS\Documents\BoutiqueProgram\Boutique.Desktop\obj\Debug\Boutique.Desktop.formMarcas.resources
+C:\Users\GENESIS\Documents\BoutiqueProgram\Boutique.Desktop\obj\Debug\Boutique.Desktop.FormNuevaVenta.resources
+C:\Users\GENESIS\Documents\BoutiqueProgram\Boutique.Desktop\obj\Debug\Boutique.Desktop.FormNuevoDetVenta.resources
+C:\Users\GENESIS\Documents\BoutiqueProgram\Boutique.Desktop\obj\Debug\Boutique.Desktop.FormProducto.resources
+C:\Users\GENESIS\Documents\BoutiqueProgram\Boutique.Desktop\obj\Debug\Boutique.Desktop.FormProveedor.resources
+C:\Users\GENESIS\Documents\BoutiqueProgram\Boutique.Desktop\obj\Debug\Boutique.Desktop.FormCliente.resources
+C:\Users\GENESIS\Documents\BoutiqueProgram\Boutique.Desktop\obj\Debug\Boutique.Desktop.FormDevolucion.resources
+C:\Users\GENESIS\Documents\BoutiqueProgram\Boutique.Desktop\obj\Debug\Boutique.Desktop.FormEstadoDev.resources
+C:\Users\GENESIS\Documents\BoutiqueProgram\Boutique.Desktop\obj\Debug\Boutique.Desktop.FormInventario.resources
+C:\Users\GENESIS\Documents\BoutiqueProgram\Boutique.Desktop\obj\Debug\Boutique.Desktop.FormClienteNuevo.resources
+C:\Users\GENESIS\Documents\BoutiqueProgram\Boutique.Desktop\obj\Debug\Boutique.Desktop.FormDevolucionNuevo.resources
+C:\Users\GENESIS\Documents\BoutiqueProgram\Boutique.Desktop\obj\Debug\Boutique.Desktop.FormNuevoEstadoDev.resources
+C:\Users\GENESIS\Documents\BoutiqueProgram\Boutique.Desktop\obj\Debug\Boutique.Desktop.FormNuevoInventario.resources
+C:\Users\GENESIS\Documents\BoutiqueProgram\Boutique.Desktop\obj\Debug\Boutique.Desktop.FormProductoNuevp.resources
+C:\Users\GENESIS\Documents\BoutiqueProgram\Boutique.Desktop\obj\Debug\Boutique.Desktop.FormProveedoresNuevo.resources
+C:\Users\usuario\Downloads\BoutiqueProgram\BoutiqueProgram\Boutique.Desktop\obj\Debug\Boutique.Desktop.csproj.AssemblyReference.cache
+C:\Users\usuario\Downloads\BoutiqueProgram\BoutiqueProgram\Boutique.Desktop\bin\Debug\Boutique.Desktop.exe.config
+C:\Users\usuario\Downloads\BoutiqueProgram\BoutiqueProgram\Boutique.Desktop\bin\Debug\Boutique.Desktop.exe
+C:\Users\usuario\Downloads\BoutiqueProgram\BoutiqueProgram\Boutique.Desktop\bin\Debug\Boutique.Desktop.pdb
+C:\Users\usuario\Downloads\BoutiqueProgram\BoutiqueProgram\Boutique.Desktop\obj\Debug\Boutique.Desktop.FormCategorias.resources
+C:\Users\usuario\Downloads\BoutiqueProgram\BoutiqueProgram\Boutique.Desktop\obj\Debug\Boutique.Desktop.FormCategoriasNuevo.resources
+C:\Users\usuario\Downloads\BoutiqueProgram\BoutiqueProgram\Boutique.Desktop\obj\Debug\Boutique.Desktop.FormCliente.resources
+C:\Users\usuario\Downloads\BoutiqueProgram\BoutiqueProgram\Boutique.Desktop\obj\Debug\Boutique.Desktop.FormClienteNuevo.resources
+C:\Users\usuario\Downloads\BoutiqueProgram\BoutiqueProgram\Boutique.Desktop\obj\Debug\Boutique.Desktop.FormDetVenta.resources
+C:\Users\usuario\Downloads\BoutiqueProgram\BoutiqueProgram\Boutique.Desktop\obj\Debug\Boutique.Desktop.FormDevolucion.resources
+C:\Users\usuario\Downloads\BoutiqueProgram\BoutiqueProgram\Boutique.Desktop\obj\Debug\Boutique.Desktop.FormDevolucionNuevo.resources
+C:\Users\usuario\Downloads\BoutiqueProgram\BoutiqueProgram\Boutique.Desktop\obj\Debug\Boutique.Desktop.FormEstadoDev.resources
+C:\Users\usuario\Downloads\BoutiqueProgram\BoutiqueProgram\Boutique.Desktop\obj\Debug\Boutique.Desktop.FormInventario.resources
+C:\Users\usuario\Downloads\BoutiqueProgram\BoutiqueProgram\Boutique.Desktop\obj\Debug\Boutique.Desktop.FormMarcaNueva.resources
+C:\Users\usuario\Downloads\BoutiqueProgram\BoutiqueProgram\Boutique.Desktop\obj\Debug\Boutique.Desktop.formMarcas.resources
+C:\Users\usuario\Downloads\BoutiqueProgram\BoutiqueProgram\Boutique.Desktop\obj\Debug\Boutique.Desktop.FormNuevaVenta.resources
+C:\Users\usuario\Downloads\BoutiqueProgram\BoutiqueProgram\Boutique.Desktop\obj\Debug\Boutique.Desktop.FormNuevoDetVenta.resources
+C:\Users\usuario\Downloads\BoutiqueProgram\BoutiqueProgram\Boutique.Desktop\obj\Debug\Boutique.Desktop.FormNuevoEstadoDev.resources
+C:\Users\usuario\Downloads\BoutiqueProgram\BoutiqueProgram\Boutique.Desktop\obj\Debug\Boutique.Desktop.FormNuevoInventario.resources
+C:\Users\usuario\Downloads\BoutiqueProgram\BoutiqueProgram\Boutique.Desktop\obj\Debug\Boutique.Desktop.FormNuevoPago.resources
+C:\Users\usuario\Downloads\BoutiqueProgram\BoutiqueProgram\Boutique.Desktop\obj\Debug\Boutique.Desktop.FormPagos.resources
+C:\Users\usuario\Downloads\BoutiqueProgram\BoutiqueProgram\Boutique.Desktop\obj\Debug\Boutique.Desktop.FormProducto.resources
+C:\Users\usuario\Downloads\BoutiqueProgram\BoutiqueProgram\Boutique.Desktop\obj\Debug\Boutique.Desktop.FormProductoNuevp.resources
+C:\Users\usuario\Downloads\BoutiqueProgram\BoutiqueProgram\Boutique.Desktop\obj\Debug\Boutique.Desktop.FormProveedor.resources
+C:\Users\usuario\Downloads\BoutiqueProgram\BoutiqueProgram\Boutique.Desktop\obj\Debug\Boutique.Desktop.FormProveedoresNuevo.resources
+C:\Users\usuario\Downloads\BoutiqueProgram\BoutiqueProgram\Boutique.Desktop\obj\Debug\Boutique.Desktop.FormVentas.resources
+C:\Users\usuario\Downloads\BoutiqueProgram\BoutiqueProgram\Boutique.Desktop\obj\Debug\Boutique.Desktop.MainMenu.resources
+C:\Users\usuario\Downloads\BoutiqueProgram\BoutiqueProgram\Boutique.Desktop\obj\Debug\Boutique.Desktop.Properties.Resources.resources
+C:\Users\usuario\Downloads\BoutiqueProgram\BoutiqueProgram\Boutique.Desktop\obj\Debug\Boutique.Desktop.csproj.GenerateResource.cache
+C:\Users\usuario\Downloads\BoutiqueProgram\BoutiqueProgram\Boutique.Desktop\obj\Debug\Boutique.Desktop.csproj.CoreCompileInputs.cache
+C:\Users\usuario\Downloads\BoutiqueProgram\BoutiqueProgram\Boutique.Desktop\obj\Debug\Boutique.Desktop.exe
+C:\Users\usuario\Downloads\BoutiqueProgram\BoutiqueProgram\Boutique.Desktop\obj\Debug\Boutique.Desktop.pdb
+C:\Users\jazmi\Downloads\BoutiqueProgram (2)\BoutiqueProgram\BoutiqueProgram\Boutique.Desktop\obj\Debug\Boutique.Desktop.csproj.AssemblyReference.cache
+C:\Users\jazmi\Downloads\BoutiqueProgram (2)\BoutiqueProgram\BoutiqueProgram\Boutique.Desktop\obj\Debug\Boutique.Desktop.exe
+C:\Users\jazmi\Downloads\BoutiqueProgram (2)\BoutiqueProgram\BoutiqueProgram\Boutique.Desktop\obj\Debug\Boutique.Desktop.pdb
+C:\Users\usuario\Downloads\BoutiqueProgram (1)\BoutiqueProgram\BoutiqueProgram\Boutique.Desktop\obj\Debug\Boutique.Desktop.csproj.AssemblyReference.cache
+C:\Users\usuario\Downloads\BoutiqueProgram (1)\BoutiqueProgram\BoutiqueProgram\Boutique.Desktop\bin\Debug\Boutique.Desktop.exe.config
+C:\Users\usuario\Downloads\BoutiqueProgram (1)\BoutiqueProgram\BoutiqueProgram\Boutique.Desktop\bin\Debug\Boutique.Desktop.exe
+C:\Users\usuario\Downloads\BoutiqueProgram (1)\BoutiqueProgram\BoutiqueProgram\Boutique.Desktop\bin\Debug\Boutique.Desktop.pdb
+C:\Users\usuario\Downloads\BoutiqueProgram (1)\BoutiqueProgram\BoutiqueProgram\Boutique.Desktop\bin\Debug\Boutique.BusinessLogic.dll
+C:\Users\usuario\Downloads\BoutiqueProgram (1)\BoutiqueProgram\BoutiqueProgram\Boutique.Desktop\bin\Debug\Boutique.DataAcces.dll
+C:\Users\usuario\Downloads\BoutiqueProgram (1)\BoutiqueProgram\BoutiqueProgram\Boutique.Desktop\bin\Debug\Boutique.Entity.dll
+C:\Users\usuario\Downloads\BoutiqueProgram (1)\BoutiqueProgram\BoutiqueProgram\Boutique.Desktop\bin\Debug\Boutique.BusinessLogic.pdb
+C:\Users\usuario\Downloads\BoutiqueProgram (1)\BoutiqueProgram\BoutiqueProgram\Boutique.Desktop\bin\Debug\Boutique.DataAcces.pdb
+C:\Users\usuario\Downloads\BoutiqueProgram (1)\BoutiqueProgram\BoutiqueProgram\Boutique.Desktop\bin\Debug\Boutique.Entity.pdb
+C:\Users\usuario\Downloads\BoutiqueProgram (1)\BoutiqueProgram\BoutiqueProgram\Boutique.Desktop\obj\Debug\Boutique.Desktop.FormCargo.resources
+C:\Users\usuario\Downloads\BoutiqueProgram (1)\BoutiqueProgram\BoutiqueProgram\Boutique.Desktop\obj\Debug\Boutique.Desktop.FormCategorias.resources
+C:\Users\usuario\Downloads\BoutiqueProgram (1)\BoutiqueProgram\BoutiqueProgram\Boutique.Desktop\obj\Debug\Boutique.Desktop.FormCategoriasNuevo.resources
+C:\Users\usuario\Downloads\BoutiqueProgram (1)\BoutiqueProgram\BoutiqueProgram\Boutique.Desktop\obj\Debug\Boutique.Desktop.FormCliente.resources
+C:\Users\usuario\Downloads\BoutiqueProgram (1)\BoutiqueProgram\BoutiqueProgram\Boutique.Desktop\obj\Debug\Boutique.Desktop.FormClienteNuevo.resources
+C:\Users\usuario\Downloads\BoutiqueProgram (1)\BoutiqueProgram\BoutiqueProgram\Boutique.Desktop\obj\Debug\Boutique.Desktop.FormDetVenta.resources
+C:\Users\usuario\Downloads\BoutiqueProgram (1)\BoutiqueProgram\BoutiqueProgram\Boutique.Desktop\obj\Debug\Boutique.Desktop.FormDevolucion.resources
+C:\Users\usuario\Downloads\BoutiqueProgram (1)\BoutiqueProgram\BoutiqueProgram\Boutique.Desktop\obj\Debug\Boutique.Desktop.FormDevolucionNuevo.resources
+C:\Users\usuario\Downloads\BoutiqueProgram (1)\BoutiqueProgram\BoutiqueProgram\Boutique.Desktop\obj\Debug\Boutique.Desktop.FormEmpleado.resources
+C:\Users\usuario\Downloads\BoutiqueProgram (1)\BoutiqueProgram\BoutiqueProgram\Boutique.Desktop\obj\Debug\Boutique.Desktop.FormEstado.resources
+C:\Users\usuario\Downloads\BoutiqueProgram (1)\BoutiqueProgram\BoutiqueProgram\Boutique.Desktop\obj\Debug\Boutique.Desktop.FormEstadoDev.resources
+C:\Users\usuario\Downloads\BoutiqueProgram (1)\BoutiqueProgram\BoutiqueProgram\Boutique.Desktop\obj\Debug\Boutique.Desktop.FormEstadoNuevo.resources
+C:\Users\usuario\Downloads\BoutiqueProgram (1)\BoutiqueProgram\BoutiqueProgram\Boutique.Desktop\obj\Debug\Boutique.Desktop.FormHistorial.resources
+C:\Users\usuario\Downloads\BoutiqueProgram (1)\BoutiqueProgram\BoutiqueProgram\Boutique.Desktop\obj\Debug\Boutique.Desktop.FormInventario.resources
+C:\Users\usuario\Downloads\BoutiqueProgram (1)\BoutiqueProgram\BoutiqueProgram\Boutique.Desktop\obj\Debug\Boutique.Desktop.FormMarcaNueva.resources
+C:\Users\usuario\Downloads\BoutiqueProgram (1)\BoutiqueProgram\BoutiqueProgram\Boutique.Desktop\obj\Debug\Boutique.Desktop.formMarcas.resources
+C:\Users\usuario\Downloads\BoutiqueProgram (1)\BoutiqueProgram\BoutiqueProgram\Boutique.Desktop\obj\Debug\Boutique.Desktop.FormNuevaVenta.resources
+C:\Users\usuario\Downloads\BoutiqueProgram (1)\BoutiqueProgram\BoutiqueProgram\Boutique.Desktop\obj\Debug\Boutique.Desktop.FormNuevoDetVenta.resources
+C:\Users\usuario\Downloads\BoutiqueProgram (1)\BoutiqueProgram\BoutiqueProgram\Boutique.Desktop\obj\Debug\Boutique.Desktop.FormNuevoEstadoDev.resources
+C:\Users\usuario\Downloads\BoutiqueProgram (1)\BoutiqueProgram\BoutiqueProgram\Boutique.Desktop\obj\Debug\Boutique.Desktop.FormNuevoInventario.resources
+C:\Users\usuario\Downloads\BoutiqueProgram (1)\BoutiqueProgram\BoutiqueProgram\Boutique.Desktop\obj\Debug\Boutique.Desktop.FormNuevoPago.resources
+C:\Users\usuario\Downloads\BoutiqueProgram (1)\BoutiqueProgram\BoutiqueProgram\Boutique.Desktop\obj\Debug\Boutique.Desktop.FormPagos.resources
+C:\Users\usuario\Downloads\BoutiqueProgram (1)\BoutiqueProgram\BoutiqueProgram\Boutique.Desktop\obj\Debug\Boutique.Desktop.FormProducto.resources
+C:\Users\usuario\Downloads\BoutiqueProgram (1)\BoutiqueProgram\BoutiqueProgram\Boutique.Desktop\obj\Debug\Boutique.Desktop.FormProductoNuevp.resources
+C:\Users\usuario\Downloads\BoutiqueProgram (1)\BoutiqueProgram\BoutiqueProgram\Boutique.Desktop\obj\Debug\Boutique.Desktop.FormProveedor.resources
+C:\Users\usuario\Downloads\BoutiqueProgram (1)\BoutiqueProgram\BoutiqueProgram\Boutique.Desktop\obj\Debug\Boutique.Desktop.FormProveedoresNuevo.resources
+C:\Users\usuario\Downloads\BoutiqueProgram (1)\BoutiqueProgram\BoutiqueProgram\Boutique.Desktop\obj\Debug\Boutique.Desktop.FormRol.resources
+C:\Users\usuario\Downloads\BoutiqueProgram (1)\BoutiqueProgram\BoutiqueProgram\Boutique.Desktop\obj\Debug\Boutique.Desktop.FormUsuario.resources
+C:\Users\usuario\Downloads\BoutiqueProgram (1)\BoutiqueProgram\BoutiqueProgram\Boutique.Desktop\obj\Debug\Boutique.Desktop.FormVentas.resources
+C:\Users\usuario\Downloads\BoutiqueProgram (1)\BoutiqueProgram\BoutiqueProgram\Boutique.Desktop\obj\Debug\Boutique.Desktop.MainMenu.resources
+C:\Users\usuario\Downloads\BoutiqueProgram (1)\BoutiqueProgram\BoutiqueProgram\Boutique.Desktop\obj\Debug\Boutique.Desktop.Properties.Resources.resources
+C:\Users\usuario\Downloads\BoutiqueProgram (1)\BoutiqueProgram\BoutiqueProgram\Boutique.Desktop\obj\Debug\Boutique.Desktop.csproj.GenerateResource.cache
+C:\Users\usuario\Downloads\BoutiqueProgram (1)\BoutiqueProgram\BoutiqueProgram\Boutique.Desktop\obj\Debug\Boutique.Desktop.csproj.CoreCompileInputs.cache
+C:\Users\usuario\Downloads\BoutiqueProgram (1)\BoutiqueProgram\BoutiqueProgram\Boutique.Desktop\obj\Debug\Boutique.CCD0CBF0.Up2Date
+C:\Users\usuario\Downloads\BoutiqueProgram (1)\BoutiqueProgram\BoutiqueProgram\Boutique.Desktop\obj\Debug\Boutique.Desktop.exe
+C:\Users\usuario\Downloads\BoutiqueProgram (1)\BoutiqueProgram\BoutiqueProgram\Boutique.Desktop\obj\Debug\Boutique.Desktop.pdb
+C:\Users\usuario\Downloads\BoutiqueProgram (4)\BoutiqueProgram (1)\BoutiqueProgram (1)\BoutiqueProgram\BoutiqueProgram\Boutique.Desktop\obj\Debug\Boutique.Desktop.csproj.AssemblyReference.cache
+C:\Users\usuario\Downloads\BoutiqueProgram (4)\BoutiqueProgram (1)\BoutiqueProgram (1)\BoutiqueProgram\BoutiqueProgram\Boutique.Desktop\bin\Debug\Boutique.Desktop.exe.config
+C:\Users\usuario\Downloads\BoutiqueProgram (4)\BoutiqueProgram (1)\BoutiqueProgram (1)\BoutiqueProgram\BoutiqueProgram\Boutique.Desktop\bin\Debug\Boutique.Desktop.exe
+C:\Users\usuario\Downloads\BoutiqueProgram (4)\BoutiqueProgram (1)\BoutiqueProgram (1)\BoutiqueProgram\BoutiqueProgram\Boutique.Desktop\bin\Debug\Boutique.Desktop.pdb
+C:\Users\usuario\Downloads\BoutiqueProgram (4)\BoutiqueProgram (1)\BoutiqueProgram (1)\BoutiqueProgram\BoutiqueProgram\Boutique.Desktop\bin\Debug\Boutique.BusinessLogic.dll
+C:\Users\usuario\Downloads\BoutiqueProgram (4)\BoutiqueProgram (1)\BoutiqueProgram (1)\BoutiqueProgram\BoutiqueProgram\Boutique.Desktop\bin\Debug\Boutique.DataAcces.dll
+C:\Users\usuario\Downloads\BoutiqueProgram (4)\BoutiqueProgram (1)\BoutiqueProgram (1)\BoutiqueProgram\BoutiqueProgram\Boutique.Desktop\bin\Debug\Boutique.Entity.dll
+C:\Users\usuario\Downloads\BoutiqueProgram (4)\BoutiqueProgram (1)\BoutiqueProgram (1)\BoutiqueProgram\BoutiqueProgram\Boutique.Desktop\bin\Debug\Boutique.BusinessLogic.pdb
+C:\Users\usuario\Downloads\BoutiqueProgram (4)\BoutiqueProgram (1)\BoutiqueProgram (1)\BoutiqueProgram\BoutiqueProgram\Boutique.Desktop\bin\Debug\Boutique.DataAcces.pdb
+C:\Users\usuario\Downloads\BoutiqueProgram (4)\BoutiqueProgram (1)\BoutiqueProgram (1)\BoutiqueProgram\BoutiqueProgram\Boutique.Desktop\bin\Debug\Boutique.Entity.pdb
+C:\Users\usuario\Downloads\BoutiqueProgram (4)\BoutiqueProgram (1)\BoutiqueProgram (1)\BoutiqueProgram\BoutiqueProgram\Boutique.Desktop\obj\Debug\Boutique.Desktop.FormCargo.resources
+C:\Users\usuario\Downloads\BoutiqueProgram (4)\BoutiqueProgram (1)\BoutiqueProgram (1)\BoutiqueProgram\BoutiqueProgram\Boutique.Desktop\obj\Debug\Boutique.Desktop.FormCargoNuevo.resources
+C:\Users\usuario\Downloads\BoutiqueProgram (4)\BoutiqueProgram (1)\BoutiqueProgram (1)\BoutiqueProgram\BoutiqueProgram\Boutique.Desktop\obj\Debug\Boutique.Desktop.FormCategorias.resources
+C:\Users\usuario\Downloads\BoutiqueProgram (4)\BoutiqueProgram (1)\BoutiqueProgram (1)\BoutiqueProgram\BoutiqueProgram\Boutique.Desktop\obj\Debug\Boutique.Desktop.FormCategoriasNuevo.resources
+C:\Users\usuario\Downloads\BoutiqueProgram (4)\BoutiqueProgram (1)\BoutiqueProgram (1)\BoutiqueProgram\BoutiqueProgram\Boutique.Desktop\obj\Debug\Boutique.Desktop.FormCliente.resources
+C:\Users\usuario\Downloads\BoutiqueProgram (4)\BoutiqueProgram (1)\BoutiqueProgram (1)\BoutiqueProgram\BoutiqueProgram\Boutique.Desktop\obj\Debug\Boutique.Desktop.FormClienteNuevo.resources
+C:\Users\usuario\Downloads\BoutiqueProgram (4)\BoutiqueProgram (1)\BoutiqueProgram (1)\BoutiqueProgram\BoutiqueProgram\Boutique.Desktop\obj\Debug\Boutique.Desktop.FormDetVenta.resources
+C:\Users\usuario\Downloads\BoutiqueProgram (4)\BoutiqueProgram (1)\BoutiqueProgram (1)\BoutiqueProgram\BoutiqueProgram\Boutique.Desktop\obj\Debug\Boutique.Desktop.FormDevolucion.resources
+C:\Users\usuario\Downloads\BoutiqueProgram (4)\BoutiqueProgram (1)\BoutiqueProgram (1)\BoutiqueProgram\BoutiqueProgram\Boutique.Desktop\obj\Debug\Boutique.Desktop.FormDevolucionNuevo.resources
+C:\Users\usuario\Downloads\BoutiqueProgram (4)\BoutiqueProgram (1)\BoutiqueProgram (1)\BoutiqueProgram\BoutiqueProgram\Boutique.Desktop\obj\Debug\Boutique.Desktop.FormEmpleado.resources
+C:\Users\usuario\Downloads\BoutiqueProgram (4)\BoutiqueProgram (1)\BoutiqueProgram (1)\BoutiqueProgram\BoutiqueProgram\Boutique.Desktop\obj\Debug\Boutique.Desktop.FormEmpresa.resources
+C:\Users\usuario\Downloads\BoutiqueProgram (4)\BoutiqueProgram (1)\BoutiqueProgram (1)\BoutiqueProgram\BoutiqueProgram\Boutique.Desktop\obj\Debug\Boutique.Desktop.FormEmpresaNuevo.resources
+C:\Users\usuario\Downloads\BoutiqueProgram (4)\BoutiqueProgram (1)\BoutiqueProgram (1)\BoutiqueProgram\BoutiqueProgram\Boutique.Desktop\obj\Debug\Boutique.Desktop.FormEstado.resources
+C:\Users\usuario\Downloads\BoutiqueProgram (4)\BoutiqueProgram (1)\BoutiqueProgram (1)\BoutiqueProgram\BoutiqueProgram\Boutique.Desktop\obj\Debug\Boutique.Desktop.FormEstadoDev.resources
+C:\Users\usuario\Downloads\BoutiqueProgram (4)\BoutiqueProgram (1)\BoutiqueProgram (1)\BoutiqueProgram\BoutiqueProgram\Boutique.Desktop\obj\Debug\Boutique.Desktop.FormEstadoNuevo.resources
+C:\Users\usuario\Downloads\BoutiqueProgram (4)\BoutiqueProgram (1)\BoutiqueProgram (1)\BoutiqueProgram\BoutiqueProgram\Boutique.Desktop\obj\Debug\Boutique.Desktop.FormHistorial.resources
+C:\Users\usuario\Downloads\BoutiqueProgram (4)\BoutiqueProgram (1)\BoutiqueProgram (1)\BoutiqueProgram\BoutiqueProgram\Boutique.Desktop\obj\Debug\Boutique.Desktop.FormInventario.resources
+C:\Users\usuario\Downloads\BoutiqueProgram (4)\BoutiqueProgram (1)\BoutiqueProgram (1)\BoutiqueProgram\BoutiqueProgram\Boutique.Desktop\obj\Debug\Boutique.Desktop.FormMarcaNueva.resources
+C:\Users\usuario\Downloads\BoutiqueProgram (4)\BoutiqueProgram (1)\BoutiqueProgram (1)\BoutiqueProgram\BoutiqueProgram\Boutique.Desktop\obj\Debug\Boutique.Desktop.formMarcas.resources
+C:\Users\usuario\Downloads\BoutiqueProgram (4)\BoutiqueProgram (1)\BoutiqueProgram (1)\BoutiqueProgram\BoutiqueProgram\Boutique.Desktop\obj\Debug\Boutique.Desktop.FormNuevaVenta.resources
+C:\Users\usuario\Downloads\BoutiqueProgram (4)\BoutiqueProgram (1)\BoutiqueProgram (1)\BoutiqueProgram\BoutiqueProgram\Boutique.Desktop\obj\Debug\Boutique.Desktop.FormNuevoDetVenta.resources
+C:\Users\usuario\Downloads\BoutiqueProgram (4)\BoutiqueProgram (1)\BoutiqueProgram (1)\BoutiqueProgram\BoutiqueProgram\Boutique.Desktop\obj\Debug\Boutique.Desktop.FormNuevoEstadoDev.resources
+C:\Users\usuario\Downloads\BoutiqueProgram (4)\BoutiqueProgram (1)\BoutiqueProgram (1)\BoutiqueProgram\BoutiqueProgram\Boutique.Desktop\obj\Debug\Boutique.Desktop.FormNuevoInventario.resources
+C:\Users\usuario\Downloads\BoutiqueProgram (4)\BoutiqueProgram (1)\BoutiqueProgram (1)\BoutiqueProgram\BoutiqueProgram\Boutique.Desktop\obj\Debug\Boutique.Desktop.FormNuevoPago.resources
+C:\Users\usuario\Downloads\BoutiqueProgram (4)\BoutiqueProgram (1)\BoutiqueProgram (1)\BoutiqueProgram\BoutiqueProgram\Boutique.Desktop\obj\Debug\Boutique.Desktop.FormPagos.resources
+C:\Users\usuario\Downloads\BoutiqueProgram (4)\BoutiqueProgram (1)\BoutiqueProgram (1)\BoutiqueProgram\BoutiqueProgram\Boutique.Desktop\obj\Debug\Boutique.Desktop.FormProducto.resources
+C:\Users\usuario\Downloads\BoutiqueProgram (4)\BoutiqueProgram (1)\BoutiqueProgram (1)\BoutiqueProgram\BoutiqueProgram\Boutique.Desktop\obj\Debug\Boutique.Desktop.FormProductoNuevp.resources
+C:\Users\usuario\Downloads\BoutiqueProgram (4)\BoutiqueProgram (1)\BoutiqueProgram (1)\BoutiqueProgram\BoutiqueProgram\Boutique.Desktop\obj\Debug\Boutique.Desktop.FormProveedor.resources
+C:\Users\usuario\Downloads\BoutiqueProgram (4)\BoutiqueProgram (1)\BoutiqueProgram (1)\BoutiqueProgram\BoutiqueProgram\Boutique.Desktop\obj\Debug\Boutique.Desktop.FormProveedoresNuevo.resources
+C:\Users\usuario\Downloads\BoutiqueProgram (4)\BoutiqueProgram (1)\BoutiqueProgram (1)\BoutiqueProgram\BoutiqueProgram\Boutique.Desktop\obj\Debug\Boutique.Desktop.FormRol.resources
+C:\Users\usuario\Downloads\BoutiqueProgram (4)\BoutiqueProgram (1)\BoutiqueProgram (1)\BoutiqueProgram\BoutiqueProgram\Boutique.Desktop\obj\Debug\Boutique.Desktop.FormRolNuevo.resources
+C:\Users\usuario\Downloads\BoutiqueProgram (4)\BoutiqueProgram (1)\BoutiqueProgram (1)\BoutiqueProgram\BoutiqueProgram\Boutique.Desktop\obj\Debug\Boutique.Desktop.FormUsuario.resources
+C:\Users\usuario\Downloads\BoutiqueProgram (4)\BoutiqueProgram (1)\BoutiqueProgram (1)\BoutiqueProgram\BoutiqueProgram\Boutique.Desktop\obj\Debug\Boutique.Desktop.FormVentas.resources
+C:\Users\usuario\Downloads\BoutiqueProgram (4)\BoutiqueProgram (1)\BoutiqueProgram (1)\BoutiqueProgram\BoutiqueProgram\Boutique.Desktop\obj\Debug\Boutique.Desktop.MainMenu.resources
+C:\Users\usuario\Downloads\BoutiqueProgram (4)\BoutiqueProgram (1)\BoutiqueProgram (1)\BoutiqueProgram\BoutiqueProgram\Boutique.Desktop\obj\Debug\Boutique.Desktop.Properties.Resources.resources
+C:\Users\usuario\Downloads\BoutiqueProgram (4)\BoutiqueProgram (1)\BoutiqueProgram (1)\BoutiqueProgram\BoutiqueProgram\Boutique.Desktop\obj\Debug\Boutique.Desktop.csproj.GenerateResource.cache
+C:\Users\usuario\Downloads\BoutiqueProgram (4)\BoutiqueProgram (1)\BoutiqueProgram (1)\BoutiqueProgram\BoutiqueProgram\Boutique.Desktop\obj\Debug\Boutique.Desktop.csproj.CoreCompileInputs.cache
+C:\Users\usuario\Downloads\BoutiqueProgram (4)\BoutiqueProgram (1)\BoutiqueProgram (1)\BoutiqueProgram\BoutiqueProgram\Boutique.Desktop\obj\Debug\Boutique.CCD0CBF0.Up2Date
+C:\Users\usuario\Downloads\BoutiqueProgram (4)\BoutiqueProgram (1)\BoutiqueProgram (1)\BoutiqueProgram\BoutiqueProgram\Boutique.Desktop\obj\Debug\Boutique.Desktop.exe
+C:\Users\usuario\Downloads\BoutiqueProgram (4)\BoutiqueProgram (1)\BoutiqueProgram (1)\BoutiqueProgram\BoutiqueProgram\Boutique.Desktop\obj\Debug\Boutique.Desktop.pdb
+C:\Users\jazmi\Music\BoutiqueProgram (4) (2)\BoutiqueProgram (4)\BoutiqueProgram (1)\BoutiqueProgram (1)\BoutiqueProgram\BoutiqueProgram\Boutique.Desktop\bin\Debug\Boutique.Desktop.exe.config
+C:\Users\jazmi\Music\BoutiqueProgram (4) (2)\BoutiqueProgram (4)\BoutiqueProgram (1)\BoutiqueProgram (1)\BoutiqueProgram\BoutiqueProgram\Boutique.Desktop\bin\Debug\Boutique.Desktop.exe
+C:\Users\jazmi\Music\BoutiqueProgram (4) (2)\BoutiqueProgram (4)\BoutiqueProgram (1)\BoutiqueProgram (1)\BoutiqueProgram\BoutiqueProgram\Boutique.Desktop\bin\Debug\Boutique.Desktop.pdb
+C:\Users\jazmi\Music\BoutiqueProgram (4) (2)\BoutiqueProgram (4)\BoutiqueProgram (1)\BoutiqueProgram (1)\BoutiqueProgram\BoutiqueProgram\Boutique.Desktop\bin\Debug\Boutique.BusinessLogic.dll
+C:\Users\jazmi\Music\BoutiqueProgram (4) (2)\BoutiqueProgram (4)\BoutiqueProgram (1)\BoutiqueProgram (1)\BoutiqueProgram\BoutiqueProgram\Boutique.Desktop\bin\Debug\Boutique.DataAcces.dll
+C:\Users\jazmi\Music\BoutiqueProgram (4) (2)\BoutiqueProgram (4)\BoutiqueProgram (1)\BoutiqueProgram (1)\BoutiqueProgram\BoutiqueProgram\Boutique.Desktop\bin\Debug\Boutique.Entity.dll
+C:\Users\jazmi\Music\BoutiqueProgram (4) (2)\BoutiqueProgram (4)\BoutiqueProgram (1)\BoutiqueProgram (1)\BoutiqueProgram\BoutiqueProgram\Boutique.Desktop\bin\Debug\Boutique.BusinessLogic.pdb
+C:\Users\jazmi\Music\BoutiqueProgram (4) (2)\BoutiqueProgram (4)\BoutiqueProgram (1)\BoutiqueProgram (1)\BoutiqueProgram\BoutiqueProgram\Boutique.Desktop\bin\Debug\Boutique.DataAcces.pdb
+C:\Users\jazmi\Music\BoutiqueProgram (4) (2)\BoutiqueProgram (4)\BoutiqueProgram (1)\BoutiqueProgram (1)\BoutiqueProgram\BoutiqueProgram\Boutique.Desktop\bin\Debug\Boutique.Entity.pdb
+C:\Users\jazmi\Music\BoutiqueProgram (4) (2)\BoutiqueProgram (4)\BoutiqueProgram (1)\BoutiqueProgram (1)\BoutiqueProgram\BoutiqueProgram\Boutique.Desktop\obj\Debug\Boutique.Desktop.csproj.AssemblyReference.cache
+C:\Users\jazmi\Music\BoutiqueProgram (4) (2)\BoutiqueProgram (4)\BoutiqueProgram (1)\BoutiqueProgram (1)\BoutiqueProgram\BoutiqueProgram\Boutique.Desktop\obj\Debug\Boutique.Desktop.FormCargo.resources
+C:\Users\jazmi\Music\BoutiqueProgram (4) (2)\BoutiqueProgram (4)\BoutiqueProgram (1)\BoutiqueProgram (1)\BoutiqueProgram\BoutiqueProgram\Boutique.Desktop\obj\Debug\Boutique.Desktop.FormCargoNuevo.resources
+C:\Users\jazmi\Music\BoutiqueProgram (4) (2)\BoutiqueProgram (4)\BoutiqueProgram (1)\BoutiqueProgram (1)\BoutiqueProgram\BoutiqueProgram\Boutique.Desktop\obj\Debug\Boutique.Desktop.FormCategorias.resources
+C:\Users\jazmi\Music\BoutiqueProgram (4) (2)\BoutiqueProgram (4)\BoutiqueProgram (1)\BoutiqueProgram (1)\BoutiqueProgram\BoutiqueProgram\Boutique.Desktop\obj\Debug\Boutique.Desktop.FormCategoriasNuevo.resources
+C:\Users\jazmi\Music\BoutiqueProgram (4) (2)\BoutiqueProgram (4)\BoutiqueProgram (1)\BoutiqueProgram (1)\BoutiqueProgram\BoutiqueProgram\Boutique.Desktop\obj\Debug\Boutique.Desktop.FormCliente.resources
+C:\Users\jazmi\Music\BoutiqueProgram (4) (2)\BoutiqueProgram (4)\BoutiqueProgram (1)\BoutiqueProgram (1)\BoutiqueProgram\BoutiqueProgram\Boutique.Desktop\obj\Debug\Boutique.Desktop.FormClienteNuevo.resources
+C:\Users\jazmi\Music\BoutiqueProgram (4) (2)\BoutiqueProgram (4)\BoutiqueProgram (1)\BoutiqueProgram (1)\BoutiqueProgram\BoutiqueProgram\Boutique.Desktop\obj\Debug\Boutique.Desktop.FormDetVenta.resources
+C:\Users\jazmi\Music\BoutiqueProgram (4) (2)\BoutiqueProgram (4)\BoutiqueProgram (1)\BoutiqueProgram (1)\BoutiqueProgram\BoutiqueProgram\Boutique.Desktop\obj\Debug\Boutique.Desktop.FormDevolucion.resources
+C:\Users\jazmi\Music\BoutiqueProgram (4) (2)\BoutiqueProgram (4)\BoutiqueProgram (1)\BoutiqueProgram (1)\BoutiqueProgram\BoutiqueProgram\Boutique.Desktop\obj\Debug\Boutique.Desktop.FormDevolucionNuevo.resources
+C:\Users\jazmi\Music\BoutiqueProgram (4) (2)\BoutiqueProgram (4)\BoutiqueProgram (1)\BoutiqueProgram (1)\BoutiqueProgram\BoutiqueProgram\Boutique.Desktop\obj\Debug\Boutique.Desktop.FormEmpleado.resources
+C:\Users\jazmi\Music\BoutiqueProgram (4) (2)\BoutiqueProgram (4)\BoutiqueProgram (1)\BoutiqueProgram (1)\BoutiqueProgram\BoutiqueProgram\Boutique.Desktop\obj\Debug\Boutique.Desktop.FormEmpresa.resources
+C:\Users\jazmi\Music\BoutiqueProgram (4) (2)\BoutiqueProgram (4)\BoutiqueProgram (1)\BoutiqueProgram (1)\BoutiqueProgram\BoutiqueProgram\Boutique.Desktop\obj\Debug\Boutique.Desktop.FormEmpresaNuevo.resources
+C:\Users\jazmi\Music\BoutiqueProgram (4) (2)\BoutiqueProgram (4)\BoutiqueProgram (1)\BoutiqueProgram (1)\BoutiqueProgram\BoutiqueProgram\Boutique.Desktop\obj\Debug\Boutique.Desktop.FormEstado.resources
+C:\Users\jazmi\Music\BoutiqueProgram (4) (2)\BoutiqueProgram (4)\BoutiqueProgram (1)\BoutiqueProgram (1)\BoutiqueProgram\BoutiqueProgram\Boutique.Desktop\obj\Debug\Boutique.Desktop.FormEstadoDev.resources
+C:\Users\jazmi\Music\BoutiqueProgram (4) (2)\BoutiqueProgram (4)\BoutiqueProgram (1)\BoutiqueProgram (1)\BoutiqueProgram\BoutiqueProgram\Boutique.Desktop\obj\Debug\Boutique.Desktop.FormEstadoNuevo.resources
+C:\Users\jazmi\Music\BoutiqueProgram (4) (2)\BoutiqueProgram (4)\BoutiqueProgram (1)\BoutiqueProgram (1)\BoutiqueProgram\BoutiqueProgram\Boutique.Desktop\obj\Debug\Boutique.Desktop.FormHistorial.resources
+C:\Users\jazmi\Music\BoutiqueProgram (4) (2)\BoutiqueProgram (4)\BoutiqueProgram (1)\BoutiqueProgram (1)\BoutiqueProgram\BoutiqueProgram\Boutique.Desktop\obj\Debug\Boutique.Desktop.FormInventario.resources
+C:\Users\jazmi\Music\BoutiqueProgram (4) (2)\BoutiqueProgram (4)\BoutiqueProgram (1)\BoutiqueProgram (1)\BoutiqueProgram\BoutiqueProgram\Boutique.Desktop\obj\Debug\Boutique.Desktop.FormMarcaNueva.resources
+C:\Users\jazmi\Music\BoutiqueProgram (4) (2)\BoutiqueProgram (4)\BoutiqueProgram (1)\BoutiqueProgram (1)\BoutiqueProgram\BoutiqueProgram\Boutique.Desktop\obj\Debug\Boutique.Desktop.formMarcas.resources
+C:\Users\jazmi\Music\BoutiqueProgram (4) (2)\BoutiqueProgram (4)\BoutiqueProgram (1)\BoutiqueProgram (1)\BoutiqueProgram\BoutiqueProgram\Boutique.Desktop\obj\Debug\Boutique.Desktop.FormNuevaVenta.resources
+C:\Users\jazmi\Music\BoutiqueProgram (4) (2)\BoutiqueProgram (4)\BoutiqueProgram (1)\BoutiqueProgram (1)\BoutiqueProgram\BoutiqueProgram\Boutique.Desktop\obj\Debug\Boutique.Desktop.FormNuevoDetVenta.resources
+C:\Users\jazmi\Music\BoutiqueProgram (4) (2)\BoutiqueProgram (4)\BoutiqueProgram (1)\BoutiqueProgram (1)\BoutiqueProgram\BoutiqueProgram\Boutique.Desktop\obj\Debug\Boutique.Desktop.FormNuevoEstadoDev.resources
+C:\Users\jazmi\Music\BoutiqueProgram (4) (2)\BoutiqueProgram (4)\BoutiqueProgram (1)\BoutiqueProgram (1)\BoutiqueProgram\BoutiqueProgram\Boutique.Desktop\obj\Debug\Boutique.Desktop.FormNuevoInventario.resources
+C:\Users\jazmi\Music\BoutiqueProgram (4) (2)\BoutiqueProgram (4)\BoutiqueProgram (1)\BoutiqueProgram (1)\BoutiqueProgram\BoutiqueProgram\Boutique.Desktop\obj\Debug\Boutique.Desktop.FormNuevoPago.resources
+C:\Users\jazmi\Music\BoutiqueProgram (4) (2)\BoutiqueProgram (4)\BoutiqueProgram (1)\BoutiqueProgram (1)\BoutiqueProgram\BoutiqueProgram\Boutique.Desktop\obj\Debug\Boutique.Desktop.FormPagos.resources
+C:\Users\jazmi\Music\BoutiqueProgram (4) (2)\BoutiqueProgram (4)\BoutiqueProgram (1)\BoutiqueProgram (1)\BoutiqueProgram\BoutiqueProgram\Boutique.Desktop\obj\Debug\Boutique.Desktop.FormProducto.resources
+C:\Users\jazmi\Music\BoutiqueProgram (4) (2)\BoutiqueProgram (4)\BoutiqueProgram (1)\BoutiqueProgram (1)\BoutiqueProgram\BoutiqueProgram\Boutique.Desktop\obj\Debug\Boutique.Desktop.FormProductoNuevp.resources
+C:\Users\jazmi\Music\BoutiqueProgram (4) (2)\BoutiqueProgram (4)\BoutiqueProgram (1)\BoutiqueProgram (1)\BoutiqueProgram\BoutiqueProgram\Boutique.Desktop\obj\Debug\Boutique.Desktop.FormProveedor.resources
+C:\Users\jazmi\Music\BoutiqueProgram (4) (2)\BoutiqueProgram (4)\BoutiqueProgram (1)\BoutiqueProgram (1)\BoutiqueProgram\BoutiqueProgram\Boutique.Desktop\obj\Debug\Boutique.Desktop.FormProveedoresNuevo.resources
+C:\Users\jazmi\Music\BoutiqueProgram (4) (2)\BoutiqueProgram (4)\BoutiqueProgram (1)\BoutiqueProgram (1)\BoutiqueProgram\BoutiqueProgram\Boutique.Desktop\obj\Debug\Boutique.Desktop.FormRol.resources
+C:\Users\jazmi\Music\BoutiqueProgram (4) (2)\BoutiqueProgram (4)\BoutiqueProgram (1)\BoutiqueProgram (1)\BoutiqueProgram\BoutiqueProgram\Boutique.Desktop\obj\Debug\Boutique.Desktop.FormRolNuevo.resources
+C:\Users\jazmi\Music\BoutiqueProgram (4) (2)\BoutiqueProgram (4)\BoutiqueProgram (1)\BoutiqueProgram (1)\BoutiqueProgram\BoutiqueProgram\Boutique.Desktop\obj\Debug\Boutique.Desktop.FormUsuario.resources
+C:\Users\jazmi\Music\BoutiqueProgram (4) (2)\BoutiqueProgram (4)\BoutiqueProgram (1)\BoutiqueProgram (1)\BoutiqueProgram\BoutiqueProgram\Boutique.Desktop\obj\Debug\Boutique.Desktop.FormVentas.resources
+C:\Users\jazmi\Music\BoutiqueProgram (4) (2)\BoutiqueProgram (4)\BoutiqueProgram (1)\BoutiqueProgram (1)\BoutiqueProgram\BoutiqueProgram\Boutique.Desktop\obj\Debug\Boutique.Desktop.MainMenu.resources
+C:\Users\jazmi\Music\BoutiqueProgram (4) (2)\BoutiqueProgram (4)\BoutiqueProgram (1)\BoutiqueProgram (1)\BoutiqueProgram\BoutiqueProgram\Boutique.Desktop\obj\Debug\Boutique.Desktop.Properties.Resources.resources
+C:\Users\jazmi\Music\BoutiqueProgram (4) (2)\BoutiqueProgram (4)\BoutiqueProgram (1)\BoutiqueProgram (1)\BoutiqueProgram\BoutiqueProgram\Boutique.Desktop\obj\Debug\Boutique.Desktop.csproj.GenerateResource.cache
+C:\Users\jazmi\Music\BoutiqueProgram (4) (2)\BoutiqueProgram (4)\BoutiqueProgram (1)\BoutiqueProgram (1)\BoutiqueProgram\BoutiqueProgram\Boutique.Desktop\obj\Debug\Boutique.Desktop.csproj.CoreCompileInputs.cache
+C:\Users\jazmi\Music\BoutiqueProgram (4) (2)\BoutiqueProgram (4)\BoutiqueProgram (1)\BoutiqueProgram (1)\BoutiqueProgram\BoutiqueProgram\Boutique.Desktop\obj\Debug\Boutique.CCD0CBF0.Up2Date
+C:\Users\jazmi\Music\BoutiqueProgram (4) (2)\BoutiqueProgram (4)\BoutiqueProgram (1)\BoutiqueProgram (1)\BoutiqueProgram\BoutiqueProgram\Boutique.Desktop\obj\Debug\Boutique.Desktop.exe
+C:\Users\jazmi\Music\BoutiqueProgram (4) (2)\BoutiqueProgram (4)\BoutiqueProgram (1)\BoutiqueProgram (1)\BoutiqueProgram\BoutiqueProgram\Boutique.Desktop\obj\Debug\Boutique.Desktop.pdb
+C:\Users\jazmi\Music\BoutiqueProgram (4) (2)\BoutiqueProgram (4)\BoutiqueProgram (1)\BoutiqueProgram (1)\BoutiqueProgram\BoutiqueProgram\Boutique.Desktop\obj\Debug\Boutique.Desktop.FormEmpleadoNuevo.resources
+C:\Users\jazmi\Music\BoutiqueProgram (4) (2)\BoutiqueProgram (4)\BoutiqueProgram (1)\BoutiqueProgram (1)\BoutiqueProgram\BoutiqueProgram\Boutique.Desktop\obj\Debug\Boutique.Desktop.FormUsuarioNuevo.resources
+C:\Users\usuario\Downloads\BoutiqueProgram (5) (2)\BoutiqueProgram (4) (2)\BoutiqueProgram (4)\BoutiqueProgram (1)\BoutiqueProgram (1)\BoutiqueProgram\BoutiqueProgram\Boutique.Desktop\bin\Debug\Boutique.Desktop.exe.config
+C:\Users\usuario\Downloads\BoutiqueProgram (5) (2)\BoutiqueProgram (4) (2)\BoutiqueProgram (4)\BoutiqueProgram (1)\BoutiqueProgram (1)\BoutiqueProgram\BoutiqueProgram\Boutique.Desktop\bin\Debug\Boutique.Desktop.exe
+C:\Users\usuario\Downloads\BoutiqueProgram (5) (2)\BoutiqueProgram (4) (2)\BoutiqueProgram (4)\BoutiqueProgram (1)\BoutiqueProgram (1)\BoutiqueProgram\BoutiqueProgram\Boutique.Desktop\bin\Debug\Boutique.Desktop.pdb
+C:\Users\usuario\Downloads\BoutiqueProgram (5) (2)\BoutiqueProgram (4) (2)\BoutiqueProgram (4)\BoutiqueProgram (1)\BoutiqueProgram (1)\BoutiqueProgram\BoutiqueProgram\Boutique.Desktop\bin\Debug\Boutique.BusinessLogic.dll
+C:\Users\usuario\Downloads\BoutiqueProgram (5) (2)\BoutiqueProgram (4) (2)\BoutiqueProgram (4)\BoutiqueProgram (1)\BoutiqueProgram (1)\BoutiqueProgram\BoutiqueProgram\Boutique.Desktop\bin\Debug\Boutique.DataAcces.dll
+C:\Users\usuario\Downloads\BoutiqueProgram (5) (2)\BoutiqueProgram (4) (2)\BoutiqueProgram (4)\BoutiqueProgram (1)\BoutiqueProgram (1)\BoutiqueProgram\BoutiqueProgram\Boutique.Desktop\bin\Debug\Boutique.Entity.dll
+C:\Users\usuario\Downloads\BoutiqueProgram (5) (2)\BoutiqueProgram (4) (2)\BoutiqueProgram (4)\BoutiqueProgram (1)\BoutiqueProgram (1)\BoutiqueProgram\BoutiqueProgram\Boutique.Desktop\bin\Debug\Boutique.BusinessLogic.pdb
+C:\Users\usuario\Downloads\BoutiqueProgram (5) (2)\BoutiqueProgram (4) (2)\BoutiqueProgram (4)\BoutiqueProgram (1)\BoutiqueProgram (1)\BoutiqueProgram\BoutiqueProgram\Boutique.Desktop\bin\Debug\Boutique.DataAcces.pdb
+C:\Users\usuario\Downloads\BoutiqueProgram (5) (2)\BoutiqueProgram (4) (2)\BoutiqueProgram (4)\BoutiqueProgram (1)\BoutiqueProgram (1)\BoutiqueProgram\BoutiqueProgram\Boutique.Desktop\bin\Debug\Boutique.Entity.pdb
+C:\Users\usuario\Downloads\BoutiqueProgram (5) (2)\BoutiqueProgram (4) (2)\BoutiqueProgram (4)\BoutiqueProgram (1)\BoutiqueProgram (1)\BoutiqueProgram\BoutiqueProgram\Boutique.Desktop\obj\Debug\Boutique.Desktop.csproj.AssemblyReference.cache
+C:\Users\usuario\Downloads\BoutiqueProgram (5) (2)\BoutiqueProgram (4) (2)\BoutiqueProgram (4)\BoutiqueProgram (1)\BoutiqueProgram (1)\BoutiqueProgram\BoutiqueProgram\Boutique.Desktop\obj\Debug\Boutique.Desktop.FormCargo.resources
+C:\Users\usuario\Downloads\BoutiqueProgram (5) (2)\BoutiqueProgram (4) (2)\BoutiqueProgram (4)\BoutiqueProgram (1)\BoutiqueProgram (1)\BoutiqueProgram\BoutiqueProgram\Boutique.Desktop\obj\Debug\Boutique.Desktop.FormCargoNuevo.resources
+C:\Users\usuario\Downloads\BoutiqueProgram (5) (2)\BoutiqueProgram (4) (2)\BoutiqueProgram (4)\BoutiqueProgram (1)\BoutiqueProgram (1)\BoutiqueProgram\BoutiqueProgram\Boutique.Desktop\obj\Debug\Boutique.Desktop.FormCategorias.resources
+C:\Users\usuario\Downloads\BoutiqueProgram (5) (2)\BoutiqueProgram (4) (2)\BoutiqueProgram (4)\BoutiqueProgram (1)\BoutiqueProgram (1)\BoutiqueProgram\BoutiqueProgram\Boutique.Desktop\obj\Debug\Boutique.Desktop.FormCategoriasNuevo.resources
+C:\Users\usuario\Downloads\BoutiqueProgram (5) (2)\BoutiqueProgram (4) (2)\BoutiqueProgram (4)\BoutiqueProgram (1)\BoutiqueProgram (1)\BoutiqueProgram\BoutiqueProgram\Boutique.Desktop\obj\Debug\Boutique.Desktop.FormCliente.resources
+C:\Users\usuario\Downloads\BoutiqueProgram (5) (2)\BoutiqueProgram (4) (2)\BoutiqueProgram (4)\BoutiqueProgram (1)\BoutiqueProgram (1)\BoutiqueProgram\BoutiqueProgram\Boutique.Desktop\obj\Debug\Boutique.Desktop.FormClienteNuevo.resources
+C:\Users\usuario\Downloads\BoutiqueProgram (5) (2)\BoutiqueProgram (4) (2)\BoutiqueProgram (4)\BoutiqueProgram (1)\BoutiqueProgram (1)\BoutiqueProgram\BoutiqueProgram\Boutique.Desktop\obj\Debug\Boutique.Desktop.FormDetVenta.resources
+C:\Users\usuario\Downloads\BoutiqueProgram (5) (2)\BoutiqueProgram (4) (2)\BoutiqueProgram (4)\BoutiqueProgram (1)\BoutiqueProgram (1)\BoutiqueProgram\BoutiqueProgram\Boutique.Desktop\obj\Debug\Boutique.Desktop.FormDevolucion.resources
+C:\Users\usuario\Downloads\BoutiqueProgram (5) (2)\BoutiqueProgram (4) (2)\BoutiqueProgram (4)\BoutiqueProgram (1)\BoutiqueProgram (1)\BoutiqueProgram\BoutiqueProgram\Boutique.Desktop\obj\Debug\Boutique.Desktop.FormDevolucionNuevo.resources
+C:\Users\usuario\Downloads\BoutiqueProgram (5) (2)\BoutiqueProgram (4) (2)\BoutiqueProgram (4)\BoutiqueProgram (1)\BoutiqueProgram (1)\BoutiqueProgram\BoutiqueProgram\Boutique.Desktop\obj\Debug\Boutique.Desktop.FormEmpleado.resources
+C:\Users\usuario\Downloads\BoutiqueProgram (5) (2)\BoutiqueProgram (4) (2)\BoutiqueProgram (4)\BoutiqueProgram (1)\BoutiqueProgram (1)\BoutiqueProgram\BoutiqueProgram\Boutique.Desktop\obj\Debug\Boutique.Desktop.FormEmpleadoNuevo.resources
+C:\Users\usuario\Downloads\BoutiqueProgram (5) (2)\BoutiqueProgram (4) (2)\BoutiqueProgram (4)\BoutiqueProgram (1)\BoutiqueProgram (1)\BoutiqueProgram\BoutiqueProgram\Boutique.Desktop\obj\Debug\Boutique.Desktop.FormEmpresa.resources
+C:\Users\usuario\Downloads\BoutiqueProgram (5) (2)\BoutiqueProgram (4) (2)\BoutiqueProgram (4)\BoutiqueProgram (1)\BoutiqueProgram (1)\BoutiqueProgram\BoutiqueProgram\Boutique.Desktop\obj\Debug\Boutique.Desktop.FormEmpresaNuevo.resources
+C:\Users\usuario\Downloads\BoutiqueProgram (5) (2)\BoutiqueProgram (4) (2)\BoutiqueProgram (4)\BoutiqueProgram (1)\BoutiqueProgram (1)\BoutiqueProgram\BoutiqueProgram\Boutique.Desktop\obj\Debug\Boutique.Desktop.FormEstado.resources
+C:\Users\usuario\Downloads\BoutiqueProgram (5) (2)\BoutiqueProgram (4) (2)\BoutiqueProgram (4)\BoutiqueProgram (1)\BoutiqueProgram (1)\BoutiqueProgram\BoutiqueProgram\Boutique.Desktop\obj\Debug\Boutique.Desktop.FormEstadoDev.resources
+C:\Users\usuario\Downloads\BoutiqueProgram (5) (2)\BoutiqueProgram (4) (2)\BoutiqueProgram (4)\BoutiqueProgram (1)\BoutiqueProgram (1)\BoutiqueProgram\BoutiqueProgram\Boutique.Desktop\obj\Debug\Boutique.Desktop.FormEstadoNuevo.resources
+C:\Users\usuario\Downloads\BoutiqueProgram (5) (2)\BoutiqueProgram (4) (2)\BoutiqueProgram (4)\BoutiqueProgram (1)\BoutiqueProgram (1)\BoutiqueProgram\BoutiqueProgram\Boutique.Desktop\obj\Debug\Boutique.Desktop.FormHistorial.resources
+C:\Users\usuario\Downloads\BoutiqueProgram (5) (2)\BoutiqueProgram (4) (2)\BoutiqueProgram (4)\BoutiqueProgram (1)\BoutiqueProgram (1)\BoutiqueProgram\BoutiqueProgram\Boutique.Desktop\obj\Debug\Boutique.Desktop.FormInventario.resources
+C:\Users\usuario\Downloads\BoutiqueProgram (5) (2)\BoutiqueProgram (4) (2)\BoutiqueProgram (4)\BoutiqueProgram (1)\BoutiqueProgram (1)\BoutiqueProgram\BoutiqueProgram\Boutique.Desktop\obj\Debug\Boutique.Desktop.FormMarcaNueva.resources
+C:\Users\usuario\Downloads\BoutiqueProgram (5) (2)\BoutiqueProgram (4) (2)\BoutiqueProgram (4)\BoutiqueProgram (1)\BoutiqueProgram (1)\BoutiqueProgram\BoutiqueProgram\Boutique.Desktop\obj\Debug\Boutique.Desktop.formMarcas.resources
+C:\Users\usuario\Downloads\BoutiqueProgram (5) (2)\BoutiqueProgram (4) (2)\BoutiqueProgram (4)\BoutiqueProgram (1)\BoutiqueProgram (1)\BoutiqueProgram\BoutiqueProgram\Boutique.Desktop\obj\Debug\Boutique.Desktop.FormNuevaVenta.resources
+C:\Users\usuario\Downloads\BoutiqueProgram (5) (2)\BoutiqueProgram (4) (2)\BoutiqueProgram (4)\BoutiqueProgram (1)\BoutiqueProgram (1)\BoutiqueProgram\BoutiqueProgram\Boutique.Desktop\obj\Debug\Boutique.Desktop.FormNuevoDetVenta.resources
+C:\Users\usuario\Downloads\BoutiqueProgram (5) (2)\BoutiqueProgram (4) (2)\BoutiqueProgram (4)\BoutiqueProgram (1)\BoutiqueProgram (1)\BoutiqueProgram\BoutiqueProgram\Boutique.Desktop\obj\Debug\Boutique.Desktop.FormNuevoEstadoDev.resources
+C:\Users\usuario\Downloads\BoutiqueProgram (5) (2)\BoutiqueProgram (4) (2)\BoutiqueProgram (4)\BoutiqueProgram (1)\BoutiqueProgram (1)\BoutiqueProgram\BoutiqueProgram\Boutique.Desktop\obj\Debug\Boutique.Desktop.FormNuevoInventario.resources
+C:\Users\usuario\Downloads\BoutiqueProgram (5) (2)\BoutiqueProgram (4) (2)\BoutiqueProgram (4)\BoutiqueProgram (1)\BoutiqueProgram (1)\BoutiqueProgram\BoutiqueProgram\Boutique.Desktop\obj\Debug\Boutique.Desktop.FormNuevoPago.resources
+C:\Users\usuario\Downloads\BoutiqueProgram (5) (2)\BoutiqueProgram (4) (2)\BoutiqueProgram (4)\BoutiqueProgram (1)\BoutiqueProgram (1)\BoutiqueProgram\BoutiqueProgram\Boutique.Desktop\obj\Debug\Boutique.Desktop.FormPagos.resources
+C:\Users\usuario\Downloads\BoutiqueProgram (5) (2)\BoutiqueProgram (4) (2)\BoutiqueProgram (4)\BoutiqueProgram (1)\BoutiqueProgram (1)\BoutiqueProgram\BoutiqueProgram\Boutique.Desktop\obj\Debug\Boutique.Desktop.FormProducto.resources
+C:\Users\usuario\Downloads\BoutiqueProgram (5) (2)\BoutiqueProgram (4) (2)\BoutiqueProgram (4)\BoutiqueProgram (1)\BoutiqueProgram (1)\BoutiqueProgram\BoutiqueProgram\Boutique.Desktop\obj\Debug\Boutique.Desktop.FormProductoNuevp.resources
+C:\Users\usuario\Downloads\BoutiqueProgram (5) (2)\BoutiqueProgram (4) (2)\BoutiqueProgram (4)\BoutiqueProgram (1)\BoutiqueProgram (1)\BoutiqueProgram\BoutiqueProgram\Boutique.Desktop\obj\Debug\Boutique.Desktop.FormProveedor.resources
+C:\Users\usuario\Downloads\BoutiqueProgram (5) (2)\BoutiqueProgram (4) (2)\BoutiqueProgram (4)\BoutiqueProgram (1)\BoutiqueProgram (1)\BoutiqueProgram\BoutiqueProgram\Boutique.Desktop\obj\Debug\Boutique.Desktop.FormProveedoresNuevo.resources
+C:\Users\usuario\Downloads\BoutiqueProgram (5) (2)\BoutiqueProgram (4) (2)\BoutiqueProgram (4)\BoutiqueProgram (1)\BoutiqueProgram (1)\BoutiqueProgram\BoutiqueProgram\Boutique.Desktop\obj\Debug\Boutique.Desktop.FormRol.resources
+C:\Users\usuario\Downloads\BoutiqueProgram (5) (2)\BoutiqueProgram (4) (2)\BoutiqueProgram (4)\BoutiqueProgram (1)\BoutiqueProgram (1)\BoutiqueProgram\BoutiqueProgram\Boutique.Desktop\obj\Debug\Boutique.Desktop.FormRolNuevo.resources
+C:\Users\usuario\Downloads\BoutiqueProgram (5) (2)\BoutiqueProgram (4) (2)\BoutiqueProgram (4)\BoutiqueProgram (1)\BoutiqueProgram (1)\BoutiqueProgram\BoutiqueProgram\Boutique.Desktop\obj\Debug\Boutique.Desktop.FormUsuario.resources
+C:\Users\usuario\Downloads\BoutiqueProgram (5) (2)\BoutiqueProgram (4) (2)\BoutiqueProgram (4)\BoutiqueProgram (1)\BoutiqueProgram (1)\BoutiqueProgram\BoutiqueProgram\Boutique.Desktop\obj\Debug\Boutique.Desktop.FormUsuarioNuevo.resources
+C:\Users\usuario\Downloads\BoutiqueProgram (5) (2)\BoutiqueProgram (4) (2)\BoutiqueProgram (4)\BoutiqueProgram (1)\BoutiqueProgram (1)\BoutiqueProgram\BoutiqueProgram\Boutique.Desktop\obj\Debug\Boutique.Desktop.FormVentas.resources
+C:\Users\usuario\Downloads\BoutiqueProgram (5) (2)\BoutiqueProgram (4) (2)\BoutiqueProgram (4)\BoutiqueProgram (1)\BoutiqueProgram (1)\BoutiqueProgram\BoutiqueProgram\Boutique.Desktop\obj\Debug\Boutique.Desktop.MainMenu.resources
+C:\Users\usuario\Downloads\BoutiqueProgram (5) (2)\BoutiqueProgram (4) (2)\BoutiqueProgram (4)\BoutiqueProgram (1)\BoutiqueProgram (1)\BoutiqueProgram\BoutiqueProgram\Boutique.Desktop\obj\Debug\Boutique.Desktop.Properties.Resources.resources
+C:\Users\usuario\Downloads\BoutiqueProgram (5) (2)\BoutiqueProgram (4) (2)\BoutiqueProgram (4)\BoutiqueProgram (1)\BoutiqueProgram (1)\BoutiqueProgram\BoutiqueProgram\Boutique.Desktop\obj\Debug\Boutique.Desktop.csproj.GenerateResource.cache
+C:\Users\usuario\Downloads\BoutiqueProgram (5) (2)\BoutiqueProgram (4) (2)\BoutiqueProgram (4)\BoutiqueProgram (1)\BoutiqueProgram (1)\BoutiqueProgram\BoutiqueProgram\Boutique.Desktop\obj\Debug\Boutique.Desktop.csproj.CoreCompileInputs.cache
+C:\Users\usuario\Downloads\BoutiqueProgram (5) (2)\BoutiqueProgram (4) (2)\BoutiqueProgram (4)\BoutiqueProgram (1)\BoutiqueProgram (1)\BoutiqueProgram\BoutiqueProgram\Boutique.Desktop\obj\Debug\Boutique.CCD0CBF0.Up2Date
+C:\Users\usuario\Downloads\BoutiqueProgram (5) (2)\BoutiqueProgram (4) (2)\BoutiqueProgram (4)\BoutiqueProgram (1)\BoutiqueProgram (1)\BoutiqueProgram\BoutiqueProgram\Boutique.Desktop\obj\Debug\Boutique.Desktop.exe
+C:\Users\usuario\Downloads\BoutiqueProgram (5) (2)\BoutiqueProgram (4) (2)\BoutiqueProgram (4)\BoutiqueProgram (1)\BoutiqueProgram (1)\BoutiqueProgram\BoutiqueProgram\Boutique.Desktop\obj\Debug\Boutique.Desktop.pdb
+C:\Users\usuario\Downloads\BoutiqueProgram (5) (2)\BoutiqueProgram (4) (2)\BoutiqueProgram (4)\BoutiqueProgram (1)\BoutiqueProgram (1)\BoutiqueProgram\BoutiqueProgram\Boutique.Desktop\obj\Debug\Boutique.Desktop.MenuInicial.resources
+C:\Users\usuario\Downloads\BoutiqueProgram (5) (2)\BoutiqueProgram (4) (2)\BoutiqueProgram (4)\BoutiqueProgram (1)\BoutiqueProgram (1)\BoutiqueProgram\BoutiqueProgram\Boutique.Desktop\obj\Debug\Boutique.Desktop.FormUsuarioGrid.resources
