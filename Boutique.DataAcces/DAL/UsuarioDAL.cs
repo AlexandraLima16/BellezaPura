@@ -181,5 +181,39 @@ namespace Boutique.DataAcces.DAL
             }
             return result;
         }
+
+        public Usuario IniciarSesion(string DUI, string clave)
+        {
+            Usuario result = null;
+
+            using (SqlConnection conn = new SqlConnection(_cadena))
+            {
+                using (SqlCommand cmd = new SqlCommand("ControlSistema.spUsuarioLogin", conn))
+                {
+                    cmd.CommandType = CommandType.StoredProcedure;
+                    cmd.Parameters.AddWithValue("@DUI", DUI);
+                    cmd.Parameters.AddWithValue("@Contrasena", clave);
+
+                    conn.Open();
+
+                    using (SqlDataReader dr = cmd.ExecuteReader(CommandBehavior.SingleResult))
+                    {
+                        if (dr != null)
+                        {
+
+                            while (dr.Read())
+                            {
+                                result = new Usuario();
+
+                                result.DUI = dr.GetString(0);
+                                result.Nombre = dr.GetString(1);
+                            }
+                        }
+
+                    }
+                }
+            }
+            return result;
+        }
     }
 }

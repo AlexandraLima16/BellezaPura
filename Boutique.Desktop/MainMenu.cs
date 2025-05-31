@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Boutique.Entity.Entidades;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -17,7 +18,7 @@ namespace Boutique.Desktop
         private Random random;
         private int temIndex;
         private Form activeForm;
-        public MainMenu()
+        public MainMenu(Usuario entity)
         {
             InitializeComponent();
             random = new Random();

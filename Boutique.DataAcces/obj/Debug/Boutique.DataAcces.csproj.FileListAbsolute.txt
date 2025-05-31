@@ -72,3 +72,12 @@ C:\Users\usuario\Downloads\BoutiqueProgram (5) (2)\BoutiqueProgram (4) (2)\Bouti
 C:\Users\usuario\Downloads\BoutiqueProgram (5) (2)\BoutiqueProgram (4) (2)\BoutiqueProgram (4)\BoutiqueProgram (1)\BoutiqueProgram (1)\BoutiqueProgram\BoutiqueProgram\Boutique.DataAcces\obj\Debug\Boutique.7D8A145B.Up2Date
 C:\Users\usuario\Downloads\BoutiqueProgram (5) (2)\BoutiqueProgram (4) (2)\BoutiqueProgram (4)\BoutiqueProgram (1)\BoutiqueProgram (1)\BoutiqueProgram\BoutiqueProgram\Boutique.DataAcces\obj\Debug\Boutique.DataAcces.dll
 C:\Users\usuario\Downloads\BoutiqueProgram (5) (2)\BoutiqueProgram (4) (2)\BoutiqueProgram (4)\BoutiqueProgram (1)\BoutiqueProgram (1)\BoutiqueProgram\BoutiqueProgram\Boutique.DataAcces\obj\Debug\Boutique.DataAcces.pdb
+C:\Users\usuario\Desktop\BoutiqueProgram\Boutique.DataAcces\bin\Debug\Boutique.DataAcces.dll
+C:\Users\usuario\Desktop\BoutiqueProgram\Boutique.DataAcces\bin\Debug\Boutique.DataAcces.pdb
+C:\Users\usuario\Desktop\BoutiqueProgram\Boutique.DataAcces\bin\Debug\Boutique.Entity.dll
+C:\Users\usuario\Desktop\BoutiqueProgram\Boutique.DataAcces\bin\Debug\Boutique.Entity.pdb
+C:\Users\usuario\Desktop\BoutiqueProgram\Boutique.DataAcces\obj\Debug\Boutique.DataAcces.csproj.AssemblyReference.cache
+C:\Users\usuario\Desktop\BoutiqueProgram\Boutique.DataAcces\obj\Debug\Boutique.DataAcces.csproj.CoreCompileInputs.cache
+C:\Users\usuario\Desktop\BoutiqueProgram\Boutique.DataAcces\obj\Debug\Boutique.7D8A145B.Up2Date
+C:\Users\usuario\Desktop\BoutiqueProgram\Boutique.DataAcces\obj\Debug\Boutique.DataAcces.dll
+C:\Users\usuario\Desktop\BoutiqueProgram\Boutique.DataAcces\obj\Debug\Boutique.DataAcces.pdb

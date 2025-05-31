@@ -94,6 +94,20 @@ namespace Boutique.BusinessLogic.BL
             return result;
         }
 
+        public Usuario IniciarSesion(string DUI, string clave)
+        {
+            Usuario result = null;
 
+            try
+            {
+                result = UsuarioDAL.Instance.IniciarSesion(DUI, clave); // llama a la clase 
+            }
+            catch (Exception ex)
+            {
+                //Errores con store 
+                throw new Exception(ex.Message);
+            }
+            return result;
+        }
     }
 }
