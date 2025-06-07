@@ -34,7 +34,7 @@ namespace Boutique.Desktop
             Usuario result = UsuarioBL.Instance.IniciarSesion(txtDUI.Text.Trim(), txtContra.Text.Trim());
             if (result != null)
             {
-                MessageBox.Show("Bienvenido a Belleza Boutique" + result.Nombre);
+                MessageBox.Show("Bienvenido a Belleza Boutique  \nEstas iniciando como: " + result.Nombre);
                 MainMenu frm = new MainMenu(result);
                 frm.Show();
                 this.Hide();
@@ -43,6 +43,31 @@ namespace Boutique.Desktop
             {
                 MessageBox.Show("Error en email o en la contraseña");
             }
+        }
+
+        private void txtContra_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void checkBox1_CheckedChanged(object sender, EventArgs e)
+        {
+            if (checkBox1.Checked == true)
+            {
+                if (txtContra.PasswordChar == '*')
+                {
+                    txtContra.PasswordChar = '\0';
+                }
+            }
+            else
+            {
+                txtContra.PasswordChar = '*';
+            }
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
