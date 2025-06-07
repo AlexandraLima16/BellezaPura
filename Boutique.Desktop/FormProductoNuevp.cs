@@ -19,17 +19,17 @@ namespace Boutique.Desktop
         {
             InitializeComponent();
             this.Text = "Editar Producto";
-           
+
         }
         public FormProductoNuevp(Producto entity)
         {
             InitializeComponent();
             this.Text = "Editar Producto";
             comboBox1.Enabled = true;
-            comboBox2.Enabled = true; 
+            comboBox2.Enabled = true;
             comboBox3.Enabled = true;
-             UpdateCombo();
-          
+            UpdateCombo();
+
             _id = entity.ProductoId;
             textBox1.Text = entity.Nombre;
             textBox2.Text = entity.Descripcion;
@@ -52,7 +52,7 @@ namespace Boutique.Desktop
             comboBox2.DisplayMember = "NombreCategoria";
             //Propiedad de la llave  entity 
             comboBox2.ValueMember = "CategoriaId";
-           comboBox2.DataSource = CategoriaBL.Instance.SelecAll();
+            comboBox2.DataSource = CategoriaBL.Instance.SelecAll();
 
             comboBox3.DisplayMember = "NombreEstado";
             //Propiedad de la llave  entity 
@@ -68,45 +68,47 @@ namespace Boutique.Desktop
 
         private void button1_Click(object sender, EventArgs e)
         {
-            //Producto entity = new Producto()
-            //{
-            //    Nombre = textBox1.Text.Trim(),
-            //    Descripcion = textBox2.Text.Trim(),
-            //    Precio = Convert.ToDecimal(textBox1.Text.Trim()),
-            //    EstadoId = (int)comboBox1.SelectedValue
-            //};
+            Producto entity = new Producto()
+            {
 
-            ////Nuevo
-            //if (_id == 0)
-            //{
-            //    if (CategoriaBL.Instance.Insert(entity))
-            //    {
-            //        MessageBox.Show("Registro Agregado con exito!", "Confirmacion",
-            //            MessageBoxButtons.OK, MessageBoxIcon.Information);
-            //    }
-            //    else
-            //    {
-            //        MessageBox.Show("Error al guardar el registro", "Error",
-            //          MessageBoxButtons.OK, MessageBoxIcon.Error);
-            //    }
-            //}
-            //else //editar
-            //{
-            //    entity.CategoriaId = _id;
-            //    entity.EstadoId = (int)comboBox1.SelectedValue;
-            //    if (CategoriaBL.Instance.Update(entity))
-            //    {
-            //        MessageBox.Show("Registro ediado con exito!", "Confirmacion",
-            //            MessageBoxButtons.OK, MessageBoxIcon.Information);
-            //    }
-            //    else
-            //    {
-            //        MessageBox.Show("Error al guardar el registro", "Error",
-            //          MessageBoxButtons.OK, MessageBoxIcon.Error);
-            //    }
-            //}
+                Nombre = textBox1.Text.Trim(),
+                Descripcion = textBox2.Text.Trim(),
+                Precio = Convert.ToDecimal(textBox1.Text.Trim()),
+                //  EstadoId = (int)comboBox1.SelectedValue
+                //};
 
-            //this.Close();
+                ////Nuevo
+                //if (_id == 0)
+                //{
+                //    if (CategoriaBL.Instance.Insert(entity))
+                //    {
+                //        MessageBox.Show("Registro Agregado con exito!", "Confirmacion",
+                //            MessageBoxButtons.OK, MessageBoxIcon.Information);
+                //    }
+                //    else
+                //    {
+                //        MessageBox.Show("Error al guardar el registro", "Error",
+                //          MessageBoxButtons.OK, MessageBoxIcon.Error);
+                //    }
+                //}
+                //else //editar
+                //{
+                //    entity.CategoriaId = _id;
+                //    entity.EstadoId = (int)comboBox1.SelectedValue;
+                //    if (CategoriaBL.Instance.Update(entity))
+                //    {
+                //        MessageBox.Show("Registro ediado con exito!", "Confirmacion",
+                //            MessageBoxButtons.OK, MessageBoxIcon.Information);
+                //    }
+                //    else
+                //    {
+                //        MessageBox.Show("Error al guardar el registro", "Error",
+                //          MessageBoxButtons.OK, MessageBoxIcon.Error);
+                //    }
+                //}
+
+                //this.Close();
+            };
         }
     }
 }

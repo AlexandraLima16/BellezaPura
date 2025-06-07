@@ -14,6 +14,7 @@ namespace Boutique.Desktop
 {
     public partial class FormProveedor : Form
     {
+        List<Proveedor> _ProveedorList;
         public FormProveedor()
         {
             LoadTheme();
@@ -50,6 +51,7 @@ namespace Boutique.Desktop
         private void UpdateGrid()
         {
             dataGridView1.DataSource = ProveedorBL.Instance.SelecAll();
+            _ProveedorList = ProveedorBL.Instance.SelecAll();
         }
 
         private void dataGridView1_CellClick(object sender, DataGridViewCellEventArgs e)
@@ -98,6 +100,14 @@ namespace Boutique.Desktop
                 }
             }
             UpdateGrid();
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+            var query = _ProveedorList.Where(x => x.Nombre.ToLower().Contains(textBox1.Text.ToLower())
+                              || x.ProveedorId.ToString().Contains((textBox1.Text))).ToList();
+
+            dataGridView1.DataSource = query.ToList();
         }
     }
 }

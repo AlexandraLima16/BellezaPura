@@ -14,6 +14,8 @@ namespace Boutique.Desktop
 {
     public partial class FormPagos : Form
     {
+
+        List<Pago> _PagoList;
         public FormPagos()
         {
             InitializeComponent();
@@ -28,6 +30,7 @@ namespace Boutique.Desktop
         private void UpdateGrid()
         {
             dataGridView1.DataSource = PagoBL.Instance.SelecAll();
+            _PagoList = PagoBL.Instance.SelecAll();
         }
 
         private void LoadTheme()
@@ -91,8 +94,16 @@ namespace Boutique.Desktop
                 UpdateGrid();
                 #endregion
 
-
             }
+        }
+    
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+            var query = _PagoList.Where(x => x.TipoPago.ToLower().Contains(textBox1.Text.ToLower())
+                                || x.PagoId.ToString().Contains((textBox1.Text))).ToList();
+
+            dataGridView1.DataSource = query.ToList();
         }
     }
 }

@@ -14,6 +14,7 @@ namespace Boutique.Desktop
 {
     public partial class FormCargo : Form
     {
+        List<Cargo> _CargoList;
         public FormCargo()
         {
             InitializeComponent();
@@ -44,6 +45,7 @@ namespace Boutique.Desktop
         private void UpdateGrid()
         {
             dataGridView1.DataSource = CargoBL.Instance.SelecAll();
+            _CargoList = CargoBL.Instance.SelecAll();
         }
 
         private void btnNuevo_Click(object sender, EventArgs e)
@@ -51,7 +53,8 @@ namespace Boutique.Desktop
             FormCargoNuevo detalle = new FormCargoNuevo();
             detalle.StartPosition = FormStartPosition.CenterScreen;
             detalle.ShowDialog();
-           
+            UpdateGrid();
+
         }
 
         private void dataGridView1_CellClick(object sender, DataGridViewCellEventArgs e)
@@ -99,5 +102,17 @@ namespace Boutique.Desktop
         {
 
         }
-    }
-}
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+            // var query = _CargoList.Where(x => x.TipoCargo.ToLower().Contains(textBox1.Text.ToLower())
+            //|| x.CargoId.Equals(int.Parse(textBox1.Text))).ToList();
+
+            //busqueda por nombre  y ID 
+            var query =_CargoList.Where(x=>x.TipoCargo.ToLower().Contains(textBox1.Text.ToLower())
+                                || x.CargoId.ToString().Contains((textBox1.Text))).ToList();
+
+            dataGridView1.DataSource = query.ToList();
+        } 
+      }
+   }

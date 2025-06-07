@@ -14,6 +14,7 @@ namespace Boutique.Desktop
 {
     public partial class FormEstado : Form
     {
+        List<Estado> _EstadoList;
         public FormEstado()
         {
             InitializeComponent();
@@ -48,6 +49,7 @@ namespace Boutique.Desktop
         private void UpdateGrid()
         {
             dataGridView1.DataSource = EstadoBL.Instance.SelecAll();
+            _EstadoList= EstadoBL.Instance.SelecAll();
         }
 
         private void btnNuevo_Click(object sender, EventArgs e)
@@ -82,6 +84,14 @@ namespace Boutique.Desktop
             //    MessageBox.Show("Eliminar" + dataGridView1.CurrentRow.Cells["EstadoId"].Value.ToString());
             //}
             UpdateGrid();
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+            var query = _EstadoList.Where(x => x.NombreEstado.ToLower().Contains(textBox1.Text.ToLower())
+                             || x.EstadoId.ToString().Contains((textBox1.Text))).ToList();
+
+            dataGridView1.DataSource = query.ToList();
         }
     }
 }

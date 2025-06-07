@@ -12,8 +12,10 @@ using System.Windows.Forms;
 
 namespace Boutique.Desktop
 {
+  
     public partial class FormProducto : Form
     {
+        List<Producto> _ProductoList;
         public FormProducto()
         {
             InitializeComponent();
@@ -49,9 +51,15 @@ namespace Boutique.Desktop
         private void UpdateGrid()
         {
             dataGridView1.DataSource = ProductoBL.Instance.SelecAll();
+          _ProductoList = ProductoBL.Instance.SelecAll();
         }
 
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        { 
+             
+        }
+
+        private void dataGridView1_CellClick(object sender, DataGridViewCellEventArgs e)
         {
             if (dataGridView1.CurrentRow.Cells["Editar"].Selected)
             {
@@ -72,8 +80,8 @@ namespace Boutique.Desktop
                     Precio = precio,
                     FechaIngreso = fechaIngreso,
                     MarcaId = marcaId,
-                    CategoriaId=categoriaId,
-                    EstadoId=estadoId
+                    CategoriaId = categoriaId,
+                    EstadoId = estadoId
                 };
 
                 FormProductoNuevp frm = new FormProductoNuevp(entity);
@@ -93,8 +101,18 @@ namespace Boutique.Desktop
                             "Informacion", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     }
                 }
-             }
-          }
+                UpdateGrid();
+            }
         }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+            var query = _ProductoList.Where(x => x.Nombre.ToLower().Contains(textBox1.Text.ToLower())
+            
+                                          || x.ProductoId.ToString().Contains((textBox1.Text))).ToList();
+
+            dataGridView1.DataSource = query.ToList();
+        }
+      }
     }
 

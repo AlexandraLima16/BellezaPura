@@ -9,12 +9,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement.StartPanel;
 
 namespace Boutique.Desktop
 {
     public partial class FormUsuario : Form
-    {
-        public FormUsuario()
+    { 
+        List<Usuario> _UsuarioList;
+    public FormUsuario()
         {
             InitializeComponent();
             dataGridView1.BackgroundColor = Color.White;
@@ -39,6 +41,7 @@ namespace Boutique.Desktop
         private void UpdateGrid()
         {
             dataGridView1.DataSource = UsuarioBL.Instance.SelecAll();
+            _UsuarioList = UsuarioBL.Instance.SelecAll();
         }
 
         private void btnNuevo_Click(object sender, EventArgs e)
@@ -96,6 +99,12 @@ namespace Boutique.Desktop
 
             UpdateGrid();
             LoadTheme();
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+            var query =_UsuarioList.Where(x=>x.Nombre.ToLower().Contains(textBox1.Text.ToLower())).ToList();
+            dataGridView1.DataSource = query.ToList();
         }
     }
 }

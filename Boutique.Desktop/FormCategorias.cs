@@ -14,6 +14,7 @@ namespace Boutique.Desktop
 {
     public partial class FormCategorias : Form
     {
+        List<Categoria> _CategoriaList;
         public FormCategorias()
         {
             InitializeComponent();
@@ -41,6 +42,7 @@ namespace Boutique.Desktop
         private void UpdateGrid()
         {
             dataGridView1.DataSource = CategoriaBL.Instance.SelecAll();
+            _CategoriaList= CategoriaBL.Instance.SelecAll();
         }
 
         private void btnNuevo_Click(object sender, EventArgs e)
@@ -92,6 +94,14 @@ namespace Boutique.Desktop
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
 
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+            var query = _CategoriaList.Where(x => x.NombreCategoria.ToLower().Contains(textBox1.Text.ToLower())
+                                || x.CategoriaId.ToString().Contains((textBox1.Text))).ToList();
+
+            dataGridView1.DataSource = query.ToList();
         }
     }
 }

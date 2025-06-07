@@ -14,6 +14,7 @@ namespace Boutique.Desktop
 {
     public partial class FormCliente : Form
     {
+        List<Cliente> _ClienteList;
         public FormCliente()
         {
             InitializeComponent();
@@ -28,6 +29,7 @@ namespace Boutique.Desktop
         private void UpdateGrid()
         {
             dataGridView1.DataSource = ClienteBL.Instance.SelecAll();
+            _ClienteList = ClienteBL    .Instance.SelecAll();
         }
 
         private void btnNuevo_Click(object sender, EventArgs e)
@@ -88,6 +90,14 @@ namespace Boutique.Desktop
             }
             
             UpdateGrid();
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+            var query = _ClienteList.Where(x => x.Nombres.ToLower().Contains(textBox1.Text.ToLower())
+                     || x.ClienteId.ToString().Contains((textBox1.Text))).ToList();
+
+            dataGridView1.DataSource = query.ToList();
         }
     }
 }

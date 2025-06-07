@@ -9,9 +9,9 @@ namespace Boutique.Entity.Entidades
     public class Historial
     {
 
-        public int HistorialId { get; set; }
+        public int EventoId { get; set; }
         public DateTime Fecha { get; set; }
         public string Evento { get; set; }
-        public int UsuarioId { get; set; }
+        public string DUI { get; set; }
     }
 }

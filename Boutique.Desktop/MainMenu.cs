@@ -288,7 +288,8 @@ namespace Boutique.Desktop
 
         private void btnHistorial_Click(object sender, EventArgs e)
         {
-
+            OpenChildFrom(new FormHistorial(), sender);
+            hideSubMenu();
         }
 
         private void btnEstado_Click(object sender, EventArgs e)
@@ -301,6 +302,11 @@ namespace Boutique.Desktop
         {
             OpenChildFrom(new FormEstadoDev(), sender);
             hideSubMenu();
+        }
+
+        private void pnTitleBar_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }

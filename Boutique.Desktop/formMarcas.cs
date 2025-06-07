@@ -14,6 +14,7 @@ namespace Boutique.Desktop
 {
     public partial class formMarcas : Form
     {
+        List<Marca> _MarcaList;
         public formMarcas()
         {
             InitializeComponent();
@@ -50,6 +51,7 @@ namespace Boutique.Desktop
         private void UpdateGrid()
         {
             dataGridView1.DataSource = MarcaBL.Instance.SelecAll();
+            _MarcaList = MarcaBL.Instance.SelecAll();
         }
 
         private void dataGridView1_CellClick(object sender, DataGridViewCellEventArgs e)
@@ -78,6 +80,15 @@ namespace Boutique.Desktop
 
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
+
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+            var query = _MarcaList.Where(x => x.NombreMarca.ToLower().Contains(textBox1.Text.ToLower())
+                                || x.MarcaId.ToString().Contains((textBox1.Text))).ToList();
+
+            dataGridView1.DataSource = query.ToList();
 
         }
     }

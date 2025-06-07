@@ -37,7 +37,7 @@ namespace Boutique.DataAcces.DAL
                     cmd.CommandType = CommandType.StoredProcedure;
                     cmd.Parameters.AddWithValue("@Fecha", entity.Fecha);
                     cmd.Parameters.AddWithValue("@Evento", entity.Evento);
-                    cmd.Parameters.AddWithValue("@UsuarioId", entity.UsuarioId);
+                    cmd.Parameters.AddWithValue("@UsuarioId", entity.DUI);
 
                     conn.Open();
                     result = cmd.ExecuteNonQuery() > 0;
@@ -71,9 +71,10 @@ namespace Boutique.DataAcces.DAL
                             while (dr.Read())
                             {
                                 Historial entity = new Historial();
-                                entity.Fecha = dr.GetDateTime(0);
-                                entity.Evento = dr.GetString(1);
-                                entity.UsuarioId = dr.GetInt32(2);
+                                entity.EventoId = dr.GetInt32(0);
+                                entity.Fecha = dr.GetDateTime(1);
+                                entity.Evento = dr.GetString(2);
+                                entity.DUI = dr.GetString(3);
 
                                 result.Add(entity);
                             }

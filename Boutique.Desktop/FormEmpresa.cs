@@ -14,6 +14,7 @@ namespace Boutique.Desktop
 {
     public partial class FormEmpresa : Form
     {
+        List<Empresa> _EmpresaList;
         public FormEmpresa()
         {
             InitializeComponent();
@@ -83,6 +84,14 @@ namespace Boutique.Desktop
             UpdateGrid();
         }
 
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+            var query = _EmpresaList.Where(x => x.Nombre.ToLower().Contains(textBox1.Text.ToLower())
+                                || x.EmpresaId.ToString().Contains((textBox1.Text))).ToList();
+
+            dataGridView1.DataSource = query.ToList();
+        
+    }
     }
 }
 

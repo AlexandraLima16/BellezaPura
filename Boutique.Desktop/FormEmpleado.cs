@@ -14,6 +14,7 @@ namespace Boutique.Desktop
 {
     public partial class FormEmpleado : Form
     {
+        List<Empleado> _EmpleadoList;
         public FormEmpleado()
         {
             InitializeComponent();
@@ -43,7 +44,9 @@ namespace Boutique.Desktop
 
         private void UpdateGrid()
         {
+        
             dataGridView1.DataSource = EmpleadoBL.Instance.SelecAll();
+            _EmpleadoList = EmpleadoBL.Instance.SelecAll();
         }
 
         private void btnNuevo_Click(object sender, EventArgs e)
@@ -123,6 +126,14 @@ namespace Boutique.Desktop
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
 
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+            var query = _EmpleadoList.Where(x => x.Nombres.ToLower().Contains(textBox1.Text.ToLower())
+                                        || x.EmpleadoId.ToString().Contains((textBox1.Text))).ToList();
+
+            dataGridView1.DataSource = query.ToList();
         }
     }
 }

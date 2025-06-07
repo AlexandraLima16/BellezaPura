@@ -1,4 +1,5 @@
 ﻿using Boutique.BusinessLogic.BL;
+using Boutique.Entity.Entidades;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -13,10 +14,13 @@ namespace Boutique.Desktop
 {
     public partial class FormHistorial : Form
     {
+        List<Historial> _HistorialList;
         public FormHistorial()
         {
             InitializeComponent();
-             LoadTheme();
+            LoadTheme();
+
+            UpdateGrid();
         }
 
         private void LoadTheme()
@@ -41,6 +45,7 @@ namespace Boutique.Desktop
         private void UpdateGrid()
         {
             dataGridView1.DataSource = HistorialBL.Instance.SelecAll();
+            _HistorialList = HistorialBL.Instance.SelecAll();
         }
 
         private void btnNuevo_Click(object sender, EventArgs e)
@@ -49,6 +54,14 @@ namespace Boutique.Desktop
             detalle.StartPosition = FormStartPosition.CenterScreen;
             detalle.ShowDialog();
             UpdateGrid();
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+            var query = _HistorialList.Where(x => x.EventoId.Equals(int.Parse(textBox1.Text))).ToList();
+
+
+            dataGridView1.DataSource = query.ToList();
         }
     }
 }
