@@ -1,18 +1,42 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\usuario\\Desktop\\BoutiqueProgram\\",
+  "WorkspaceRootPath": "C:\\Users\\jazmi\\Downloads\\BellezaPura\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DBDA4918-225C-4C8A-AEDC-765D4EEC1C05}|Boutique.Desktop\\Boutique.Desktop.csproj|c:\\users\\usuario\\desktop\\boutiqueprogram\\boutique.desktop\\menuinicial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{DBDA4918-225C-4C8A-AEDC-765D4EEC1C05}|Boutique.Desktop\\Boutique.Desktop.csproj|c:\\users\\jazmi\\downloads\\bellezapura\\boutique.desktop\\formpagos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBDA4918-225C-4C8A-AEDC-765D4EEC1C05}|Boutique.Desktop\\Boutique.Desktop.csproj|solutionrelative:boutique.desktop\\formpagos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBDA4918-225C-4C8A-AEDC-765D4EEC1C05}|Boutique.Desktop\\Boutique.Desktop.csproj|C:\\Users\\jazmi\\Downloads\\BellezaPura\\boutique.desktop\\formpagos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{DBDA4918-225C-4C8A-AEDC-765D4EEC1C05}|Boutique.Desktop\\Boutique.Desktop.csproj|solutionrelative:boutique.desktop\\formpagos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBDA4918-225C-4C8A-AEDC-765D4EEC1C05}|Boutique.Desktop\\Boutique.Desktop.csproj|C:\\Users\\jazmi\\Downloads\\BellezaPura\\boutique.desktop\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBDA4918-225C-4C8A-AEDC-765D4EEC1C05}|Boutique.Desktop\\Boutique.Desktop.csproj|solutionrelative:boutique.desktop\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBDA4918-225C-4C8A-AEDC-765D4EEC1C05}|Boutique.Desktop\\Boutique.Desktop.csproj|C:\\Users\\jazmi\\Downloads\\BellezaPura\\boutique.desktop\\formhistorial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBDA4918-225C-4C8A-AEDC-765D4EEC1C05}|Boutique.Desktop\\Boutique.Desktop.csproj|solutionrelative:boutique.desktop\\formhistorial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBDA4918-225C-4C8A-AEDC-765D4EEC1C05}|Boutique.Desktop\\Boutique.Desktop.csproj|C:\\Users\\jazmi\\Downloads\\BellezaPura\\boutique.desktop\\formhistorial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{DBDA4918-225C-4C8A-AEDC-765D4EEC1C05}|Boutique.Desktop\\Boutique.Desktop.csproj|solutionrelative:boutique.desktop\\formhistorial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBDA4918-225C-4C8A-AEDC-765D4EEC1C05}|Boutique.Desktop\\Boutique.Desktop.csproj|C:\\Users\\jazmi\\Downloads\\BellezaPura\\boutique.desktop\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{DBDA4918-225C-4C8A-AEDC-765D4EEC1C05}|Boutique.Desktop\\Boutique.Desktop.csproj|solutionrelative:boutique.desktop\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBDA4918-225C-4C8A-AEDC-765D4EEC1C05}|Boutique.Desktop\\Boutique.Desktop.csproj|C:\\Users\\jazmi\\Downloads\\BellezaPura\\boutique.desktop\\menuinicial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{DBDA4918-225C-4C8A-AEDC-765D4EEC1C05}|Boutique.Desktop\\Boutique.Desktop.csproj|solutionrelative:boutique.desktop\\menuinicial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DBDA4918-225C-4C8A-AEDC-765D4EEC1C05}|Boutique.Desktop\\Boutique.Desktop.csproj|c:\\users\\usuario\\desktop\\boutiqueprogram\\boutique.desktop\\menuinicial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DBDA4918-225C-4C8A-AEDC-765D4EEC1C05}|Boutique.Desktop\\Boutique.Desktop.csproj|C:\\Users\\jazmi\\Downloads\\BellezaPura\\boutique.desktop\\menuinicial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DBDA4918-225C-4C8A-AEDC-765D4EEC1C05}|Boutique.Desktop\\Boutique.Desktop.csproj|solutionrelative:boutique.desktop\\menuinicial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DBDA4918-225C-4C8A-AEDC-765D4EEC1C05}|Boutique.Desktop\\Boutique.Desktop.csproj|c:\\users\\usuario\\desktop\\boutiqueprogram\\boutique.desktop\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{DBDA4918-225C-4C8A-AEDC-765D4EEC1C05}|Boutique.Desktop\\Boutique.Desktop.csproj|solutionrelative:boutique.desktop\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{DBDA4918-225C-4C8A-AEDC-765D4EEC1C05}|Boutique.Desktop\\Boutique.Desktop.csproj|C:\\Users\\jazmi\\Downloads\\BellezaPura\\boutique.desktop\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{DBDA4918-225C-4C8A-AEDC-765D4EEC1C05}|Boutique.Desktop\\Boutique.Desktop.csproj|solutionrelative:boutique.desktop\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,45 +46,113 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 6,
               "Title": "MenuInicial.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\usuario\\Desktop\\BoutiqueProgram\\Boutique.Desktop\\MenuInicial.cs",
+              "DocumentMoniker": "C:\\Users\\jazmi\\Downloads\\BellezaPura\\Boutique.Desktop\\MenuInicial.cs",
               "RelativeDocumentMoniker": "Boutique.Desktop\\MenuInicial.cs",
-              "ToolTip": "C:\\Users\\usuario\\Desktop\\BoutiqueProgram\\Boutique.Desktop\\MenuInicial.cs [Dise\u00F1o]",
+              "ToolTip": "C:\\Users\\jazmi\\Downloads\\BellezaPura\\Boutique.Desktop\\MenuInicial.cs [Dise\u00F1o]",
               "RelativeToolTip": "Boutique.Desktop\\MenuInicial.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-07T05:27:01.174Z",
-              "IsPinned": true,
-              "EditorCaption": " [Dise\u00F1o]"
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "MainMenu.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\usuario\\Desktop\\BoutiqueProgram\\Boutique.Desktop\\MainMenu.cs",
-              "RelativeDocumentMoniker": "Boutique.Desktop\\MainMenu.cs",
-              "ToolTip": "C:\\Users\\usuario\\Desktop\\BoutiqueProgram\\Boutique.Desktop\\MainMenu.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Boutique.Desktop\\MainMenu.cs [Dise\u00F1o]",
+              "DocumentIndex": 0,
+              "Title": "FormPagos.cs",
+              "DocumentMoniker": "C:\\Users\\jazmi\\Downloads\\BellezaPura\\Boutique.Desktop\\FormPagos.cs",
+              "RelativeDocumentMoniker": "Boutique.Desktop\\FormPagos.cs",
+              "ToolTip": "C:\\Users\\jazmi\\Downloads\\BellezaPura\\Boutique.Desktop\\FormPagos.cs",
+              "RelativeToolTip": "Boutique.Desktop\\FormPagos.cs",
+              "ViewState": "AQIAAEEAAAAAAAAAAAAjwBkAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-07T05:30:30.369Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2025-06-07T13:54:39.434Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "MenuInicial.cs",
-              "DocumentMoniker": "C:\\Users\\usuario\\Desktop\\BoutiqueProgram\\Boutique.Desktop\\MenuInicial.cs",
-              "RelativeDocumentMoniker": "Boutique.Desktop\\MenuInicial.cs",
-              "ToolTip": "C:\\Users\\usuario\\Desktop\\BoutiqueProgram\\Boutique.Desktop\\MenuInicial.cs",
-              "RelativeToolTip": "Boutique.Desktop\\MenuInicial.cs",
-              "ViewState": "AQIAADcAAAAAAAAAAAAswEUAAAAAAAAA",
+              "Title": "FormPagos.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\jazmi\\Downloads\\BellezaPura\\Boutique.Desktop\\FormPagos.cs",
+              "RelativeDocumentMoniker": "Boutique.Desktop\\FormPagos.cs",
+              "ToolTip": "C:\\Users\\jazmi\\Downloads\\BellezaPura\\Boutique.Desktop\\FormPagos.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Boutique.Desktop\\FormPagos.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-07T05:27:38.476Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-07T13:54:37.911Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FormHistorial.cs",
+              "DocumentMoniker": "C:\\Users\\jazmi\\Downloads\\BellezaPura\\Boutique.Desktop\\FormHistorial.cs",
+              "RelativeDocumentMoniker": "Boutique.Desktop\\FormHistorial.cs",
+              "ToolTip": "C:\\Users\\jazmi\\Downloads\\BellezaPura\\Boutique.Desktop\\FormHistorial.cs",
+              "RelativeToolTip": "Boutique.Desktop\\FormHistorial.cs",
+              "ViewState": "AQIAACsAAAAAAAAAAAAjwDwAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T13:41:48.464Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FormHistorial.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\jazmi\\Downloads\\BellezaPura\\Boutique.Desktop\\FormHistorial.cs",
+              "RelativeDocumentMoniker": "Boutique.Desktop\\FormHistorial.cs",
+              "ToolTip": "C:\\Users\\jazmi\\Downloads\\BellezaPura\\Boutique.Desktop\\FormHistorial.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Boutique.Desktop\\FormHistorial.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T13:42:33.761Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainMenu.cs",
+              "DocumentMoniker": "C:\\Users\\jazmi\\Downloads\\BellezaPura\\Boutique.Desktop\\MainMenu.cs",
+              "RelativeDocumentMoniker": "Boutique.Desktop\\MainMenu.cs",
+              "ToolTip": "C:\\Users\\jazmi\\Downloads\\BellezaPura\\Boutique.Desktop\\MainMenu.cs",
+              "RelativeToolTip": "Boutique.Desktop\\MainMenu.cs",
+              "ViewState": "AQIAADIBAAAAAAAAAAAMwDIBAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T13:18:26.267Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MainMenu.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\jazmi\\Downloads\\BellezaPura\\Boutique.Desktop\\MainMenu.cs",
+              "RelativeDocumentMoniker": "Boutique.Desktop\\MainMenu.cs",
+              "ToolTip": "C:\\Users\\jazmi\\Downloads\\BellezaPura\\Boutique.Desktop\\MainMenu.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Boutique.Desktop\\MainMenu.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T05:30:30.369Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MenuInicial.cs",
+              "DocumentMoniker": "C:\\Users\\jazmi\\Downloads\\BellezaPura\\Boutique.Desktop\\MenuInicial.cs",
+              "RelativeDocumentMoniker": "Boutique.Desktop\\MenuInicial.cs",
+              "ToolTip": "C:\\Users\\jazmi\\Downloads\\BellezaPura\\Boutique.Desktop\\MenuInicial.cs",
+              "RelativeToolTip": "Boutique.Desktop\\MenuInicial.cs",
+              "ViewState": "AQIAACcAAAAAAAAAAAAowA4AAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T05:27:38.476Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "App.config",
+              "DocumentMoniker": "C:\\Users\\jazmi\\Downloads\\BellezaPura\\Boutique.Desktop\\App.config",
+              "RelativeDocumentMoniker": "Boutique.Desktop\\App.config",
+              "ToolTip": "C:\\Users\\jazmi\\Downloads\\BellezaPura\\Boutique.Desktop\\App.config",
+              "RelativeToolTip": "Boutique.Desktop\\App.config",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-06-07T12:35:09.478Z"
             }
           ]
         }

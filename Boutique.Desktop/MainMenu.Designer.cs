@@ -71,6 +71,8 @@
             this.pnTitleBar = new System.Windows.Forms.Panel();
             this.btnCloseChildForm = new System.Windows.Forms.Button();
             this.lblTitle = new System.Windows.Forms.Label();
+            this.lbNombre = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panelMenu.SuspendLayout();
             this.pnSistemas.SuspendLayout();
             this.pnProductos.SuspendLayout();
@@ -80,6 +82,7 @@
             this.panelLogo.SuspendLayout();
             this.panelDesktopPanel.SuspendLayout();
             this.pnTitleBar.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // panelMenu
@@ -734,6 +737,7 @@
             // 
             this.panelDesktopPanel.AutoSize = true;
             this.panelDesktopPanel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(215)))), ((int)(((byte)(189)))), ((int)(((byte)(226)))));
+            this.panelDesktopPanel.Controls.Add(this.lbNombre);
             this.panelDesktopPanel.Controls.Add(this.txtFecha);
             this.panelDesktopPanel.Controls.Add(this.pnTitleBar);
             this.panelDesktopPanel.Controls.Add(this.txtHora);
@@ -742,10 +746,12 @@
             this.panelDesktopPanel.Name = "panelDesktopPanel";
             this.panelDesktopPanel.Size = new System.Drawing.Size(824, 521);
             this.panelDesktopPanel.TabIndex = 2;
+            this.panelDesktopPanel.Paint += new System.Windows.Forms.PaintEventHandler(this.panelDesktopPanel_Paint);
             // 
             // pnTitleBar
             // 
             this.pnTitleBar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(108)))), ((int)(((byte)(52)))), ((int)(((byte)(131)))));
+            this.pnTitleBar.Controls.Add(this.pictureBox1);
             this.pnTitleBar.Controls.Add(this.btnCloseChildForm);
             this.pnTitleBar.Controls.Add(this.lblTitle);
             this.pnTitleBar.Dock = System.Windows.Forms.DockStyle.Top;
@@ -781,6 +787,28 @@
             this.lblTitle.Text = "INICIO";
             this.lblTitle.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
+            // lbNombre
+            // 
+            this.lbNombre.AutoSize = true;
+            this.lbNombre.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbNombre.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(175)))), ((int)(((byte)(33)))), ((int)(((byte)(182)))));
+            this.lbNombre.Location = new System.Drawing.Point(530, 467);
+            this.lbNombre.Name = "lbNombre";
+            this.lbNombre.Size = new System.Drawing.Size(92, 31);
+            this.lbNombre.TabIndex = 3;
+            this.lbNombre.Text = "label1";
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::Boutique.Desktop.Properties.Resources.logout__1_;
+            this.pictureBox1.Location = new System.Drawing.Point(778, 7);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(34, 30);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 2;
+            this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
+            // 
             // MainMenu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -806,6 +834,7 @@
             this.panelDesktopPanel.PerformLayout();
             this.pnTitleBar.ResumeLayout(false);
             this.pnTitleBar.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -853,5 +882,7 @@
         private System.Windows.Forms.Label lblTitle;
         private System.Windows.Forms.Button btnHistorial;
         private System.Windows.Forms.Label txtHora;
+        private System.Windows.Forms.Label lbNombre;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }

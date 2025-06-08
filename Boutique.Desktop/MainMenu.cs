@@ -14,6 +14,7 @@ namespace Boutique.Desktop
     public partial class MainMenu : Form
     {
 
+        private Usuario _user = null;
         private Button currenButton;
         private Random random;
         private int temIndex;
@@ -24,6 +25,8 @@ namespace Boutique.Desktop
             random = new Random();
             btnCloseChildForm.Visible = false;
             customizeDesing();
+            _user = entity;
+            lbNombre.Text = string.Format($"Usuario: {_user.Nombre}");
         }
 
         private Color SelectThemColor()
@@ -306,6 +309,24 @@ namespace Boutique.Desktop
 
         private void pnTitleBar_Paint(object sender, PaintEventArgs e)
         {
+
+        }
+
+        private void panelDesktopPanel_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            var Confirmar = MessageBox.Show("¿Estás seguro que deseas cerrar sesión?", "Cerrar sesión", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+            if (Confirmar == DialogResult.Yes)
+            {
+                MenuInicial login = new MenuInicial();
+                login.Show();
+                this.Close();
+            
+            }
 
         }
     }
