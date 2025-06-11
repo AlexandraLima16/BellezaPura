@@ -35,7 +35,7 @@ namespace Boutique.Desktop
             if (result != null)
             {
                 MessageBox.Show("Bienvenido a Belleza Boutique  \nEstas iniciando como: " + result.Nombre);
-                MainMenu frm = new MainMenu(result);
+                FormMenuNuevo frm = new FormMenuNuevo(result);
                 frm.Show();
                 this.Hide();
             }

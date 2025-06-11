@@ -53,7 +53,8 @@ namespace Boutique.Desktop
             Categoria entity = new Categoria()
             {
                 NombreCategoria = textBox1.Text.Trim(),
-                EstadoId = (int)comboBox1.SelectedValue
+
+                EstadoId = Convert.ToString(comboBox1.SelectedValue)
             };
 
             //Nuevo
@@ -73,7 +74,7 @@ namespace Boutique.Desktop
             else //editar
             {
                 entity.CategoriaId = _id;
-                entity.EstadoId = (int)comboBox1.SelectedValue;
+                entity.EstadoId = comboBox1.SelectedValue.ToString();
                 if (CategoriaBL.Instance.Update(entity))
                 {
                     MessageBox.Show("Registro ediado con exito!", "Confirmacion",

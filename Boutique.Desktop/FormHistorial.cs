@@ -4,6 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -18,7 +19,7 @@ namespace Boutique.Desktop
         public FormHistorial()
         {
             InitializeComponent();
-            LoadTheme();
+           
 
             UpdateGrid();
         }
@@ -36,10 +37,14 @@ namespace Boutique.Desktop
                 }
             }
         }
+      
 
         private void FormHistorial_Load(object sender, EventArgs e)
         {
+            LoadTheme();
             UpdateGrid();
+            dtpFecha.Format = DateTimePickerFormat.Custom;
+            dtpFecha.CustomFormat = "yyyy-MM-dd";
         }
 
         private void UpdateGrid()
@@ -58,10 +63,19 @@ namespace Boutique.Desktop
 
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
-            var query = _HistorialList.Where(x => x.EventoId.Equals(int.Parse(textBox1.Text))).ToList();
+            //var query = _HistorialList.Where(x => x.EventoId.Equals(int.Parse(textBox1.Text))).ToList();
+            //dataGridView1.DataSource = query.ToList();
+        }
 
+        private void btnBuscar_Click(object sender, EventArgs e)
+        {
+            DateTime fecha = dtpFecha.Value.Date;
 
-            dataGridView1.DataSource = query.ToList();
+            // Llama a la lógica de negocio (BL) para obtener los datos
+            var lista = HistorialBL.Instance.ObtenerPorFecha(fecha);
+
+            // Muestra los resultados en el DataGridView
+            dataGridView1.DataSource = lista;
         }
     }
 }

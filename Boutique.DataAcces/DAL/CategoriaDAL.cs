@@ -115,7 +115,7 @@ namespace Boutique.DataAcces.DAL
                                 Categoria entity = new Categoria();
                                 entity.CategoriaId = dr.GetInt32(0);
                                 entity.NombreCategoria = dr.GetString(1);
-                                entity.EstadoId = dr.GetInt32(2);
+                                entity.EstadoId = dr.GetString(2);
 
                                 result.Add(entity);
                             }

@@ -172,6 +172,12 @@
     <Compile Include="formMarcas.Designer.cs">
       <DependentUpon>formMarcas.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormMenuNuevo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMenuNuevo.Designer.cs">
+      <DependentUpon>FormMenuNuevo.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormNuevaVenta.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -348,6 +354,9 @@
     <EmbeddedResource Include="formMarcas.resx">
       <DependentUpon>formMarcas.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FormMenuNuevo.resx">
+      <DependentUpon>FormMenuNuevo.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormNuevaVenta.resx">
       <DependentUpon>FormNuevaVenta.cs</DependentUpon>
     </EmbeddedResource>
@@ -442,6 +451,15 @@
       <Project>{E25B5FC2-41C2-4255-855F-DB757DF56EB4}</Project>
       <Name>Boutique.Entity</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logout.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logout %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\circulo-cruzado %281%291.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

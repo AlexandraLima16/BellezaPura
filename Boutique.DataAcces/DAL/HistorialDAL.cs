@@ -85,7 +85,40 @@ namespace Boutique.DataAcces.DAL
 
             return result;
         }
-       
+
+
+        public List<Historial> ObtenerPorFecha(DateTime fecha)
+        {
+            List<Historial> lista = new List<Historial>();
+
+            using (SqlConnection conn = new SqlConnection(_cadena))
+            {
+                SqlCommand cmd = new SqlCommand("Controlsistema.SpHistorialSelectByFecha", conn);
+                cmd.CommandType = CommandType.StoredProcedure;
+                cmd.Parameters.AddWithValue("@Fecha", fecha.Date);
+
+                conn.Open();
+                SqlDataReader reader = cmd.ExecuteReader();
+
+                while (reader.Read())
+                {
+                    Historial h = new Historial()
+                    {
+                        EventoId = Convert.ToInt32(reader["EventoId"]),
+                        Fecha = Convert.ToDateTime(reader["Fecha"]),
+                        Evento = reader["Evento"].ToString(),
+                        DUI = reader["DUI"].ToString()
+                    };
+
+                    lista.Add(h);
+                }
+
+                reader.Close();
+            }
+
+            return lista;
+        }
+
 
     }
 }

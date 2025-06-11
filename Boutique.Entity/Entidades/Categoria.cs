@@ -10,6 +10,6 @@ namespace Boutique.Entity.Entidades
     {
         public int CategoriaId  { get; set; }
         public string NombreCategoria { get; set; }
-        public int EstadoId { get; set; }
+        public string EstadoId { get; set; }
     }
 }

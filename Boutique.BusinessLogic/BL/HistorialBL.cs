@@ -61,5 +61,22 @@ namespace Boutique.BusinessLogic.BL
             return result;
         }
 
+
+
+        public List<Historial> ObtenerPorFecha(DateTime fecha)
+        {
+            List<Historial> result = null;
+
+            try
+            {
+                result = HistorialDAL.Instance.ObtenerPorFecha(fecha);
+            }
+            catch (Exception ex)
+            {
+                throw new Exception(ex.Message);
+            }
+
+            return result;
+        }
     }
 }

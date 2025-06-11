@@ -59,7 +59,7 @@ namespace Boutique.Desktop
             {
                 int id = (int)dataGridView1.CurrentRow.Cells["CategoriaId"].Value;
                 string nombre = dataGridView1.CurrentRow.Cells["NombreCategoria"].Value.ToString();
-                int estadoId = (int)dataGridView1.CurrentRow.Cells["EstadoId"].Value;
+                string estadoId = dataGridView1.CurrentRow.Cells["EstadoId"].Value.ToString();
 
 
                 Categoria entity = new Categoria()
