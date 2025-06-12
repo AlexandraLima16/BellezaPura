@@ -97,3 +97,14 @@ C:\Users\jazmi\Downloads\BellezaPura\Boutique.BusinessLogic\obj\Debug\Boutique.B
 C:\Users\jazmi\Downloads\BellezaPura\Boutique.BusinessLogic\obj\Debug\Boutique.A82F0603.Up2Date
 C:\Users\jazmi\Downloads\BellezaPura\Boutique.BusinessLogic\obj\Debug\Boutique.BusinessLogic.dll
 C:\Users\jazmi\Downloads\BellezaPura\Boutique.BusinessLogic\obj\Debug\Boutique.BusinessLogic.pdb
+C:\Users\GENESIS\BellezaPura\Boutique.BusinessLogic\bin\Debug\Boutique.BusinessLogic.dll
+C:\Users\GENESIS\BellezaPura\Boutique.BusinessLogic\bin\Debug\Boutique.BusinessLogic.pdb
+C:\Users\GENESIS\BellezaPura\Boutique.BusinessLogic\bin\Debug\Boutique.DataAcces.dll
+C:\Users\GENESIS\BellezaPura\Boutique.BusinessLogic\bin\Debug\Boutique.Entity.dll
+C:\Users\GENESIS\BellezaPura\Boutique.BusinessLogic\bin\Debug\Boutique.DataAcces.pdb
+C:\Users\GENESIS\BellezaPura\Boutique.BusinessLogic\bin\Debug\Boutique.Entity.pdb
+C:\Users\GENESIS\BellezaPura\Boutique.BusinessLogic\obj\Debug\Boutique.BusinessLogic.csproj.AssemblyReference.cache
+C:\Users\GENESIS\BellezaPura\Boutique.BusinessLogic\obj\Debug\Boutique.BusinessLogic.csproj.CoreCompileInputs.cache
+C:\Users\GENESIS\BellezaPura\Boutique.BusinessLogic\obj\Debug\Boutique.BusinessLogic.csproj.CopyComplete
+C:\Users\GENESIS\BellezaPura\Boutique.BusinessLogic\obj\Debug\Boutique.BusinessLogic.dll
+C:\Users\GENESIS\BellezaPura\Boutique.BusinessLogic\obj\Debug\Boutique.BusinessLogic.pdb

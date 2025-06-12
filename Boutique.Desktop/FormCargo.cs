@@ -59,7 +59,22 @@ namespace Boutique.Desktop
 
         }
 
-        private void dataGridView1_CellClick(object sender, DataGridViewCellEventArgs e)
+       
+
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+            // var query = _CargoList.Where(x => x.TipoCargo.ToLower().Contains(textBox1.Text.ToLower())
+            //|| x.CargoId.Equals(int.Parse(textBox1.Text))).ToList();
+
+            //busqueda por nombre  y ID 
+            var query =_CargoList.Where(x=>x.TipoCargo.ToLower().Contains(textBox1.Text.ToLower())
+                                || x.CargoId.ToString().Contains((textBox1.Text))).ToList();
+
+            dataGridView1.DataSource = query.ToList();
+        }
+
+        private void dataGridView1_CellClick_1(object sender, DataGridViewCellEventArgs e)
         {
             #region 
             if (dataGridView1.CurrentRow.Cells["Editar"].Selected)
@@ -97,24 +112,6 @@ namespace Boutique.Desktop
             }
             UpdateGrid();
             #endregion
-
         }
-
-        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-
-        }
-
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-            // var query = _CargoList.Where(x => x.TipoCargo.ToLower().Contains(textBox1.Text.ToLower())
-            //|| x.CargoId.Equals(int.Parse(textBox1.Text))).ToList();
-
-            //busqueda por nombre  y ID 
-            var query =_CargoList.Where(x=>x.TipoCargo.ToLower().Contains(textBox1.Text.ToLower())
-                                || x.CargoId.ToString().Contains((textBox1.Text))).ToList();
-
-            dataGridView1.DataSource = query.ToList();
-        } 
-      }
+    }
    }

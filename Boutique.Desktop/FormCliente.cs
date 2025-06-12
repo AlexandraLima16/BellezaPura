@@ -58,7 +58,16 @@ namespace Boutique.Desktop
 
         }
 
-        private void dataGridView1_CellClick(object sender, DataGridViewCellEventArgs e)
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+            var query = _ClienteList.Where(x => x.Nombres.ToLower().Contains(textBox1.Text.ToLower())
+                     || x.ClienteId.ToString().Contains((textBox1.Text))).ToList();
+
+            dataGridView1.DataSource = query.ToList();
+        }
+
+        private void dataGridView1_CellContentClick_1(object sender, DataGridViewCellEventArgs e)
         {
             if (dataGridView1.CurrentRow.Cells["Editar"].Selected)
             {
@@ -88,16 +97,8 @@ namespace Boutique.Desktop
                 frm.ShowDialog();
 
             }
-            
+
             UpdateGrid();
-        }
-
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-            var query = _ClienteList.Where(x => x.Nombres.ToLower().Contains(textBox1.Text.ToLower())
-                     || x.ClienteId.ToString().Contains((textBox1.Text))).ToList();
-
-            dataGridView1.DataSource = query.ToList();
         }
     }
 }

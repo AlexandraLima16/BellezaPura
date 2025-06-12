@@ -77,5 +77,10 @@ namespace Boutique.Desktop
             // Muestra los resultados en el DataGridView
             dataGridView1.DataSource = lista;
         }
+
+        private void dataGridView1_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
     }
 }

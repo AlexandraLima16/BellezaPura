@@ -54,34 +54,6 @@ namespace Boutique.Desktop
             _MarcaList = MarcaBL.Instance.SelecAll();
         }
 
-        private void dataGridView1_CellClick(object sender, DataGridViewCellEventArgs e)
-        {
-            #region 
-            if (dataGridView1.CurrentRow.Cells["Editar"].Selected)
-            {
-                int id = (int)dataGridView1.CurrentRow.Cells["MarcaId"].Value;
-                string nombre = dataGridView1.CurrentRow.Cells["NombreMarca"].Value.ToString();
-    
-
-
-                Marca entity = new Marca()
-                {
-                    MarcaId = id,
-                    NombreMarca = nombre,
-                   
-                };
-
-                FormMarcaNueva frm = new FormMarcaNueva(entity);
-                frm.ShowDialog();
-            }
-            UpdateGrid();
-            #endregion
-        }
-
-        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-
-        }
 
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
@@ -90,6 +62,31 @@ namespace Boutique.Desktop
 
             dataGridView1.DataSource = query.ToList();
 
+        }
+
+        private void dataGridView1_CellClick_1(object sender, DataGridViewCellEventArgs e)
+        {
+
+            #region 
+            if (dataGridView1.CurrentRow.Cells["Editar"].Selected)
+            {
+                int id = (int)dataGridView1.CurrentRow.Cells["MarcaId"].Value;
+                string nombre = dataGridView1.CurrentRow.Cells["NombreMarca"].Value.ToString();
+
+
+
+                Marca entity = new Marca()
+                {
+                    MarcaId = id,
+                    NombreMarca = nombre,
+
+                };
+
+                FormMarcaNueva frm = new FormMarcaNueva(entity);
+                frm.ShowDialog();
+            }
+            UpdateGrid();
+            #endregion
         }
     }
 }
