@@ -461,5 +461,47 @@
   <ItemGroup>
     <None Include="Resources\circulo-cruzado %281%291.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\agregar-producto.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\grafico-de-barras %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\grafico-de-barras %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\grafico-de-barras %283%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\agregar-producto %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bolsa-de-la-compra %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\anadir-a-la-cesta.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bolsa-de-la-compra %281%291.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\anadir-a-la-cesta1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\devolucion-de-paquete %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\historial-de-transacciones %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\diente.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\system-administrator.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\system-administrator %281%29.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

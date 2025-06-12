@@ -52,13 +52,15 @@ namespace Boutique.Desktop
             }
         }
 
-        private void dataGridView1_CellClick(object sender, DataGridViewCellEventArgs e)
+     
+
+        private void dataGridView1_CellClick_1(object sender, DataGridViewCellEventArgs e)
         {
             if (dataGridView1.CurrentRow.Cells["Editar"].Selected)
             {
                 int id = (int)dataGridView1.CurrentRow.Cells["EstadoDevId"].Value;
                 string nombre = dataGridView1.CurrentRow.Cells["NombreEstadoDev"].Value.ToString();
-              
+
 
 
                 EstadoDev entity = new EstadoDev()
@@ -71,11 +73,6 @@ namespace Boutique.Desktop
                 frm.ShowDialog();
 
             }
-        }
-
-        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-
         }
     }
 }

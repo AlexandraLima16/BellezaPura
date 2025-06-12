@@ -22,10 +22,10 @@ namespace Boutique.Desktop
         {
             InitializeComponent();
             random = new Random();
-           // btnCloseChildForm.Visible = false;
+           btnCloseChildForm.Visible = false;
             customizeDesing();
             _user = entity;
-            //lbNombre.Text = string.Format($"Usuario: {_user.Nombre}");
+           //lbNombre.Text = string.Format($"Usuario: {_user.Nombre}");
         }
 
         private Color SelectThemColor()
@@ -56,7 +56,7 @@ namespace Boutique.Desktop
                     panelLogo.BackColor = ThemColor.ChangeColorBrightness(color, -0.3);
                     ThemColor.PrimaryColor = color;
                     ThemColor.SecundaryColor = ThemColor.ChangeColorBrightness(color, -0.3);
-                   // btnCloseChildForm.Visible = true;
+                    btnCloseChildForm.Visible = true;
                 }
             }
         }
@@ -90,7 +90,7 @@ namespace Boutique.Desktop
             this.panelDesktopPanel.Tag = childfrom;
             childfrom.BringToFront();
             childfrom.Show();
-            //lblTitle.Text = childfrom.Text;
+            lbTitle.Text = childfrom.Text;
 
         }
 
@@ -98,22 +98,17 @@ namespace Boutique.Desktop
         private void Reset()
         {
             DisableButton();
-          //  lblTitle.Text = "INICIO";
+            lbTitle.Text = "INICIO";
             pnTitleBar.BackColor = Color.FromArgb(108, 52, 131);
             panelLogo.BackColor = Color.FromArgb(108, 52, 131);
             currenButton = null;
-           // btnCloseChildForm.Visible = false;
+           btnCloseChildForm.Visible = false;
         }
         private void MainMenu_Load(object sender, EventArgs e)
         {
 
         }
 
-
-        private void btnCloseChildForm_Click_1(object sender, EventArgs e)
-        {
-
-        }
 
         private void horafecha_Tick(object sender, EventArgs e)
         {
@@ -135,38 +130,29 @@ namespace Boutique.Desktop
         }
         private void customizeDesing()
         {
-            //pnCompras.Visible = false;
-            //pnDatosVentas.Visible = false;
-            //pnSistemas.Visible = false;
-            //pnProductos.Visible = false;
-            //pnDevolucion.Visible = false;
+            pnVenta.Visible = false;
+            pnCompra.Visible = false;
+            pnDevoluciones.Visible = false;
+            pnProducto.Visible = false;
+            pnSistema.Visible = false;
+            pnReportes.Visible = false;
         }
         private void hideSubMenu()
         {
-            //if (pnDatosVentas.Visible == true)
-            //    pnDatosVentas.Visible = false;
-            //if (pnCompras.Visible == true)
-            //    pnCompras.Visible = false;
-            //if (pnDevolucion.Visible == true)
-            //    pnDevolucion.Visible = false;
-            //if (pnProductos.Visible == true)
-            //    pnProductos.Visible = false;
-            //if (pnSistemas.Visible == true)
-            //    pnSistemas.Visible = false;
+            if (pnVenta.Visible == true)
+                pnVenta.Visible = false;
+            if (pnCompra.Visible == true)
+                pnCompra.Visible = false;
+            if (pnDevoluciones.Visible == true)
+                pnDevoluciones.Visible = false;
+            if (pnProducto.Visible == true)
+                pnProducto.Visible = false;
+            if (pnSistema.Visible == true)
+                pnSistema.Visible = false;
+            if (pnReportes.Visible == true)
+                pnReportes.Visible = false;
 
         }
-
-        public FormMenuNuevo()
-        {
-            InitializeComponent();
-        }
-
-        private void btnEstado_Click(object sender, EventArgs e)
-        {
-            OpenChildFrom(new FormUsuario(), sender);
-            hideSubMenu();
-        }
-
         private void btnCloseChildForm_Click(object sender, EventArgs e)
         {
 
@@ -176,6 +162,7 @@ namespace Boutique.Desktop
                 Reset();
             }
         }
+
 
         private void pictureBox1_Click(object sender, EventArgs e)
         {
@@ -193,6 +180,173 @@ namespace Boutique.Desktop
         {
             txtHora.Text = DateTime.Now.ToString("hh:mm:ss");
             txtFecha.Text = DateTime.Now.ToLongDateString();
+        }
+        public FormMenuNuevo()
+        {
+            InitializeComponent();
+        }
+
+        private void btnEstado_Click(object sender, EventArgs e)
+        {
+            OpenChildFrom(new FormUsuario(), sender);
+            hideSubMenu();
+        }
+
+
+        private void pnTitleBar_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void btnProductoslis_Click(object sender, EventArgs e)
+        {
+            showsubMenu(pnProducto);
+        }
+
+        private void btnProduct_Click(object sender, EventArgs e)
+        {
+            OpenChildFrom(new FormProducto(), sender);
+            hideSubMenu();
+        }
+
+        private void btnProveedor_Click(object sender, EventArgs e)
+        {
+            OpenChildFrom(new FormProveedor(), sender);
+            hideSubMenu();
+        }
+
+        private void btnInventario_Click(object sender, EventArgs e)
+        {
+
+            OpenChildFrom(new FormInventario(), sender);
+            hideSubMenu();
+        }
+
+        private void btnCategoria_Click(object sender, EventArgs e)
+        {
+
+            OpenChildFrom(new FormCategorias(), sender);
+            hideSubMenu();
+        }
+
+        private void btnMarca_Click(object sender, EventArgs e)
+        {
+            OpenChildFrom(new formMarcas(), sender);
+            hideSubMenu();
+        }
+
+        private void btnCompra_Click(object sender, EventArgs e)
+        {
+            showsubMenu(pnCompra);
+        }
+
+        private void btnCompras_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnDetCompra_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnVentas_Click(object sender, EventArgs e)
+        {
+            showsubMenu(pnVenta);
+        }
+
+        private void btnPagos_Click(object sender, EventArgs e)
+        {
+            OpenChildFrom(new FormPagos(), sender);
+            hideSubMenu();
+        }
+
+        private void btnClientes_Click(object sender, EventArgs e)
+        {
+            OpenChildFrom(new FormCliente(), sender);
+            hideSubMenu();
+        }
+
+        private void btnDetalleVenta_Click(object sender, EventArgs e)
+        {
+
+            OpenChildFrom(new FormDetVenta(), sender);
+            hideSubMenu();
+        }
+
+        private void btnVenta_Click(object sender, EventArgs e)
+        {
+
+            OpenChildFrom(new FormVentas(), sender);
+            hideSubMenu();
+        }
+
+        private void btnInfoCliente_Click(object sender, EventArgs e)
+        {
+            showsubMenu(pnDevoluciones);
+        }
+
+        private void btnDevolucion_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnEstadoDev_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnSistema_Click(object sender, EventArgs e)
+        {
+            showsubMenu(pnSistema);
+        }
+
+        private void btnUsuario_Click(object sender, EventArgs e)
+        {
+            OpenChildFrom(new FormUsuarioGrid(), sender);
+            hideSubMenu();
+        }
+
+        private void btnRol_Click(object sender, EventArgs e)
+        {
+
+            OpenChildFrom(new FormRol(), sender);
+            hideSubMenu();
+        }
+
+        private void btnEmpleado_Click(object sender, EventArgs e)
+        {
+            OpenChildFrom(new FormEmpleado(), sender);
+            hideSubMenu();
+        }
+
+        private void btnCargo_Click(object sender, EventArgs e)
+        {
+            OpenChildFrom(new FormCargo(), sender);
+            hideSubMenu();
+        }
+
+        private void btnEmpresa_Click(object sender, EventArgs e)
+        {
+            OpenChildFrom(new FormEmpresa(), sender);
+            hideSubMenu();
+        }
+
+        private void btnEstado_Click_1(object sender, EventArgs e)
+        {
+            OpenChildFrom(new FormEstado(), sender);
+            hideSubMenu();
+        }
+
+        private void btnHistorial_Click(object sender, EventArgs e)
+        {
+            OpenChildFrom(new FormHistorial(), sender);
+            hideSubMenu();
+        }
+
+        private void btnReporte_Click(object sender, EventArgs e)
+        {
+            showsubMenu(pnReportes);
         }
     }
 }

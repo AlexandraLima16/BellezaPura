@@ -54,7 +54,16 @@ namespace Boutique.Desktop
             _ProveedorList = ProveedorBL.Instance.SelecAll();
         }
 
-        private void dataGridView1_CellClick(object sender, DataGridViewCellEventArgs e)
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+            var query = _ProveedorList.Where(x => x.Nombre.ToLower().Contains(textBox1.Text.ToLower())
+                              || x.ProveedorId.ToString().Contains((textBox1.Text))).ToList();
+
+            dataGridView1.DataSource = query.ToList();
+        }
+
+        private void dataGridView1_CellClick_1(object sender, DataGridViewCellEventArgs e)
         {
             if (dataGridView1.CurrentRow.Cells["Editar"].Selected)
             {
@@ -74,9 +83,9 @@ namespace Boutique.Desktop
                     Nombre = nombre,
                     Encargo = Encargo,
                     Telefono = Telefono,
-                    Correo= Correo,
-                    Direccion= Direccion,
-                    ContactoPrincipal= ContactoPrincipal,
+                    Correo = Correo,
+                    Direccion = Direccion,
+                    ContactoPrincipal = ContactoPrincipal,
                     EstadoId = estadoId
                 };
 
@@ -100,14 +109,6 @@ namespace Boutique.Desktop
                 }
             }
             UpdateGrid();
-        }
-
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-            var query = _ProveedorList.Where(x => x.Nombre.ToLower().Contains(textBox1.Text.ToLower())
-                              || x.ProveedorId.ToString().Contains((textBox1.Text))).ToList();
-
-            dataGridView1.DataSource = query.ToList();
         }
     }
 }

@@ -52,3 +52,9 @@ C:\Users\jazmi\Downloads\BellezaPura\Boutique.Entity\obj\Debug\Boutique.Entity.c
 C:\Users\jazmi\Downloads\BellezaPura\Boutique.Entity\obj\Debug\Boutique.Entity.csproj.CoreCompileInputs.cache
 C:\Users\jazmi\Downloads\BellezaPura\Boutique.Entity\obj\Debug\Boutique.Entity.dll
 C:\Users\jazmi\Downloads\BellezaPura\Boutique.Entity\obj\Debug\Boutique.Entity.pdb
+C:\Users\GENESIS\BellezaPura\Boutique.Entity\bin\Debug\Boutique.Entity.dll
+C:\Users\GENESIS\BellezaPura\Boutique.Entity\bin\Debug\Boutique.Entity.pdb
+C:\Users\GENESIS\BellezaPura\Boutique.Entity\obj\Debug\Boutique.Entity.csproj.AssemblyReference.cache
+C:\Users\GENESIS\BellezaPura\Boutique.Entity\obj\Debug\Boutique.Entity.csproj.CoreCompileInputs.cache
+C:\Users\GENESIS\BellezaPura\Boutique.Entity\obj\Debug\Boutique.Entity.dll
+C:\Users\GENESIS\BellezaPura\Boutique.Entity\obj\Debug\Boutique.Entity.pdb

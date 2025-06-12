@@ -18,10 +18,7 @@ namespace Boutique.Desktop
             InitializeComponent();
         }
 
-        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-
-        }
+       
 
         private void FormInventario_Load(object sender, EventArgs e)
         {
@@ -53,6 +50,11 @@ namespace Boutique.Desktop
                     btn.FlatAppearance.BorderColor = ThemColor.SecundaryColor;
                 }
             }
+        }
+
+        private void dataGridView1_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+
         }
     }
 }

@@ -61,7 +61,16 @@ namespace Boutique.Desktop
 
         }
 
-        private void dataGridView1_CellClick(object sender, DataGridViewCellEventArgs e)
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+            var query = _EstadoList.Where(x => x.NombreEstado.ToLower().Contains(textBox1.Text.ToLower())
+                             || x.EstadoId.ToString().Contains((textBox1.Text))).ToList();
+
+            dataGridView1.DataSource = query.ToList();
+        }
+
+        private void dataGridView1_CellClick_1(object sender, DataGridViewCellEventArgs e)
         {
             if (dataGridView1.CurrentRow.Cells["Editar"].Selected)
             {
@@ -84,14 +93,6 @@ namespace Boutique.Desktop
             //    MessageBox.Show("Eliminar" + dataGridView1.CurrentRow.Cells["EstadoId"].Value.ToString());
             //}
             UpdateGrid();
-        }
-
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-            var query = _EstadoList.Where(x => x.NombreEstado.ToLower().Contains(textBox1.Text.ToLower())
-                             || x.EstadoId.ToString().Contains((textBox1.Text))).ToList();
-
-            dataGridView1.DataSource = query.ToList();
         }
     }
 }

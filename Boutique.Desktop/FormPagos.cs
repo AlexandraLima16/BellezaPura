@@ -54,9 +54,18 @@ namespace Boutique.Desktop
             UpdateGrid();
         }
 
-        private void dataGridView1_CellClick(object sender, DataGridViewCellEventArgs e)
-        {
 
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+            var query = _PagoList.Where(x => x.TipoPago.ToLower().Contains(textBox1.Text.ToLower())
+                                || x.PagoId.ToString().Contains((textBox1.Text))).ToList();
+
+            dataGridView1.DataSource = query.ToList();
+        }
+
+        private void dataGridView1_CellClick_1(object sender, DataGridViewCellEventArgs e)
+        {
             #region 
             if (dataGridView1.CurrentRow.Cells["Editar"].Selected)
             {
@@ -92,18 +101,10 @@ namespace Boutique.Desktop
                     }
                 }
                 UpdateGrid();
-                #endregion
+
 
             }
-        }
-    
-
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-            var query = _PagoList.Where(x => x.TipoPago.ToLower().Contains(textBox1.Text.ToLower())
-                                || x.PagoId.ToString().Contains((textBox1.Text))).ToList();
-
-            dataGridView1.DataSource = query.ToList();
+            #endregion
         }
     }
 }

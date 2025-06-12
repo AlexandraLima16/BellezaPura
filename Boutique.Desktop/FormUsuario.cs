@@ -55,9 +55,21 @@ namespace Boutique.Desktop
 
         
 
-        private void dataGridView1_CellClick_1(object sender, DataGridViewCellEventArgs e)
+        private void FormUsuario_Load(object sender, EventArgs e)
         {
 
+            UpdateGrid();
+            LoadTheme();
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+            var query =_UsuarioList.Where(x=>x.Nombre.ToLower().Contains(textBox1.Text.ToLower())).ToList();
+            dataGridView1.DataSource = query.ToList();
+        }
+
+        private void dataGridView1_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
             if (dataGridView1.CurrentRow.Cells["Editar"].Selected)
             {
                 string dui = dataGridView1.CurrentRow.Cells["DUI"].Value.ToString();
@@ -86,25 +98,6 @@ namespace Boutique.Desktop
             }
 
             UpdateGrid();
-
-        }
-
-        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-
-        }
-
-        private void FormUsuario_Load(object sender, EventArgs e)
-        {
-
-            UpdateGrid();
-            LoadTheme();
-        }
-
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-            var query =_UsuarioList.Where(x=>x.Nombre.ToLower().Contains(textBox1.Text.ToLower())).ToList();
-            dataGridView1.DataSource = query.ToList();
         }
     }
 }
