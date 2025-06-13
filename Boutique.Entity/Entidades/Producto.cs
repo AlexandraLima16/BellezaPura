@@ -13,9 +13,9 @@ namespace Boutique.Entity.Entidades
         public string Descripcion { get; set; }
         public decimal Precio { get; set; }
         public DateTime FechaIngreso { get; set; }
-        public int MarcaId { get; set; }
-        public int CategoriaId { get; set; }
-        public int EstadoId { get; set; }
+        public string MarcaId { get; set; }
+        public string CategoriaId { get; set; }
+        public string EstadoId { get; set; }
 
     }
 }

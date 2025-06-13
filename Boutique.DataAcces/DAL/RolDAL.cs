@@ -113,7 +113,7 @@ namespace Boutique.DataAcces.DAL
                                 Rol entity = new Rol();
                                 entity.RolId = dr.GetInt32(0);
                                 entity.NombreRol = dr.GetString(1);
-                                entity.EstadoId = dr.GetInt32(2);
+                                entity.EstadoId = dr.GetString(2);
 
                                 result.Add(entity);
                             }

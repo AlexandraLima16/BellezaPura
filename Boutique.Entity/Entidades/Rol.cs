@@ -11,6 +11,6 @@ namespace Boutique.Entity.Entidades
 
         public int RolId { get; set; }
         public string NombreRol { get; set; }
-        public int EstadoId { get; set; }
+        public string EstadoId { get; set; }
     }
 }

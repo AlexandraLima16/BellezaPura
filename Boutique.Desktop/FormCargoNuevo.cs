@@ -55,7 +55,7 @@ namespace Boutique.Desktop
             Cargo entity = new Cargo()
             {
                 TipoCargo = txtTipoPago.Text.Trim(),
-                EstadoId = (int)comboBoxEstado.SelectedValue
+                EstadoId = Convert.ToString(comboBoxEstado.SelectedValue)
             };
 
             //Nuevo
@@ -75,7 +75,7 @@ namespace Boutique.Desktop
             else //editar
             {
                 entity.CargoId = _id;
-                entity.EstadoId = (int)comboBoxEstado.SelectedValue;
+                entity.EstadoId = Convert.ToString(comboBoxEstado.SelectedValue);
                 if (CargoBL.Instance.Update(entity))
                 {
                     MessageBox.Show("Registro editado con exito!", "Confirmacion",

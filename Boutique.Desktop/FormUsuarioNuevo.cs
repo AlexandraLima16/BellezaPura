@@ -72,9 +72,9 @@ namespace Boutique.Desktop
                 Nombre = txtName.Text.Trim(),
                 FechaRegistro= DateTime.Parse(dtpFecha.Text.Trim()),
                 Contrasena = txtContraseña.Text.Trim(),
-                EstadoId = (int)cbEstado.SelectedValue,
-                EmpleadoId = (int)cbEmpleado.SelectedValue,
-                RolId = (int)cbRol.SelectedValue
+                EstadoId = Convert.ToString(cbEstado.SelectedValue),
+                EmpleadoId = Convert.ToString(cbEmpleado.SelectedValue),
+                RolId = Convert.ToString(cbRol.SelectedValue)
 
 
             };

@@ -53,10 +53,10 @@ namespace Boutique.Desktop
             Rol entity = new Rol()
             {
                 NombreRol = txtNombreRol.Text.Trim(),
-                EstadoId = (int)comboBoxEstado.SelectedValue
+                EstadoId = Convert.ToString(comboBoxEstado.SelectedValue)
           
 
-        };
+            };
 
             //Nuevo
             if (_id == 0)
@@ -75,7 +75,7 @@ namespace Boutique.Desktop
             else //editar
             {
                 entity.RolId = _id;
-                entity.EstadoId = (int)comboBoxEstado.SelectedValue;
+                entity.EstadoId = Convert.ToString(comboBoxEstado.SelectedValue);
                 if (RolBL.Instance.Update(entity))
                 {
                     MessageBox.Show("Registro editado con exito!", "Confirmacion",

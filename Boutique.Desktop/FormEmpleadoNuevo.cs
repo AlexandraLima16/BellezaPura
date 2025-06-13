@@ -79,8 +79,8 @@ namespace Boutique.Desktop
                 Codigo = txtCodigo.Text.Trim(),
                 Direccion=textDireccion.Text.Trim(),
                 FechaContratacion = textFechaContratacion.Value.Date,
-                CargoId = (int)comboBoxcargo.SelectedValue,
-                EstadoId = (int)comboBoxEstado.SelectedValue
+                CargoId = Convert.ToString(comboBoxcargo.SelectedValue),
+                EstadoId = Convert.ToString(comboBoxEstado.SelectedValue)
 
             };
 
@@ -101,6 +101,8 @@ namespace Boutique.Desktop
             else //editar
             {
                 entity.EmpleadoId = _id;
+                entity.EstadoId= comboBoxEstado.SelectedValue.ToString();
+                entity.CargoId= comboBoxcargo.SelectedValue.ToString();
                 if (EmpleadoBL.Instance.Update(entity))
                 {
                     MessageBox.Show("Registro ediado con exito!", "Confirmacion",

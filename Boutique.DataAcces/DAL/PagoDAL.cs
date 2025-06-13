@@ -114,7 +114,7 @@ namespace Boutique.DataAcces.DAL
                                 Pago entity = new Pago();
                                 entity.PagoId = dr.GetInt32(0);
                                 entity.TipoPago = dr.GetString(1);
-                                entity.EstadoId = dr.GetInt32(2);
+                                entity.EstadoId = dr.GetString(2);
 
                                 result.Add(entity);
                             }

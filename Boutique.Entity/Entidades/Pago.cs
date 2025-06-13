@@ -10,6 +10,6 @@ namespace Boutique.Entity.Entidades
     {
         public int PagoId { get; set; }
         public string TipoPago { get; set; }
-        public int EstadoId { get; set; }
+        public string EstadoId { get; set; }
     }
 }

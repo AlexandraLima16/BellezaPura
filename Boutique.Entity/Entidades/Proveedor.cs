@@ -15,6 +15,6 @@ namespace Boutique.Entity.Entidades
         public string Correo { get; set; }
         public string Direccion { get; set; }
         public string ContactoPrincipal { get; set; }
-        public int EstadoId { get; set; }
+        public string EstadoId { get; set; }
     }
 }

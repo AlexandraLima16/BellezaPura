@@ -81,8 +81,8 @@ namespace Boutique.Desktop
                 string Direccion = dataGridView1.CurrentRow.Cells["Direccion"].Value.ToString();
                 DateTime FechaContratacion = Convert.ToDateTime(dataGridView1.Rows[e.RowIndex].Cells["FechaContratacion"].Value);
                 // FechaNacimiento = Convert.ToDateTime(dgvEmpleados.Rows[e.RowIndex].Cells["FechaNacimiento"].Value),
-                int CargoId = (int)dataGridView1.CurrentRow.Cells["CargoId"].Value;
-                int estadoId = (int)dataGridView1.CurrentRow.Cells["EstadoId"].Value;
+                string CargoId = dataGridView1.CurrentRow.Cells["CargoId"].Value.ToString();
+                string estadoId = dataGridView1.CurrentRow.Cells["EstadoId"].Value.ToString();
 
                 //Aqui no tiene fecha de contratacion
 

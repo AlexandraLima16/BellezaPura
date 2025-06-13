@@ -19,7 +19,7 @@ namespace Boutique.Entity.Entidades
         public string Codigo { get; set; }
         public string Direccion { get; set; }
         public DateTime FechaContratacion { get; set; }
-        public int CargoId { get; set; }
-        public int EstadoId { get; set; }
+        public string CargoId { get; set; }
+        public string EstadoId { get; set; }
     }
 }

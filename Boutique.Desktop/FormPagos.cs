@@ -71,7 +71,7 @@ namespace Boutique.Desktop
             {
                 int id = (int)dataGridView1.CurrentRow.Cells["PagoId"].Value;
                 string nombre = dataGridView1.CurrentRow.Cells["TipoPago"].Value.ToString();
-                int estadoId = (int)dataGridView1.CurrentRow.Cells["EstadoId"].Value;
+                string estadoId = dataGridView1.CurrentRow.Cells["EstadoId"].Value.ToString();
 
 
                 Pago entity = new Pago()

@@ -70,7 +70,7 @@ namespace Boutique.Desktop
             {
                 int id = (int)dataGridView1.CurrentRow.Cells["RolId"].Value;
                 string nombre = dataGridView1.CurrentRow.Cells["NombreRol"].Value.ToString();
-                int estadoId = (int)dataGridView1.CurrentRow.Cells["EstadoId"].Value;
+                string estadoId = dataGridView1.CurrentRow.Cells["EstadoId"].Value.ToString();
 
 
                 Rol entity = new Rol()

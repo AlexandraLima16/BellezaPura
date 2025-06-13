@@ -25,7 +25,7 @@ namespace Boutique.Desktop
            btnCloseChildForm.Visible = false;
             customizeDesing();
             _user = entity;
-           //lbNombre.Text = string.Format($"Usuario: {_user.Nombre}");
+           lbNombre.Text = string.Format($"Usuario: {_user.Nombre}");
         }
 
         private Color SelectThemColor()

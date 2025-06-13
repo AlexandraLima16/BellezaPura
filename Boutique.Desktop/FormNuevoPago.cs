@@ -64,7 +64,7 @@ namespace Boutique.Desktop
             Pago entity = new Pago()
             {
                 TipoPago = textBox1.Text.Trim(),
-                EstadoId = (int)comboBox1.SelectedValue
+                EstadoId = Convert.ToString(comboBox1.SelectedValue)
             };
        
 
@@ -85,7 +85,7 @@ namespace Boutique.Desktop
             else //editar
             {
                 entity.PagoId = _id;
-                entity.EstadoId = (int)comboBox1.SelectedValue;
+                entity.EstadoId = Convert.ToString(comboBox1.SelectedValue);
                 if (PagoBL.Instance.Update(entity))
                 {
                     MessageBox.Show("Registro ediado con exito!", "Confirmacion",

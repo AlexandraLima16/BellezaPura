@@ -81,7 +81,7 @@ namespace Boutique.Desktop
             {
                 int id = (int)dataGridView1.CurrentRow.Cells["CargoId"].Value;
                 string nombre = dataGridView1.CurrentRow.Cells["TipoCargo"].Value.ToString();
-                int estadoId = (int)dataGridView1.CurrentRow.Cells["EstadoId"].Value;
+                string estadoId = dataGridView1.CurrentRow.Cells["EstadoId"].Value.ToString();
 
 
                 Cargo entity = new Cargo()

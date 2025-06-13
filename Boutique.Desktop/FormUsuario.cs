@@ -76,9 +76,9 @@ namespace Boutique.Desktop
                 string nombre = dataGridView1.CurrentRow.Cells["Nombre"].Value.ToString();
                 DateTime fechaRegistro = Convert.ToDateTime(dataGridView1.CurrentRow.Cells["FechaRegistro"].Value);
                 string contraseña = dataGridView1.CurrentRow.Cells["Contrasena"].Value.ToString();
-                int estadoId = (int)dataGridView1.CurrentRow.Cells["EstadoId"].Value;
-                int empeladoId = (int)dataGridView1.CurrentRow.Cells["EmpleadoId"].Value;
-                int rolId = (int)dataGridView1.CurrentRow.Cells["RolId"].Value;
+                string estadoId = dataGridView1.CurrentRow.Cells["EstadoId"].Value.ToString();
+                string empeladoId = dataGridView1.CurrentRow.Cells["EmpleadoId"].Value.ToString();
+                string rolId = dataGridView1.CurrentRow.Cells["RolId"].Value.ToString();
 
                 Usuario entity = new Usuario()
                 {

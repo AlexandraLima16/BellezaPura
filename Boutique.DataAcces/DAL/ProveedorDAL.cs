@@ -130,7 +130,7 @@ namespace Boutique.DataAcces.DAL
                                 entity.Correo = dr.GetString(4);
                                 entity.Direccion = dr.GetString(5);
                                 entity.ContactoPrincipal = dr.GetString(6);
-                                entity.EstadoId = dr.GetInt32(7);
+                                entity.EstadoId = dr.GetString(7);
                                 result.Add(entity);
                             }
                         }

@@ -70,9 +70,9 @@ namespace Boutique.DataAcces.DAL
                         Nombre = reader["Nombre"].ToString(),
                         FechaRegistro = Convert.ToDateTime(reader["FechaRegistro"]),
                         Contrasena = reader["Contrasena"].ToString(),
-                        EstadoId = Convert.ToInt32(reader["EstadoId"]),
-                        EmpleadoId = Convert.ToInt32(reader["EmpleadoId"]),
-                        RolId = Convert.ToInt32(reader["RolId"])
+                        EstadoId = (reader["EstadoId"].ToString()),
+                        EmpleadoId = (reader["EmpleadoId"].ToString()),
+                        RolId = (reader["RolId"].ToString())
                     };
                 }
             }
@@ -152,9 +152,9 @@ namespace Boutique.DataAcces.DAL
                                 entity.Nombre = dr.GetString(1);
                                 entity.FechaRegistro =  dr.GetDateTime(2);
                                 entity.Contrasena = dr.GetString(3);
-                                entity.EstadoId = dr.GetInt32(4);
-                                entity.EmpleadoId = dr.GetInt32(5);
-                                entity.RolId = dr.GetInt32(6);                     
+                                entity.EstadoId = dr.GetString(4);
+                                entity.EmpleadoId = dr.GetString(5);
+                                entity.RolId = dr.GetString(6);                     
 
                                 result.Add(entity);
                             }

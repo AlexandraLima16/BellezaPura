@@ -58,7 +58,7 @@ namespace Boutique.Desktop
                 ContactoPrincipal = txtContacto.Text.Trim(),
                 Correo  = txtCorreo.Text.Trim(),
                 Direccion = txtDireccion.Text.Trim(),
-                EstadoId = (int)comboBoxEstado.SelectedValue
+                EstadoId = Convert.ToString(comboBoxEstado.SelectedValue)
 
             };
 
@@ -79,7 +79,7 @@ namespace Boutique.Desktop
             else //editar
             {
                 entity.ProveedorId = _id;
-                entity.EstadoId = (int)comboBoxEstado.SelectedValue;
+                entity.EstadoId = Convert.ToString(comboBoxEstado.SelectedValue);
                 if (ProveedorBL.Instance.Update(entity))
                 {
                     MessageBox.Show("Registro editado con exito!", "Confirmacion",

@@ -11,6 +11,6 @@ namespace Boutique.Entity.Entidades
 
         public int CargoId { get; set; }
         public string TipoCargo { get; set; }
-        public int EstadoId { get; set; }
+        public string EstadoId { get; set; }
     }
 }

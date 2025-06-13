@@ -107,7 +107,7 @@ namespace Boutique.DataAcces.DAL
 
             using (SqlConnection conn = new SqlConnection(_cadena))
             {
-                using (SqlCommand cmd = new SqlCommand("Ventas.SpProductoSelectAll", conn))
+                using (SqlCommand cmd = new SqlCommand("Ventas.SproductoSelectAll", conn))
                 {
                     cmd.CommandType = CommandType.StoredProcedure;
 
@@ -126,9 +126,9 @@ namespace Boutique.DataAcces.DAL
                                 entity.Descripcion = dr.GetString (2);
                                 entity.Precio = dr.GetDecimal(3);
                                 entity.FechaIngreso = dr.GetDateTime(4);
-                                entity.MarcaId = dr.GetInt32(5);
-                                entity.CategoriaId = dr.GetInt32(6);
-                                entity.EstadoId = dr.GetInt32(7);
+                                entity.MarcaId = dr.GetString(5);
+                                entity.CategoriaId = dr.GetString(6);
+                                entity.EstadoId = dr.GetString(7);
 
                                 result.Add(entity);
                             }

@@ -121,8 +121,8 @@ namespace Boutique.DataAcces.DAL
                                 entity.Codigo = dr.GetString(7);
                                 entity.Direccion = dr.GetString(8); 
                                 entity.FechaContratacion = dr.GetDateTime(9);
-                                entity.CargoId = dr.GetInt32(10);
-                                entity.EstadoId = dr.GetInt32(11);
+                                entity.CargoId = dr.GetString(10);
+                                entity.EstadoId = dr.GetString(11);
 
                                 result.Add(entity);
                             }

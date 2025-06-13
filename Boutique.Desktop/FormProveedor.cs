@@ -74,7 +74,7 @@ namespace Boutique.Desktop
                 string Correo = dataGridView1.CurrentRow.Cells["Correo"].Value.ToString();
                 string Direccion = dataGridView1.CurrentRow.Cells["Direccion"].Value.ToString();
                 string ContactoPrincipal = dataGridView1.CurrentRow.Cells["ContactoPrincipal"].Value.ToString();
-                int estadoId = (int)dataGridView1.CurrentRow.Cells["EstadoId"].Value;
+                string estadoId = dataGridView1.CurrentRow.Cells["EstadoId"].Value.ToString();
 
 
                 Proveedor entity = new Proveedor()

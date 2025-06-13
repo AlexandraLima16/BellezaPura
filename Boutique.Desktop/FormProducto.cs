@@ -74,9 +74,9 @@ namespace Boutique.Desktop
                 string descripcion = dataGridView1.CurrentRow.Cells["Descripcion"].Value.ToString();
                 decimal precio = Convert.ToDecimal(dataGridView1.CurrentRow.Cells["Precio"].Value);
                 DateTime fechaIngreso = Convert.ToDateTime(dataGridView1.CurrentRow.Cells["FechaIngreso"].Value);
-                int marcaId = (int)dataGridView1.CurrentRow.Cells["MarcaId"].Value;
-                int categoriaId = (int)dataGridView1.CurrentRow.Cells["CategoriaId"].Value;
-                int estadoId = (int)dataGridView1.CurrentRow.Cells["EstadoId"].Value;
+                string marcaId = dataGridView1.CurrentRow.Cells["MarcaId"].Value.ToString();
+                string categoriaId = dataGridView1.CurrentRow.Cells["CategoriaId"].Value.ToString();
+                string estadoId = dataGridView1.CurrentRow.Cells["EstadoId"].Value.ToString();
 
                 Producto entity = new Producto()
                 {

@@ -117,23 +117,22 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <metadata name="horafecha.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>17, 17</value>
-  </metadata>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="btnCloseChildForm.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6
         JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAACXBIWXMAAA68AAAOvAGVvHJJAAAAB3RJ
-        TUUH5AgQFgURLgTkHwAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAD5SURBVEhL
-        tZXbDoIwEAV5N/j/n8KLtwT9rToHu7GxUNouTrJayu4cIkSGEMKVulHn4SDkoiZq1oHk4km5Q+SILjFp
-        40Tdl8MQXlR3CLNyPSSCr4uFO4SZdbnBRncIvWW5wYnmEHrq5AYN1SGcS3vrHxIad0PY65MbDGyGsPbJ
-        DQazEOoYuYFgjCKh73Q9xjYfiNKrFv4rT0H2G7D/ONaC6H8/EYLshlLZjY/tbTC4+bSw9oUwsCk32OsL
-        oXFXbnCuLYQGDdT/cQE9dSGcaJYb9JZD2OiWG8ysh7Bwyw1m8xA+9PYXxRtaixzRJZaX/qwF5ZYbcn2c
-        4fIGW9f7OSXYigEAAAAASUVORK5CYII=
+        TUUH5AgQFgURLgTkHwAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAADISURBVEhL
+        tZVJDoMwDEXZV/T+R2HTSaK91q9+ZUtR6gTHMW/DFN5DhGEBcAfwAHBdkqALwAZg5wbl5J0RETldZOOO
+        C4Cn7PjMRMT1+nNlRJryakAocihXIhG3XBmJVGP9D4knEpYrvci0XLEiaXIFwFq8OFyW62s9PkR11TlX
+        XmIEzIkPceotsibUmvj6PBeWvHFsPNKTN8b4Ix65MhyRE/wfrpFIRK4cRmbkSjOSIVfMiPz9SXdCvdBR
+        vIy/n/4ukWm5IhE6b19b1/s5tfnPWgAAAABJRU5ErkJggg==
 </value>
   </data>
+  <metadata name="horafecha.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
   <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>30</value>
+    <value>25</value>
   </metadata>
 </root>

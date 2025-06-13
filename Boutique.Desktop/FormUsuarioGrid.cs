@@ -47,7 +47,22 @@ namespace Boutique.Desktop
             UpdateGrid();
         }
 
-        private void dataGridView1_CellClick(object sender, DataGridViewCellEventArgs e)
+
+        private void FormUsuarioGrid_Load(object sender, EventArgs e)
+        {
+            UpdateGrid();
+            LoadTheme();
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+            var query = _UsuarioList.Where(x => x.Nombre.ToLower().Contains(textBox1.Text.ToLower()) || x.DUI.ToString().Contains((textBox1.Text))).ToList();
+
+
+            dataGridView1.DataSource = query.ToList();
+        }
+
+        private void dataGridView1_CellClick_1(object sender, DataGridViewCellEventArgs e)
         {
 
             if (dataGridView1.CurrentRow.Cells["Editar"].Selected)
@@ -56,9 +71,9 @@ namespace Boutique.Desktop
                 string nombre = dataGridView1.CurrentRow.Cells["Nombre"].Value.ToString();
                 DateTime fechaRegistro = Convert.ToDateTime(dataGridView1.CurrentRow.Cells["FechaRegistro"].Value);
                 string contraseña = dataGridView1.CurrentRow.Cells["Contrasena"].Value.ToString();
-                int estadoId = (int)dataGridView1.CurrentRow.Cells["EstadoId"].Value;
-                int empeladoId = (int)dataGridView1.CurrentRow.Cells["EmpleadoId"].Value;
-                int rolId = (int)dataGridView1.CurrentRow.Cells["RolId"].Value;
+                string estadoId = dataGridView1.CurrentRow.Cells["EstadoId"].Value.ToString();
+                string empeladoId = dataGridView1.CurrentRow.Cells["EmpleadoId"].Value.ToString();
+                string rolId = dataGridView1.CurrentRow.Cells["RolId"].Value.ToString();
 
                 Usuario entity = new Usuario()
                 {
@@ -78,21 +93,6 @@ namespace Boutique.Desktop
             }
 
             UpdateGrid();
-
-        }
-
-        private void FormUsuarioGrid_Load(object sender, EventArgs e)
-        {
-            UpdateGrid();
-            LoadTheme();
-        }
-
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-            var query = _UsuarioList.Where(x => x.Nombre.ToLower().Contains(textBox1.Text.ToLower()) || x.DUI.ToString().Contains((textBox1.Text))).ToList();
-
-
-            dataGridView1.DataSource = query.ToList();
         }
     }
 }
