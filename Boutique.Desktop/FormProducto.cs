@@ -92,6 +92,7 @@ namespace Boutique.Desktop
 
                 FormProductoNuevp frm = new FormProductoNuevp(entity);
                 frm.ShowDialog();
+                UpdateGrid();
             }
             if (dataGridView1.CurrentRow.Cells["Eliminar"].Selected)
             {

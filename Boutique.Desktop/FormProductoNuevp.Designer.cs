@@ -43,7 +43,7 @@
             this.comboBox2 = new System.Windows.Forms.ComboBox();
             this.comboBox3 = new System.Windows.Forms.ComboBox();
             this.button1 = new System.Windows.Forms.Button();
-            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.DatePicker1 = new System.Windows.Forms.DateTimePicker();
             this.SuspendLayout();
             // 
             // label1
@@ -164,19 +164,21 @@
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // textBox4
+            // DatePicker1
             // 
-            this.textBox4.Location = new System.Drawing.Point(153, 184);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(100, 20);
-            this.textBox4.TabIndex = 15;
+            this.DatePicker1.Location = new System.Drawing.Point(140, 185);
+            this.DatePicker1.Margin = new System.Windows.Forms.Padding(2);
+            this.DatePicker1.Name = "DatePicker1";
+            this.DatePicker1.Size = new System.Drawing.Size(182, 20);
+            this.DatePicker1.TabIndex = 34;
+            this.DatePicker1.ValueChanged += new System.EventHandler(this.dtpFecha_ValueChanged);
             // 
             // FormProductoNuevp
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(528, 280);
-            this.Controls.Add(this.textBox4);
+            this.Controls.Add(this.DatePicker1);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.comboBox3);
             this.Controls.Add(this.comboBox2);
@@ -216,6 +218,6 @@
         private System.Windows.Forms.ComboBox comboBox2;
         private System.Windows.Forms.ComboBox comboBox3;
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.DateTimePicker DatePicker1;
     }
 }

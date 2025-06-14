@@ -83,6 +83,8 @@ namespace Boutique.Desktop
 
                 FormNuevoPago frm = new FormNuevoPago(entity);
                 frm.ShowDialog();
+                UpdateGrid();
+
 
             }
             if (dataGridView1.CurrentRow.Cells["Eliminar"].Selected)
@@ -105,6 +107,11 @@ namespace Boutique.Desktop
 
             }
             #endregion
+        }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
         }
     }
 }

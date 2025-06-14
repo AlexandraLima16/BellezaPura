@@ -288,12 +288,14 @@ namespace Boutique.Desktop
 
         private void btnDevolucion_Click(object sender, EventArgs e)
         {
-
+            OpenChildFrom(new FormDevolucion(), sender);
+            hideSubMenu();
         }
 
         private void btnEstadoDev_Click(object sender, EventArgs e)
         {
-
+            OpenChildFrom(new FormEstadoDev(), sender);
+            hideSubMenu();
         }
 
         private void btnSistema_Click(object sender, EventArgs e)
@@ -347,6 +349,21 @@ namespace Boutique.Desktop
         private void btnReporte_Click(object sender, EventArgs e)
         {
             showsubMenu(pnReportes);
+        }
+
+        private void btnRepStock_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnRepVentas_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button14_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

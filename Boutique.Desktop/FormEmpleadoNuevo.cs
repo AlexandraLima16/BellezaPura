@@ -123,6 +123,9 @@ namespace Boutique.Desktop
             UpdateCombo();
         }
 
-        
+        private void txtFNacimiento_ValueChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

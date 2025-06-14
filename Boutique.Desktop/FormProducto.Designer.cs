@@ -40,7 +40,7 @@
             this.Descripcion = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Precio = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.FechaIngreso = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.NombreMarca = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.MarcaId = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.CategoriaId = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.EstadoId = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
@@ -50,10 +50,9 @@
             // 
             this.btnNuevo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnNuevo.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnNuevo.Location = new System.Drawing.Point(905, 23);
-            this.btnNuevo.Margin = new System.Windows.Forms.Padding(4);
+            this.btnNuevo.Location = new System.Drawing.Point(679, 19);
             this.btnNuevo.Name = "btnNuevo";
-            this.btnNuevo.Size = new System.Drawing.Size(179, 46);
+            this.btnNuevo.Size = new System.Drawing.Size(134, 37);
             this.btnNuevo.TabIndex = 15;
             this.btnNuevo.Text = "Nuevo";
             this.btnNuevo.UseVisualStyleBackColor = true;
@@ -62,10 +61,10 @@
             // textBox1
             // 
             this.textBox1.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.textBox1.Location = new System.Drawing.Point(101, 37);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.textBox1.Location = new System.Drawing.Point(76, 30);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(552, 22);
+            this.textBox1.Size = new System.Drawing.Size(415, 20);
             this.textBox1.TabIndex = 22;
             this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
@@ -73,9 +72,10 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(23, 33);
+            this.label1.Location = new System.Drawing.Point(17, 27);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(73, 25);
+            this.label1.Size = new System.Drawing.Size(59, 20);
             this.label1.TabIndex = 21;
             this.label1.Text = "Buscar";
             // 
@@ -94,15 +94,14 @@
             this.Descripcion,
             this.Precio,
             this.FechaIngreso,
-            this.NombreMarca,
+            this.MarcaId,
             this.CategoriaId,
             this.EstadoId});
-            this.dataGridView1.Location = new System.Drawing.Point(16, 89);
-            this.dataGridView1.Margin = new System.Windows.Forms.Padding(4);
+            this.dataGridView1.Location = new System.Drawing.Point(12, 72);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.ReadOnly = true;
             this.dataGridView1.RowHeadersWidth = 62;
-            this.dataGridView1.Size = new System.Drawing.Size(1087, 478);
+            this.dataGridView1.Size = new System.Drawing.Size(815, 388);
             this.dataGridView1.TabIndex = 23;
             this.dataGridView1.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellClick_1);
             // 
@@ -171,14 +170,14 @@
             this.FechaIngreso.ReadOnly = true;
             this.FechaIngreso.Width = 125;
             // 
-            // NombreMarca
+            // MarcaId
             // 
-            this.NombreMarca.DataPropertyName = "MarcaId";
-            this.NombreMarca.HeaderText = "Marca";
-            this.NombreMarca.MinimumWidth = 6;
-            this.NombreMarca.Name = "NombreMarca";
-            this.NombreMarca.ReadOnly = true;
-            this.NombreMarca.Width = 125;
+            this.MarcaId.DataPropertyName = "MarcaId";
+            this.MarcaId.HeaderText = "Marca";
+            this.MarcaId.MinimumWidth = 6;
+            this.MarcaId.Name = "MarcaId";
+            this.MarcaId.ReadOnly = true;
+            this.MarcaId.Width = 125;
             // 
             // CategoriaId
             // 
@@ -200,15 +199,14 @@
             // 
             // FormProducto
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1119, 594);
+            this.ClientSize = new System.Drawing.Size(839, 483);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btnNuevo);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "FormProducto";
             this.Text = "Producto";
             this.Load += new System.EventHandler(this.FormProducto_Load);
@@ -230,7 +228,7 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn Descripcion;
         private System.Windows.Forms.DataGridViewTextBoxColumn Precio;
         private System.Windows.Forms.DataGridViewTextBoxColumn FechaIngreso;
-        private System.Windows.Forms.DataGridViewTextBoxColumn NombreMarca;
+        private System.Windows.Forms.DataGridViewTextBoxColumn MarcaId;
         private System.Windows.Forms.DataGridViewTextBoxColumn CategoriaId;
         private System.Windows.Forms.DataGridViewTextBoxColumn EstadoId;
     }

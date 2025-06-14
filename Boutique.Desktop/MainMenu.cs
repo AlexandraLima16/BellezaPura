@@ -332,7 +332,8 @@ namespace Boutique.Desktop
 
         private void btnDevolucion_Click(object sender, EventArgs e)
         {
-
+            OpenChildFrom(new FormDevolucion(), sender);
+            hideSubMenu();
         }
     }
 }

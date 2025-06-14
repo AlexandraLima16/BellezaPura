@@ -35,6 +35,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.DirectoryServices" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -46,6 +47,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ControlStock.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ControlStock.Designer.cs">
+      <DependentUpon>ControlStock.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormCargo.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -238,6 +245,12 @@
     <Compile Include="FormProveedoresNuevo.Designer.cs">
       <DependentUpon>FormProveedoresNuevo.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormReporteVentas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormReporteVentas.Designer.cs">
+      <DependentUpon>FormReporteVentas.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormRol.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -294,6 +307,9 @@
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
     <Compile Include="ThemColor.cs" />
+    <EmbeddedResource Include="ControlStock.resx">
+      <DependentUpon>ControlStock.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormCargo.resx">
       <DependentUpon>FormCargo.cs</DependentUpon>
     </EmbeddedResource>
