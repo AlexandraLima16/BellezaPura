@@ -27,22 +27,21 @@ namespace Boutique.DataAcces.DAL
             }
         }
 
-        public bool Insert(Venta entity)
+        public int Insert(Venta entity)
         {
-            bool result = false;
+            int result = -1;
 
             using (SqlConnection conn = new SqlConnection(_cadena))
             {
-                using (SqlCommand cmd = new SqlCommand(" Ventas.SpVentaInsert", conn))
+                using (SqlCommand cmd = new SqlCommand("Ventas.SpVentaInsert", conn))
                 {
                     cmd.CommandType = CommandType.StoredProcedure;
                     cmd.Parameters.AddWithValue("@Fecha", entity.Fecha);
-                    cmd.Parameters.AddWithValue("@Total", entity.Total);
                     cmd.Parameters.AddWithValue("@ClienteId", entity.ClienteId);
-                    cmd.Parameters.AddWithValue("@UsuarioId", entity.UsuarioId);
-                    cmd.Parameters.AddWithValue("@PagoId", entity.PagoId);
+                    cmd.Parameters.AddWithValue("@DUI", entity.DUI);
+                    cmd.Parameters.AddWithValue("@Total", entity.Total);
                     conn.Open();
-                    result = cmd.ExecuteNonQuery() > 0;
+                    result = Convert.ToInt32(cmd.ExecuteScalar());
 
                 }
             }
@@ -65,8 +64,7 @@ namespace Boutique.DataAcces.DAL
                     cmd.Parameters.AddWithValue("@Fecha", entity.Fecha);
                     cmd.Parameters.AddWithValue("@Total", entity.Total);
                     cmd.Parameters.AddWithValue("@ClienteId", entity.ClienteId);
-                    cmd.Parameters.AddWithValue("@UsuarioId", entity.UsuarioId);
-                    cmd.Parameters.AddWithValue("@PagoId", entity.PagoId);
+                    cmd.Parameters.AddWithValue("@DUI", entity.DUI);
                     conn.Open();
                     result = cmd.ExecuteNonQuery() > 0;
 
@@ -100,10 +98,9 @@ namespace Boutique.DataAcces.DAL
                                 Venta entity = new Venta();
                                 entity.VentaId = dr.GetInt32(0);
                                 entity.Fecha = dr.GetDateTime(1);
-                                entity.Total = dr.GetDecimal(2);
-                                entity.ClienteId = dr.GetInt32 (4);
-                                entity.UsuarioId = dr.GetInt32 (4);
-                                entity.PagoId = dr.GetInt32(5);
+                                entity.ClienteId = dr.GetInt32(2);
+                                entity.DUI = dr.GetString(3);
+                                entity.Total = dr.GetDecimal(4);
                                 result.Add(entity);
                             }
                         }

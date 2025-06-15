@@ -26,13 +26,13 @@ namespace Boutique.BusinessLogic.BL
             }
         }
 
-        public bool Insert(Inventario entity)
+        public bool Insert(int Id)
         {
             bool result = false;
 
             try
             {
-                result = InventarioDAL.Instance.Insert(entity); // llama a la clase 
+                result = InventarioDAL.Instance.Insert(Id); // llama a la clase 
             }
             catch (Exception ex)
             {
@@ -42,6 +42,42 @@ namespace Boutique.BusinessLogic.BL
 
             return result;
         }
+
+        public bool InsertCompra(int Id, int Cantidad)
+        {
+            bool result = false;
+
+            try
+            {
+                result = InventarioDAL.Instance.InsertCompra(Id, Cantidad); // llama a la clase 
+            }
+            catch (Exception ex)
+            {
+                //Errores con store 
+                throw new Exception(ex.Message);
+            }
+
+            return result;
+        }
+
+        public bool InsertVenta(int Id, int Cantidad)
+        {
+            bool result = false;
+
+            try
+            {
+                result = InventarioDAL.Instance.InsertVenta(Id,Cantidad); // llama a la clase 
+            }
+            catch (Exception ex)
+            {
+                //Errores con store 
+                throw new Exception(ex.Message);
+            }
+
+            return result;
+        }
+
+
 
         public bool Update(Inventario entity)
         {

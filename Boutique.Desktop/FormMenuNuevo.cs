@@ -277,7 +277,7 @@ namespace Boutique.Desktop
         private void btnVenta_Click(object sender, EventArgs e)
         {
 
-            OpenChildFrom(new FormVentas(), sender);
+            OpenChildFrom(new FormVentas(_user), sender);
             hideSubMenu();
         }
 

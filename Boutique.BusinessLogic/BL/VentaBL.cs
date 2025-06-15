@@ -25,13 +25,22 @@ namespace Boutique.BusinessLogic.BL
             }
         }
 
-        public bool Insert(Venta entity)
+        public int Insert(Venta entity, List< DetVenta> detalle)
         {
-            bool result = false;
+            int result = -1;
 
             try
             {
+
+                //La venta se inserta aca
                 result = VentaDAL.Instance.Insert(entity); // llama a la clase 
+                foreach (DetVenta item in detalle)
+                { 
+                    item.VentaId = result;
+                    //Se procesa
+                    DetVentaBL.Instance.Insert(item);
+                    InventarioBL.Instance.InsertVenta(item.ProductoId, item.Cantidad);
+                }
             }
             catch (Exception ex)
             {

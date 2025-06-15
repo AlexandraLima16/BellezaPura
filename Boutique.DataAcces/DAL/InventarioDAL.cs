@@ -25,17 +25,17 @@ namespace Boutique.DataAcces.DAL
                 return _instance;
             }
         }
-
-        public bool Insert(Inventario entity)
+        //Cuando se agrega un nuevo producto
+        public bool Insert(int Id)
         {
             bool result = false;
 
             using (SqlConnection conn = new SqlConnection(_cadena))
             {
-                using (SqlCommand cmd = new SqlCommand(" Ventas.SpInventarioInsert", conn))
+                using (SqlCommand cmd = new SqlCommand("Ventas.SpInventarioInsert", conn))
                 {
                     cmd.CommandType = CommandType.StoredProcedure;
-                    cmd.Parameters.AddWithValue("@Cantidad", entity.Cantidad);
+                    cmd.Parameters.AddWithValue("@ProductoId", Id);
                     conn.Open();
                     result = cmd.ExecuteNonQuery() > 0;
 
@@ -45,6 +45,53 @@ namespace Boutique.DataAcces.DAL
             return result;
 
         }
+
+        //Cuando hay una venta
+
+        public bool InsertVenta(int Id, int Cantidad)
+        {
+            bool result = false;
+
+            using (SqlConnection conn = new SqlConnection(_cadena))
+            {
+                using (SqlCommand cmd = new SqlCommand("Ventas.SpInventarioVenta", conn))
+                {
+                    cmd.CommandType = CommandType.StoredProcedure;
+                    cmd.Parameters.AddWithValue("@ProductoId", Id);
+                    cmd.Parameters.AddWithValue("@Cantidad", Cantidad);
+                    conn.Open();
+                    result = cmd.ExecuteNonQuery() > 0;
+
+                }
+            }
+
+            return result;
+
+        }
+        //Cuando hay una Compra
+
+        public bool InsertCompra(int Id, int Cantidad)
+        {
+            bool result = false;
+
+            using (SqlConnection conn = new SqlConnection(_cadena))
+            {
+                using (SqlCommand cmd = new SqlCommand("Ventas.SpInventarioCompra", conn))
+                {
+                    cmd.CommandType = CommandType.StoredProcedure;
+                    cmd.Parameters.AddWithValue("@ProductoId", Id);
+                    cmd.Parameters.AddWithValue("@Cantidad", Cantidad);
+                    conn.Open();
+                    result = cmd.ExecuteNonQuery() > 0;
+
+                }
+            }
+
+            return result;
+
+        }
+
+
 
 
         public bool Update(Inventario entity)

@@ -12,7 +12,6 @@ namespace Boutique.Entity.Entidades
         public DateTime Fecha { get; set; }
         public decimal Total { get; set; }
         public int ClienteId { get; set; }
-        public int UsuarioId { get; set; }
-        public int PagoId { get; set; }
+        public string DUI { get; set; }
     }
 }

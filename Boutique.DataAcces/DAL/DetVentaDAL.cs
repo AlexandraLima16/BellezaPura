@@ -33,15 +33,14 @@ namespace Boutique.DataAcces.DAL
 
             using (SqlConnection conn = new SqlConnection(_cadena))
             {
-                using (SqlCommand cmd = new SqlCommand(" Ventas.SpDetventaInsert", conn))
+                using (SqlCommand cmd = new SqlCommand("Ventas.SpDetventaInsert", conn))
                 {
                     cmd.CommandType = CommandType.StoredProcedure;
-                    cmd.Parameters.AddWithValue("@Cantidad", entity.Cantidad);
-                    cmd.Parameters.AddWithValue("@SubTotal", entity.SubTotal);
-                    cmd.Parameters.AddWithValue("@Descripcion", entity.Descripcion);
-                    cmd.Parameters.AddWithValue("@PrecioUnitario", entity.PrecioUnitario);
                     cmd.Parameters.AddWithValue("@VentaId", entity.VentaId);
                     cmd.Parameters.AddWithValue("@ProductoId", entity.ProductoId);
+                    cmd.Parameters.AddWithValue("@Cantidad", entity.Cantidad);
+                    cmd.Parameters.AddWithValue("@PrecioUnitario", entity.PrecioUnitario);
+                    cmd.Parameters.AddWithValue("@SubTotal", entity.SubTotal);
                     conn.Open();
                     result = cmd.ExecuteNonQuery() > 0;
 
@@ -65,7 +64,6 @@ namespace Boutique.DataAcces.DAL
                     cmd.Parameters.AddWithValue("@DetVentaId", entity.VentaId);
                     cmd.Parameters.AddWithValue("@Cantidad", entity.Cantidad);
                     cmd.Parameters.AddWithValue("@SubTotal", entity.SubTotal);
-                    cmd.Parameters.AddWithValue("@Descripcion", entity.Descripcion);
                     cmd.Parameters.AddWithValue("@PrecioUnitario", entity.PrecioUnitario);
                     cmd.Parameters.AddWithValue("@VentaId", entity.VentaId);
                     cmd.Parameters.AddWithValue("@ProductoId", entity.ProductoId);
@@ -104,10 +102,9 @@ namespace Boutique.DataAcces.DAL
                                 entity.DetVentaId = dr.GetInt32(0);
                                 entity.Cantidad = dr.GetInt32(1);
                                 entity.SubTotal = dr.GetInt32(2);
-                                entity.Descripcion = dr.GetString(3);
-                                entity.PrecioUnitario = dr.GetDecimal(4);
-                                entity.VentaId = dr.GetInt32(5);
-                                entity.ProductoId = dr.GetInt32(6);
+                                entity.PrecioUnitario = dr.GetDecimal(3);
+                                entity.VentaId = dr.GetInt32(4);
+                                entity.ProductoId = dr.GetInt32(5);
                                 result.Add(entity);
                             }
                         }
