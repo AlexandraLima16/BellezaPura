@@ -63,8 +63,13 @@ namespace Boutique.Desktop
 
             // Muestra los resultados en el DataGridView
             dataGridView1.DataSource = lista;
-          
-           
+            label10.Text = lista.Count.ToString();
+
+            label8.Text = DateTime.Now.ToString("yyyy-MM-dd");
+            label9.Text = lista.Count.ToString();
+            decimal totalVentas = lista.Sum(x => x.Total);
+            label9.Text = $"${totalVentas:F2}";
+
         }
 
         private void FormReporteVentas_Load(object sender, EventArgs e)
@@ -75,6 +80,13 @@ namespace Boutique.Desktop
             Dfecha.CustomFormat = "yyyy-MM-dd";
 
             
+        }
+
+        private void label10_Click(object sender, EventArgs e)
+
+        {
+           
+       
         }
     }
 }

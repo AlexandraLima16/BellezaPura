@@ -44,7 +44,7 @@ namespace Boutique.DataAcces.DAL
                                 ReportVentas entity = new ReportVentas();
 
                                 entity.VentaId = dr.GetInt32(0);
-                                entity.Producto = dr.GetString(1);
+                                entity.ProductoId = dr.GetString(1);
                                 entity.Fecha = dr.GetDateTime(2);
                                 entity.Cantidad = dr.GetInt32(3);
                                 entity.Total = dr.GetDecimal(4);
@@ -64,7 +64,7 @@ namespace Boutique.DataAcces.DAL
 
             using (SqlConnection conn = new SqlConnection(_cadena))
             {
-                SqlCommand cmd = new SqlCommand("Ventas.SpReportVentasSelectByFecha", conn);
+                SqlCommand cmd = new SqlCommand("Ventas.SpReporteVentasPorFecha", conn);
                 cmd.CommandType = CommandType.StoredProcedure;
                 cmd.Parameters.AddWithValue("@Fecha", fecha.Date);
 
@@ -76,7 +76,7 @@ namespace Boutique.DataAcces.DAL
                     ReportVentas h = new ReportVentas()
                     {
                         VentaId = Convert.ToInt32(reader["VentaId"]),
-                        Producto =reader["Producto"].ToString(),
+                        ProductoId  =reader["Producto"].ToString(),
                         Fecha = Convert.ToDateTime(reader["Fecha"]),
                         Cantidad = Convert.ToInt32(reader["Cantidad"]),
                         Total = Convert.ToInt32(reader["Total"]),
