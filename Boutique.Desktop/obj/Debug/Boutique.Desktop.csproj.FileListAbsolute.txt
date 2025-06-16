@@ -113,3 +113,4 @@ C:\Users\jazmi\Downloads\BellezaPura\Boutique.Desktop\obj\Debug\Boutique.Desktop
 C:\Users\jazmi\Downloads\BellezaPura\Boutique.Desktop\obj\Debug\Boutique.Desktop.pdb
 C:\Users\usuario\Desktop\BoutiqueProgram\Boutique.Desktop\obj\Debug\Boutique.Desktop.FormReporteVentas.resources
 C:\Users\usuario\Desktop\BoutiqueProgram\Boutique.Desktop\obj\Debug\Boutique.Desktop.FormCompra.resources
+C:\Users\jazmi\Downloads\BellezaPura\Boutique.Desktop\obj\Debug\Boutique.Desktop.FormCompra.resources
