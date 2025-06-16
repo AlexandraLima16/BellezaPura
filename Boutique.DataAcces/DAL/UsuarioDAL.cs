@@ -56,7 +56,7 @@ namespace Boutique.DataAcces.DAL
             Usuario user = null;
             using (SqlConnection conn = new SqlConnection(_cadena))
             {
-                SqlCommand cmd = new SqlCommand("sp_Usuario_ObtenerPorDUI", conn);
+                SqlCommand cmd = new SqlCommand("Controlsistema.Usuario_ObtenerPorDUI", conn);
                 cmd.CommandType = CommandType.StoredProcedure;
                 cmd.Parameters.AddWithValue("@DUI", dui);
 
