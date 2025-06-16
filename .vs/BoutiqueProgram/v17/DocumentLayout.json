@@ -1,212 +1,478 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\usuario\\Desktop\\BoutiqueProgram\\",
+  "WorkspaceRootPath": "C:\\Users\\jazmi\\Downloads\\BellezaPura\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DBDA4918-225C-4C8A-AEDC-765D4EEC1C05}|Boutique.Desktop\\Boutique.Desktop.csproj|C:\\Users\\usuario\\Desktop\\BoutiqueProgram\\boutique.desktop\\formventas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DBDA4918-225C-4C8A-AEDC-765D4EEC1C05}|Boutique.Desktop\\Boutique.Desktop.csproj|solutionrelative:boutique.desktop\\formventas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DBDA4918-225C-4C8A-AEDC-765D4EEC1C05}|Boutique.Desktop\\Boutique.Desktop.csproj|c:\\users\\jazmi\\downloads\\bellezapura\\boutique.desktop\\formreporteventas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBDA4918-225C-4C8A-AEDC-765D4EEC1C05}|Boutique.Desktop\\Boutique.Desktop.csproj|solutionrelative:boutique.desktop\\formreporteventas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DBDA4918-225C-4C8A-AEDC-765D4EEC1C05}|Boutique.Desktop\\Boutique.Desktop.csproj|C:\\Users\\usuario\\Desktop\\BoutiqueProgram\\boutique.desktop\\formventas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{DBDA4918-225C-4C8A-AEDC-765D4EEC1C05}|Boutique.Desktop\\Boutique.Desktop.csproj|solutionrelative:boutique.desktop\\formventas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{DBDA4918-225C-4C8A-AEDC-765D4EEC1C05}|Boutique.Desktop\\Boutique.Desktop.csproj|C:\\Users\\jazmi\\Downloads\\BellezaPura\\boutique.desktop\\controlstock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{DBDA4918-225C-4C8A-AEDC-765D4EEC1C05}|Boutique.Desktop\\Boutique.Desktop.csproj|solutionrelative:boutique.desktop\\controlstock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E25B5FC2-41C2-4255-855F-DB757DF56EB4}|Boutique.Entity\\Boutique.Entity.csproj|C:\\Users\\usuario\\Desktop\\BoutiqueProgram\\boutique.entity\\entidades\\detventa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E25B5FC2-41C2-4255-855F-DB757DF56EB4}|Boutique.Entity\\Boutique.Entity.csproj|solutionrelative:boutique.entity\\entidades\\detventa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DBDA4918-225C-4C8A-AEDC-765D4EEC1C05}|Boutique.Desktop\\Boutique.Desktop.csproj|C:\\Users\\jazmi\\Downloads\\BellezaPura\\boutique.desktop\\formproductonuevp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{DBDA4918-225C-4C8A-AEDC-765D4EEC1C05}|Boutique.Desktop\\Boutique.Desktop.csproj|solutionrelative:boutique.desktop\\formproductonuevp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DBDA4918-225C-4C8A-AEDC-765D4EEC1C05}|Boutique.Desktop\\Boutique.Desktop.csproj|C:\\Users\\usuario\\Desktop\\BoutiqueProgram\\boutique.desktop\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DBDA4918-225C-4C8A-AEDC-765D4EEC1C05}|Boutique.Desktop\\Boutique.Desktop.csproj|solutionrelative:boutique.desktop\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A7D45F03-BB5B-4570-99DD-0E7B549BED01}|Boutique.DataAcces\\Boutique.DataAcces.csproj|C:\\Users\\jazmi\\Downloads\\BellezaPura\\boutique.dataacces\\dal\\categoriadal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7D45F03-BB5B-4570-99DD-0E7B549BED01}|Boutique.DataAcces\\Boutique.DataAcces.csproj|solutionrelative:boutique.dataacces\\dal\\categoriadal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A8D5B9C5-A545-4710-93B9-068389EA8086}|Boutique.BusinessLogic\\Boutique.BusinessLogic.csproj|c:\\users\\usuario\\desktop\\boutiqueprogram\\boutique.businesslogic\\bl\\ventabl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A8D5B9C5-A545-4710-93B9-068389EA8086}|Boutique.BusinessLogic\\Boutique.BusinessLogic.csproj|solutionrelative:boutique.businesslogic\\bl\\ventabl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DBDA4918-225C-4C8A-AEDC-765D4EEC1C05}|Boutique.Desktop\\Boutique.Desktop.csproj|C:\\Users\\jazmi\\Downloads\\BellezaPura\\boutique.desktop\\formhistorial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBDA4918-225C-4C8A-AEDC-765D4EEC1C05}|Boutique.Desktop\\Boutique.Desktop.csproj|solutionrelative:boutique.desktop\\formhistorial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A8D5B9C5-A545-4710-93B9-068389EA8086}|Boutique.BusinessLogic\\Boutique.BusinessLogic.csproj|C:\\Users\\usuario\\Desktop\\BoutiqueProgram\\boutique.businesslogic\\bl\\inventariobl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A8D5B9C5-A545-4710-93B9-068389EA8086}|Boutique.BusinessLogic\\Boutique.BusinessLogic.csproj|solutionrelative:boutique.businesslogic\\bl\\inventariobl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A7D45F03-BB5B-4570-99DD-0E7B549BED01}|Boutique.DataAcces\\Boutique.DataAcces.csproj|C:\\Users\\jazmi\\Downloads\\BellezaPura\\boutique.dataacces\\dal\\reporteventasdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7D45F03-BB5B-4570-99DD-0E7B549BED01}|Boutique.DataAcces\\Boutique.DataAcces.csproj|solutionrelative:boutique.dataacces\\dal\\reporteventasdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A7D45F03-BB5B-4570-99DD-0E7B549BED01}|Boutique.DataAcces\\Boutique.DataAcces.csproj|C:\\Users\\usuario\\Desktop\\BoutiqueProgram\\boutique.dataacces\\dal\\inventariodal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A7D45F03-BB5B-4570-99DD-0E7B549BED01}|Boutique.DataAcces\\Boutique.DataAcces.csproj|solutionrelative:boutique.dataacces\\dal\\inventariodal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A8D5B9C5-A545-4710-93B9-068389EA8086}|Boutique.BusinessLogic\\Boutique.BusinessLogic.csproj|C:\\Users\\jazmi\\Downloads\\BellezaPura\\boutique.businesslogic\\bl\\reportventabl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8D5B9C5-A545-4710-93B9-068389EA8086}|Boutique.BusinessLogic\\Boutique.BusinessLogic.csproj|solutionrelative:boutique.businesslogic\\bl\\reportventabl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E25B5FC2-41C2-4255-855F-DB757DF56EB4}|Boutique.Entity\\Boutique.Entity.csproj|C:\\Users\\usuario\\Desktop\\BoutiqueProgram\\boutique.entity\\entidades\\venta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E25B5FC2-41C2-4255-855F-DB757DF56EB4}|Boutique.Entity\\Boutique.Entity.csproj|solutionrelative:boutique.entity\\entidades\\venta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DBDA4918-225C-4C8A-AEDC-765D4EEC1C05}|Boutique.Desktop\\Boutique.Desktop.csproj|C:\\Users\\jazmi\\Downloads\\BellezaPura\\boutique.desktop\\formreporteventas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{DBDA4918-225C-4C8A-AEDC-765D4EEC1C05}|Boutique.Desktop\\Boutique.Desktop.csproj|solutionrelative:boutique.desktop\\formreporteventas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DBDA4918-225C-4C8A-AEDC-765D4EEC1C05}|Boutique.Desktop\\Boutique.Desktop.csproj|C:\\Users\\usuario\\Desktop\\BoutiqueProgram\\boutique.desktop\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DBDA4918-225C-4C8A-AEDC-765D4EEC1C05}|Boutique.Desktop\\Boutique.Desktop.csproj|solutionrelative:boutique.desktop\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DBDA4918-225C-4C8A-AEDC-765D4EEC1C05}|Boutique.Desktop\\Boutique.Desktop.csproj|C:\\Users\\jazmi\\Downloads\\BellezaPura\\boutique.desktop\\formrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{DBDA4918-225C-4C8A-AEDC-765D4EEC1C05}|Boutique.Desktop\\Boutique.Desktop.csproj|solutionrelative:boutique.desktop\\formrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DBDA4918-225C-4C8A-AEDC-765D4EEC1C05}|Boutique.Desktop\\Boutique.Desktop.csproj|C:\\Users\\usuario\\Desktop\\BoutiqueProgram\\boutique.desktop\\formmenunuevo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DBDA4918-225C-4C8A-AEDC-765D4EEC1C05}|Boutique.Desktop\\Boutique.Desktop.csproj|C:\\Users\\jazmi\\Downloads\\BellezaPura\\boutique.desktop\\formrolnuevo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{DBDA4918-225C-4C8A-AEDC-765D4EEC1C05}|Boutique.Desktop\\Boutique.Desktop.csproj|solutionrelative:boutique.desktop\\formrolnuevo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7D45F03-BB5B-4570-99DD-0E7B549BED01}|Boutique.DataAcces\\Boutique.DataAcces.csproj|c:\\users\\jazmi\\downloads\\bellezapura\\boutique.dataacces\\dal\\cargodal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7D45F03-BB5B-4570-99DD-0E7B549BED01}|Boutique.DataAcces\\Boutique.DataAcces.csproj|solutionrelative:boutique.dataacces\\dal\\cargodal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7D45F03-BB5B-4570-99DD-0E7B549BED01}|Boutique.DataAcces\\Boutique.DataAcces.csproj|C:\\Users\\jazmi\\Downloads\\BellezaPura\\boutique.dataacces\\dal\\historialdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7D45F03-BB5B-4570-99DD-0E7B549BED01}|Boutique.DataAcces\\Boutique.DataAcces.csproj|solutionrelative:boutique.dataacces\\dal\\historialdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8D5B9C5-A545-4710-93B9-068389EA8086}|Boutique.BusinessLogic\\Boutique.BusinessLogic.csproj|C:\\Users\\jazmi\\Downloads\\BellezaPura\\boutique.businesslogic\\bl\\historialbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8D5B9C5-A545-4710-93B9-068389EA8086}|Boutique.BusinessLogic\\Boutique.BusinessLogic.csproj|solutionrelative:boutique.businesslogic\\bl\\historialbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBDA4918-225C-4C8A-AEDC-765D4EEC1C05}|Boutique.Desktop\\Boutique.Desktop.csproj|C:\\Users\\jazmi\\Downloads\\BellezaPura\\boutique.desktop\\formcargo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{DBDA4918-225C-4C8A-AEDC-765D4EEC1C05}|Boutique.Desktop\\Boutique.Desktop.csproj|solutionrelative:boutique.desktop\\formcargo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E25B5FC2-41C2-4255-855F-DB757DF56EB4}|Boutique.Entity\\Boutique.Entity.csproj|C:\\Users\\jazmi\\Downloads\\BellezaPura\\boutique.entity\\entidades\\reportventas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E25B5FC2-41C2-4255-855F-DB757DF56EB4}|Boutique.Entity\\Boutique.Entity.csproj|solutionrelative:boutique.entity\\entidades\\reportventas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBDA4918-225C-4C8A-AEDC-765D4EEC1C05}|Boutique.Desktop\\Boutique.Desktop.csproj|C:\\Users\\jazmi\\Downloads\\BellezaPura\\boutique.desktop\\formmenunuevo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DBDA4918-225C-4C8A-AEDC-765D4EEC1C05}|Boutique.Desktop\\Boutique.Desktop.csproj|solutionrelative:boutique.desktop\\formmenunuevo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A7D45F03-BB5B-4570-99DD-0E7B549BED01}|Boutique.DataAcces\\Boutique.DataAcces.csproj|C:\\Users\\usuario\\Desktop\\BoutiqueProgram\\boutique.dataacces\\dal\\ventadal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DBDA4918-225C-4C8A-AEDC-765D4EEC1C05}|Boutique.Desktop\\Boutique.Desktop.csproj|C:\\Users\\jazmi\\Downloads\\BellezaPura\\boutique.desktop\\formmenunuevo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{DBDA4918-225C-4C8A-AEDC-765D4EEC1C05}|Boutique.Desktop\\Boutique.Desktop.csproj|solutionrelative:boutique.desktop\\formmenunuevo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBDA4918-225C-4C8A-AEDC-765D4EEC1C05}|Boutique.Desktop\\Boutique.Desktop.csproj|C:\\Users\\jazmi\\Downloads\\BellezaPura\\boutique.desktop\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{DBDA4918-225C-4C8A-AEDC-765D4EEC1C05}|Boutique.Desktop\\Boutique.Desktop.csproj|solutionrelative:boutique.desktop\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7D45F03-BB5B-4570-99DD-0E7B549BED01}|Boutique.DataAcces\\Boutique.DataAcces.csproj|C:\\Users\\jazmi\\Downloads\\BellezaPura\\boutique.dataacces\\dal\\empleadodal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7D45F03-BB5B-4570-99DD-0E7B549BED01}|Boutique.DataAcces\\Boutique.DataAcces.csproj|solutionrelative:boutique.dataacces\\dal\\empleadodal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBDA4918-225C-4C8A-AEDC-765D4EEC1C05}|Boutique.Desktop\\Boutique.Desktop.csproj|C:\\Users\\jazmi\\Downloads\\BellezaPura\\boutique.desktop\\formhistorial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{DBDA4918-225C-4C8A-AEDC-765D4EEC1C05}|Boutique.Desktop\\Boutique.Desktop.csproj|solutionrelative:boutique.desktop\\formhistorial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8D5B9C5-A545-4710-93B9-068389EA8086}|Boutique.BusinessLogic\\Boutique.BusinessLogic.csproj|C:\\Users\\jazmi\\Downloads\\BellezaPura\\boutique.businesslogic\\bl\\cargobl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8D5B9C5-A545-4710-93B9-068389EA8086}|Boutique.BusinessLogic\\Boutique.BusinessLogic.csproj|solutionrelative:boutique.businesslogic\\bl\\cargobl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBDA4918-225C-4C8A-AEDC-765D4EEC1C05}|Boutique.Desktop\\Boutique.Desktop.csproj|C:\\Users\\jazmi\\Downloads\\BellezaPura\\boutique.desktop\\formventas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{DBDA4918-225C-4C8A-AEDC-765D4EEC1C05}|Boutique.Desktop\\Boutique.Desktop.csproj|solutionrelative:boutique.desktop\\formventas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7D45F03-BB5B-4570-99DD-0E7B549BED01}|Boutique.DataAcces\\Boutique.DataAcces.csproj|C:\\Users\\jazmi\\Downloads\\BellezaPura\\boutique.dataacces\\dal\\ventadal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A7D45F03-BB5B-4570-99DD-0E7B549BED01}|Boutique.DataAcces\\Boutique.DataAcces.csproj|solutionrelative:boutique.dataacces\\dal\\ventadal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A7D45F03-BB5B-4570-99DD-0E7B549BED01}|Boutique.DataAcces\\Boutique.DataAcces.csproj|C:\\Users\\usuario\\Desktop\\BoutiqueProgram\\boutique.dataacces\\dal\\detventadal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A7D45F03-BB5B-4570-99DD-0E7B549BED01}|Boutique.DataAcces\\Boutique.DataAcces.csproj|solutionrelative:boutique.dataacces\\dal\\detventadal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A7D45F03-BB5B-4570-99DD-0E7B549BED01}|Boutique.DataAcces\\Boutique.DataAcces.csproj|C:\\Users\\jazmi\\Downloads\\BellezaPura\\boutique.dataacces\\dal\\inventariodal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7D45F03-BB5B-4570-99DD-0E7B549BED01}|Boutique.DataAcces\\Boutique.DataAcces.csproj|solutionrelative:boutique.dataacces\\dal\\inventariodal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBDA4918-225C-4C8A-AEDC-765D4EEC1C05}|Boutique.Desktop\\Boutique.Desktop.csproj|C:\\Users\\jazmi\\Downloads\\BellezaPura\\boutique.desktop\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{DBDA4918-225C-4C8A-AEDC-765D4EEC1C05}|Boutique.Desktop\\Boutique.Desktop.csproj|solutionrelative:boutique.desktop\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBDA4918-225C-4C8A-AEDC-765D4EEC1C05}|Boutique.Desktop\\Boutique.Desktop.csproj|C:\\Users\\jazmi\\Downloads\\BellezaPura\\boutique.desktop\\formcargonuevo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{DBDA4918-225C-4C8A-AEDC-765D4EEC1C05}|Boutique.Desktop\\Boutique.Desktop.csproj|solutionrelative:boutique.desktop\\formcargonuevo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBDA4918-225C-4C8A-AEDC-765D4EEC1C05}|Boutique.Desktop\\Boutique.Desktop.csproj|C:\\Users\\jazmi\\Downloads\\BellezaPura\\boutique.desktop\\forminventario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBDA4918-225C-4C8A-AEDC-765D4EEC1C05}|Boutique.Desktop\\Boutique.Desktop.csproj|solutionrelative:boutique.desktop\\forminventario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBDA4918-225C-4C8A-AEDC-765D4EEC1C05}|Boutique.Desktop\\Boutique.Desktop.csproj|C:\\Users\\jazmi\\Downloads\\BellezaPura\\boutique.desktop\\forminventario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{DBDA4918-225C-4C8A-AEDC-765D4EEC1C05}|Boutique.Desktop\\Boutique.Desktop.csproj|solutionrelative:boutique.desktop\\forminventario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
-      "VerticalTabListWidth": 256,
+      "VerticalTabListWidth": 142,
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 15,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "FormVentas.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\usuario\\Desktop\\BoutiqueProgram\\Boutique.Desktop\\FormVentas.cs",
-              "RelativeDocumentMoniker": "Boutique.Desktop\\FormVentas.cs",
-              "ToolTip": "C:\\Users\\usuario\\Desktop\\BoutiqueProgram\\Boutique.Desktop\\FormVentas.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Boutique.Desktop\\FormVentas.cs [Dise\u00F1o]",
+              "DocumentIndex": 26,
+              "Title": "FormInventario.cs",
+              "DocumentMoniker": "C:\\Users\\jazmi\\Downloads\\BellezaPura\\Boutique.Desktop\\FormInventario.cs",
+              "RelativeDocumentMoniker": "Boutique.Desktop\\FormInventario.cs",
+              "ToolTip": "C:\\Users\\jazmi\\Downloads\\BellezaPura\\Boutique.Desktop\\FormInventario.cs",
+              "RelativeToolTip": "Boutique.Desktop\\FormInventario.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAqwB4AAABIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-14T19:35:28.088Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2025-06-15T15:41:13.134Z",
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "FormVentas.cs",
-              "DocumentMoniker": "C:\\Users\\usuario\\Desktop\\BoutiqueProgram\\Boutique.Desktop\\FormVentas.cs",
-              "RelativeDocumentMoniker": "Boutique.Desktop\\FormVentas.cs",
-              "ToolTip": "C:\\Users\\usuario\\Desktop\\BoutiqueProgram\\Boutique.Desktop\\FormVentas.cs",
-              "RelativeToolTip": "Boutique.Desktop\\FormVentas.cs",
-              "ViewState": "AQIAAFQAAAAAAAAAAAAowFAAAABSAAAA",
+              "DocumentIndex": 27,
+              "Title": "FormInventario.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\jazmi\\Downloads\\BellezaPura\\Boutique.Desktop\\FormInventario.cs",
+              "RelativeDocumentMoniker": "Boutique.Desktop\\FormInventario.cs",
+              "ToolTip": "C:\\Users\\jazmi\\Downloads\\BellezaPura\\Boutique.Desktop\\FormInventario.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Boutique.Desktop\\FormInventario.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-14T19:58:07.797Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-15T15:39:12.442Z",
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "VentaBL.cs",
-              "DocumentMoniker": "C:\\Users\\usuario\\Desktop\\BoutiqueProgram\\Boutique.BusinessLogic\\BL\\VentaBL.cs",
-              "RelativeDocumentMoniker": "Boutique.BusinessLogic\\BL\\VentaBL.cs",
-              "ToolTip": "C:\\Users\\usuario\\Desktop\\BoutiqueProgram\\Boutique.BusinessLogic\\BL\\VentaBL.cs",
-              "RelativeToolTip": "Boutique.BusinessLogic\\BL\\VentaBL.cs",
-              "ViewState": "AQIAABYAAAAAAAAAAAAWwCkAAABWAAAA",
+              "DocumentIndex": 25,
+              "Title": "FormCargoNuevo.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\jazmi\\Downloads\\BellezaPura\\Boutique.Desktop\\FormCargoNuevo.cs",
+              "RelativeDocumentMoniker": "Boutique.Desktop\\FormCargoNuevo.cs",
+              "ToolTip": "C:\\Users\\jazmi\\Downloads\\BellezaPura\\Boutique.Desktop\\FormCargoNuevo.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Boutique.Desktop\\FormCargoNuevo.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-15T00:56:58.459Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-15T17:05:50.264Z",
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\usuario\\Desktop\\BoutiqueProgram\\Boutique.Desktop\\Program.cs",
-              "RelativeDocumentMoniker": "Boutique.Desktop\\Program.cs",
-              "ToolTip": "C:\\Users\\usuario\\Desktop\\BoutiqueProgram\\Boutique.Desktop\\Program.cs",
-              "RelativeToolTip": "Boutique.Desktop\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAArAAAA",
+              "DocumentIndex": 14,
+              "Title": "ReportVentas.cs",
+              "DocumentMoniker": "C:\\Users\\jazmi\\Downloads\\BellezaPura\\Boutique.Entity\\Entidades\\ReportVentas.cs",
+              "RelativeDocumentMoniker": "Boutique.Entity\\Entidades\\ReportVentas.cs",
+              "ToolTip": "C:\\Users\\jazmi\\Downloads\\BellezaPura\\Boutique.Entity\\Entidades\\ReportVentas.cs",
+              "RelativeToolTip": "Boutique.Entity\\Entidades\\ReportVentas.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-15T04:04:34.439Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-15T19:52:24.391Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "InventarioBL.cs",
-              "DocumentMoniker": "C:\\Users\\usuario\\Desktop\\BoutiqueProgram\\Boutique.BusinessLogic\\BL\\InventarioBL.cs",
-              "RelativeDocumentMoniker": "Boutique.BusinessLogic\\BL\\InventarioBL.cs",
-              "ToolTip": "C:\\Users\\usuario\\Desktop\\BoutiqueProgram\\Boutique.BusinessLogic\\BL\\InventarioBL.cs*",
-              "RelativeToolTip": "Boutique.BusinessLogic\\BL\\InventarioBL.cs*",
-              "ViewState": "AQIAADIAAAAAAAAAAAAQwD8AAAAJAAAA",
+              "DocumentIndex": 16,
+              "Title": "FormMenuNuevo.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\jazmi\\Downloads\\BellezaPura\\Boutique.Desktop\\FormMenuNuevo.cs",
+              "RelativeDocumentMoniker": "Boutique.Desktop\\FormMenuNuevo.cs",
+              "ToolTip": "C:\\Users\\jazmi\\Downloads\\BellezaPura\\Boutique.Desktop\\FormMenuNuevo.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Boutique.Desktop\\FormMenuNuevo.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-15T04:54:51.857Z"
+              "WhenOpened": "2025-06-15T19:45:15.96Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "DetVenta.cs",
-              "DocumentMoniker": "C:\\Users\\usuario\\Desktop\\BoutiqueProgram\\Boutique.Entity\\Entidades\\DetVenta.cs",
-              "RelativeDocumentMoniker": "Boutique.Entity\\Entidades\\DetVenta.cs",
-              "ToolTip": "C:\\Users\\usuario\\Desktop\\BoutiqueProgram\\Boutique.Entity\\Entidades\\DetVenta.cs",
-              "RelativeToolTip": "Boutique.Entity\\Entidades\\DetVenta.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "DocumentIndex": 17,
+              "Title": "MainMenu.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\jazmi\\Downloads\\BellezaPura\\Boutique.Desktop\\MainMenu.cs",
+              "RelativeDocumentMoniker": "Boutique.Desktop\\MainMenu.cs",
+              "ToolTip": "C:\\Users\\jazmi\\Downloads\\BellezaPura\\Boutique.Desktop\\MainMenu.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Boutique.Desktop\\MainMenu.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-15T03:32:36.104Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-15T19:45:03.869Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "HistorialBL.cs",
+              "DocumentMoniker": "C:\\Users\\jazmi\\Downloads\\BellezaPura\\Boutique.BusinessLogic\\BL\\HistorialBL.cs",
+              "RelativeDocumentMoniker": "Boutique.BusinessLogic\\BL\\HistorialBL.cs",
+              "ToolTip": "C:\\Users\\jazmi\\Downloads\\BellezaPura\\Boutique.BusinessLogic\\BL\\HistorialBL.cs",
+              "RelativeToolTip": "Boutique.BusinessLogic\\BL\\HistorialBL.cs",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAowEsAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T18:48:02.621Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "HistorialDAL.cs",
+              "DocumentMoniker": "C:\\Users\\jazmi\\Downloads\\BellezaPura\\Boutique.DataAcces\\DAL\\HistorialDAL.cs",
+              "RelativeDocumentMoniker": "Boutique.DataAcces\\DAL\\HistorialDAL.cs",
+              "ToolTip": "C:\\Users\\jazmi\\Downloads\\BellezaPura\\Boutique.DataAcces\\DAL\\HistorialDAL.cs",
+              "RelativeToolTip": "Boutique.DataAcces\\DAL\\HistorialDAL.cs",
+              "ViewState": "AQIAAFkAAAAAAAAAAAAowF8AAABYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T18:28:57.743Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "CargoBL.cs",
+              "DocumentMoniker": "C:\\Users\\jazmi\\Downloads\\BellezaPura\\Boutique.BusinessLogic\\BL\\CargoBL.cs",
+              "RelativeDocumentMoniker": "Boutique.BusinessLogic\\BL\\CargoBL.cs",
+              "ToolTip": "C:\\Users\\jazmi\\Downloads\\BellezaPura\\Boutique.BusinessLogic\\BL\\CargoBL.cs",
+              "RelativeToolTip": "Boutique.BusinessLogic\\BL\\CargoBL.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T18:22:31.171Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "InventarioDAL.cs",
-              "DocumentMoniker": "C:\\Users\\usuario\\Desktop\\BoutiqueProgram\\Boutique.DataAcces\\DAL\\InventarioDAL.cs",
-              "RelativeDocumentMoniker": "Boutique.DataAcces\\DAL\\InventarioDAL.cs",
-              "ToolTip": "C:\\Users\\usuario\\Desktop\\BoutiqueProgram\\Boutique.DataAcces\\DAL\\InventarioDAL.cs*",
-              "RelativeToolTip": "Boutique.DataAcces\\DAL\\InventarioDAL.cs*",
-              "ViewState": "AQIAADkAAAAAAAAAAAAYwCgAAAAAAAAA",
+              "Title": "ReportVentaBL.cs",
+              "DocumentMoniker": "C:\\Users\\jazmi\\Downloads\\BellezaPura\\Boutique.BusinessLogic\\BL\\ReportVentaBL.cs",
+              "RelativeDocumentMoniker": "Boutique.BusinessLogic\\BL\\ReportVentaBL.cs",
+              "ToolTip": "C:\\Users\\jazmi\\Downloads\\BellezaPura\\Boutique.BusinessLogic\\BL\\ReportVentaBL.cs",
+              "RelativeToolTip": "Boutique.BusinessLogic\\BL\\ReportVentaBL.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAowCoAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-15T04:54:55.66Z"
+              "WhenOpened": "2025-06-15T18:22:26.928Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "MainMenu.cs",
-              "DocumentMoniker": "C:\\Users\\usuario\\Desktop\\BoutiqueProgram\\Boutique.Desktop\\MainMenu.cs",
-              "RelativeDocumentMoniker": "Boutique.Desktop\\MainMenu.cs",
-              "ToolTip": "C:\\Users\\usuario\\Desktop\\BoutiqueProgram\\Boutique.Desktop\\MainMenu.cs",
-              "RelativeToolTip": "Boutique.Desktop\\MainMenu.cs",
-              "ViewState": "AQIAAKAAAAAAAAAAAAAjwKwAAAAuAAAA",
+              "DocumentIndex": 18,
+              "Title": "EmpleadoDAL.cs",
+              "DocumentMoniker": "C:\\Users\\jazmi\\Downloads\\BellezaPura\\Boutique.DataAcces\\DAL\\EmpleadoDAL.cs",
+              "RelativeDocumentMoniker": "Boutique.DataAcces\\DAL\\EmpleadoDAL.cs",
+              "ToolTip": "C:\\Users\\jazmi\\Downloads\\BellezaPura\\Boutique.DataAcces\\DAL\\EmpleadoDAL.cs",
+              "RelativeToolTip": "Boutique.DataAcces\\DAL\\EmpleadoDAL.cs",
+              "ViewState": "AQIAAFkAAAAAAAAAAAAwwHsAAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-15T02:58:01.739Z"
+              "WhenOpened": "2025-06-15T18:18:05.898Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ReporteVentasDAL.cs",
+              "DocumentMoniker": "C:\\Users\\jazmi\\Downloads\\BellezaPura\\Boutique.DataAcces\\DAL\\ReporteVentasDAL.cs",
+              "RelativeDocumentMoniker": "Boutique.DataAcces\\DAL\\ReporteVentasDAL.cs",
+              "ToolTip": "C:\\Users\\jazmi\\Downloads\\BellezaPura\\Boutique.DataAcces\\DAL\\ReporteVentasDAL.cs",
+              "RelativeToolTip": "Boutique.DataAcces\\DAL\\ReporteVentasDAL.cs",
+              "ViewState": "AQIAADAAAAAAAAAAAAAcwE4AAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T17:36:39.319Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FormHistorial.cs",
+              "DocumentMoniker": "C:\\Users\\jazmi\\Downloads\\BellezaPura\\Boutique.Desktop\\FormHistorial.cs",
+              "RelativeDocumentMoniker": "Boutique.Desktop\\FormHistorial.cs",
+              "ToolTip": "C:\\Users\\jazmi\\Downloads\\BellezaPura\\Boutique.Desktop\\FormHistorial.cs",
+              "RelativeToolTip": "Boutique.Desktop\\FormHistorial.cs",
+              "ViewState": "AQIAAEIAAAAAAAAAAAA4wFMAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T17:20:24.016Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CategoriaDAL.cs",
+              "DocumentMoniker": "C:\\Users\\jazmi\\Downloads\\BellezaPura\\Boutique.DataAcces\\DAL\\CategoriaDAL.cs",
+              "RelativeDocumentMoniker": "Boutique.DataAcces\\DAL\\CategoriaDAL.cs",
+              "ToolTip": "C:\\Users\\jazmi\\Downloads\\BellezaPura\\Boutique.DataAcces\\DAL\\CategoriaDAL.cs",
+              "RelativeToolTip": "Boutique.DataAcces\\DAL\\CategoriaDAL.cs",
+              "ViewState": "AQIAAHYAAAAAAAAAAAAcwI4AAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T17:34:55.514Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "FormCargo.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\jazmi\\Downloads\\BellezaPura\\Boutique.Desktop\\FormCargo.cs",
+              "RelativeDocumentMoniker": "Boutique.Desktop\\FormCargo.cs",
+              "ToolTip": "C:\\Users\\jazmi\\Downloads\\BellezaPura\\Boutique.Desktop\\FormCargo.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Boutique.Desktop\\FormCargo.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T17:05:52.517Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FormReporteVentas.cs",
+              "DocumentMoniker": "C:\\Users\\jazmi\\Downloads\\BellezaPura\\Boutique.Desktop\\FormReporteVentas.cs",
+              "RelativeDocumentMoniker": "Boutique.Desktop\\FormReporteVentas.cs",
+              "ToolTip": "C:\\Users\\jazmi\\Downloads\\BellezaPura\\Boutique.Desktop\\FormReporteVentas.cs",
+              "RelativeToolTip": "Boutique.Desktop\\FormReporteVentas.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADYAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T16:45:00.124Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ControlStock.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\jazmi\\Downloads\\BellezaPura\\Boutique.Desktop\\ControlStock.cs",
+              "RelativeDocumentMoniker": "Boutique.Desktop\\ControlStock.cs",
+              "ToolTip": "C:\\Users\\jazmi\\Downloads\\BellezaPura\\Boutique.Desktop\\ControlStock.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Boutique.Desktop\\ControlStock.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T16:21:22.204Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FormProductoNuevp.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\jazmi\\Downloads\\BellezaPura\\Boutique.Desktop\\FormProductoNuevp.cs",
+              "RelativeDocumentMoniker": "Boutique.Desktop\\FormProductoNuevp.cs",
+              "ToolTip": "C:\\Users\\jazmi\\Downloads\\BellezaPura\\Boutique.Desktop\\FormProductoNuevp.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Boutique.Desktop\\FormProductoNuevp.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T16:20:42.58Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
+              "Title": "FormRolNuevo.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\jazmi\\Downloads\\BellezaPura\\Boutique.Desktop\\FormRolNuevo.cs",
+              "RelativeDocumentMoniker": "Boutique.Desktop\\FormRolNuevo.cs",
+              "ToolTip": "C:\\Users\\jazmi\\Downloads\\BellezaPura\\Boutique.Desktop\\FormRolNuevo.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Boutique.Desktop\\FormRolNuevo.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T16:20:38.13Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "FormRol.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\jazmi\\Downloads\\BellezaPura\\Boutique.Desktop\\FormRol.cs",
+              "RelativeDocumentMoniker": "Boutique.Desktop\\FormRol.cs",
+              "ToolTip": "C:\\Users\\jazmi\\Downloads\\BellezaPura\\Boutique.Desktop\\FormRol.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Boutique.Desktop\\FormRol.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T16:20:35.556Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "FormReporteVentas.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\jazmi\\Downloads\\BellezaPura\\Boutique.Desktop\\FormReporteVentas.cs",
+              "RelativeDocumentMoniker": "Boutique.Desktop\\FormReporteVentas.cs",
+              "ToolTip": "C:\\Users\\jazmi\\Downloads\\BellezaPura\\Boutique.Desktop\\FormReporteVentas.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Boutique.Desktop\\FormReporteVentas.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T16:17:35.154Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "FormVentas.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\jazmi\\Downloads\\BellezaPura\\Boutique.Desktop\\FormVentas.cs",
+              "RelativeDocumentMoniker": "Boutique.Desktop\\FormVentas.cs",
+              "ToolTip": "C:\\Users\\jazmi\\Downloads\\BellezaPura\\Boutique.Desktop\\FormVentas.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Boutique.Desktop\\FormVentas.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T16:17:26.12Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "InventarioDAL.cs",
+              "DocumentMoniker": "C:\\Users\\jazmi\\Downloads\\BellezaPura\\Boutique.DataAcces\\DAL\\InventarioDAL.cs",
+              "RelativeDocumentMoniker": "Boutique.DataAcces\\DAL\\InventarioDAL.cs",
+              "ToolTip": "C:\\Users\\jazmi\\Downloads\\BellezaPura\\Boutique.DataAcces\\DAL\\InventarioDAL.cs",
+              "RelativeToolTip": "Boutique.DataAcces\\DAL\\InventarioDAL.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T15:55:56.258Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "FormHistorial.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\jazmi\\Downloads\\BellezaPura\\Boutique.Desktop\\FormHistorial.cs",
+              "RelativeDocumentMoniker": "Boutique.Desktop\\FormHistorial.cs",
+              "ToolTip": "C:\\Users\\jazmi\\Downloads\\BellezaPura\\Boutique.Desktop\\FormHistorial.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Boutique.Desktop\\FormHistorial.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T15:39:12.676Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "App.config",
+              "DocumentMoniker": "C:\\Users\\jazmi\\Downloads\\BellezaPura\\Boutique.Desktop\\App.config",
+              "RelativeDocumentMoniker": "Boutique.Desktop\\App.config",
+              "ToolTip": "C:\\Users\\jazmi\\Downloads\\BellezaPura\\Boutique.Desktop\\App.config",
+              "RelativeToolTip": "Boutique.Desktop\\App.config",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAABGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-06-15T14:57:34Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
               "Title": "FormMenuNuevo.cs",
-              "DocumentMoniker": "C:\\Users\\usuario\\Desktop\\BoutiqueProgram\\Boutique.Desktop\\FormMenuNuevo.cs",
+              "DocumentMoniker": "C:\\Users\\jazmi\\Downloads\\BellezaPura\\Boutique.Desktop\\FormMenuNuevo.cs",
               "RelativeDocumentMoniker": "Boutique.Desktop\\FormMenuNuevo.cs",
-              "ToolTip": "C:\\Users\\usuario\\Desktop\\BoutiqueProgram\\Boutique.Desktop\\FormMenuNuevo.cs",
+              "ToolTip": "C:\\Users\\jazmi\\Downloads\\BellezaPura\\Boutique.Desktop\\FormMenuNuevo.cs",
               "RelativeToolTip": "Boutique.Desktop\\FormMenuNuevo.cs",
-              "ViewState": "AQIAAAgBAAAAAAAAAAAjwBcBAAAuAAAA",
+              "ViewState": "AQIAAC8BAAAAAAAAAAAqwHMBAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-15T02:57:05.763Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Venta.cs",
-              "DocumentMoniker": "C:\\Users\\usuario\\Desktop\\BoutiqueProgram\\Boutique.Entity\\Entidades\\Venta.cs",
-              "RelativeDocumentMoniker": "Boutique.Entity\\Entidades\\Venta.cs",
-              "ToolTip": "C:\\Users\\usuario\\Desktop\\BoutiqueProgram\\Boutique.Entity\\Entidades\\Venta.cs",
-              "RelativeToolTip": "Boutique.Entity\\Entidades\\Venta.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAArAAAA",
+              "DocumentIndex": 22,
+              "Title": "VentaDAL.cs",
+              "DocumentMoniker": "C:\\Users\\jazmi\\Downloads\\BellezaPura\\Boutique.DataAcces\\DAL\\VentaDAL.cs",
+              "RelativeDocumentMoniker": "Boutique.DataAcces\\DAL\\VentaDAL.cs",
+              "ToolTip": "C:\\Users\\jazmi\\Downloads\\BellezaPura\\Boutique.DataAcces\\DAL\\VentaDAL.cs",
+              "RelativeToolTip": "Boutique.DataAcces\\DAL\\VentaDAL.cs",
+              "ViewState": "AQIAAEwAAAAAAAAAAAAlwGYAAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-15T00:42:05.268Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "DetVentaDAL.cs",
-              "DocumentMoniker": "C:\\Users\\usuario\\Desktop\\BoutiqueProgram\\Boutique.DataAcces\\DAL\\DetVentaDAL.cs",
-              "RelativeDocumentMoniker": "Boutique.DataAcces\\DAL\\DetVentaDAL.cs",
-              "ToolTip": "C:\\Users\\usuario\\Desktop\\BoutiqueProgram\\Boutique.DataAcces\\DAL\\DetVentaDAL.cs",
-              "RelativeToolTip": "Boutique.DataAcces\\DAL\\DetVentaDAL.cs",
-              "ViewState": "AQIAABkAAAAAAAAAAAAUwCMAAAA4AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-15T02:00:27.64Z"
-            },
+              "WhenOpened": "2025-06-15T00:56:10.273Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 100,
+      "FloatingWindowState": {
+        "Id": "44498e91-3b99-4e82-99c8-af0e75314bcf",
+        "Display": 0,
+        "X": 138,
+        "Y": 272,
+        "Width": 1101,
+        "Height": 670,
+        "WindowState": 0
+      },
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 10,
-              "Title": "VentaDAL.cs",
-              "DocumentMoniker": "C:\\Users\\usuario\\Desktop\\BoutiqueProgram\\Boutique.DataAcces\\DAL\\VentaDAL.cs",
-              "RelativeDocumentMoniker": "Boutique.DataAcces\\DAL\\VentaDAL.cs",
-              "ToolTip": "C:\\Users\\usuario\\Desktop\\BoutiqueProgram\\Boutique.DataAcces\\DAL\\VentaDAL.cs",
-              "RelativeToolTip": "Boutique.DataAcces\\DAL\\VentaDAL.cs",
-              "ViewState": "AQIAAB0AAAAAAAAAAAAawDIAAAAIAAAA",
+              "Title": "CargoDAL.cs",
+              "DocumentMoniker": "C:\\Users\\jazmi\\Downloads\\BellezaPura\\Boutique.DataAcces\\DAL\\CargoDAL.cs",
+              "RelativeDocumentMoniker": "Boutique.DataAcces\\DAL\\CargoDAL.cs",
+              "ToolTip": "C:\\Users\\jazmi\\Downloads\\BellezaPura\\Boutique.DataAcces\\DAL\\CargoDAL.cs",
+              "RelativeToolTip": "Boutique.DataAcces\\DAL\\CargoDAL.cs",
+              "ViewState": "AQIAAFAAAAAAAAAAAAAIwGcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-15T00:56:10.273Z"
+              "WhenOpened": "2025-06-15T17:36:59.335Z",
+              "EditorCaption": ""
             }
           ]
         }

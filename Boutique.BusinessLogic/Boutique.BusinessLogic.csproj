@@ -58,6 +58,7 @@
     <Compile Include="BL\PagoBL.cs" />
     <Compile Include="BL\ProductoBL.cs" />
     <Compile Include="BL\ProveedorBL.cs" />
+    <Compile Include="BL\ReportVentaBL.cs" />
     <Compile Include="BL\RolBL.cs" />
     <Compile Include="BL\UsuarioBL.cs" />
     <Compile Include="BL\VentaBL.cs" />

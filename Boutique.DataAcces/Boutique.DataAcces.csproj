@@ -59,6 +59,7 @@
     <Compile Include="DAL\PagoDAL.cs" />
     <Compile Include="DAL\ProductoDAL.cs" />
     <Compile Include="DAL\ProveedorDAL.cs" />
+    <Compile Include="DAL\ReporteVentasDAL.cs" />
     <Compile Include="DAL\RolDAL.cs" />
     <Compile Include="DAL\HistorialDAL.cs" />
     <Compile Include="DAL\UsuarioDAL.cs" />

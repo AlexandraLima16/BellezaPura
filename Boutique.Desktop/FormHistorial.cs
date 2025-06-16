@@ -55,10 +55,7 @@ namespace Boutique.Desktop
 
         private void btnNuevo_Click(object sender, EventArgs e)
         {
-            FormHistorialNuevo detalle = new FormHistorialNuevo();
-            detalle.StartPosition = FormStartPosition.CenterScreen;
-            detalle.ShowDialog();
-            UpdateGrid();
+          
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)
@@ -79,6 +76,11 @@ namespace Boutique.Desktop
         }
 
         private void dataGridView1_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void dtpFecha_ValueChanged(object sender, EventArgs e)
         {
 
         }

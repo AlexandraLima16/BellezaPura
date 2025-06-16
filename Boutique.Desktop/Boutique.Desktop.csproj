@@ -155,12 +155,6 @@
     <Compile Include="FormHistorial.Designer.cs">
       <DependentUpon>FormHistorial.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormHistorialNuevo.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="FormHistorialNuevo.Designer.cs">
-      <DependentUpon>FormHistorialNuevo.cs</DependentUpon>
-    </Compile>
     <Compile Include="FormInventario.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -402,6 +396,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormProveedoresNuevo.resx">
       <DependentUpon>FormProveedoresNuevo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormReporteVentas.resx">
+      <DependentUpon>FormReporteVentas.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormRol.resx">
       <DependentUpon>FormRol.cs</DependentUpon>

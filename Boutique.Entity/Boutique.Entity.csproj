@@ -58,6 +58,7 @@
     <Compile Include="Entidades\Pago.cs" />
     <Compile Include="Entidades\Producto.cs" />
     <Compile Include="Entidades\Proveedor.cs" />
+    <Compile Include="Entidades\ReportVentas.cs" />
     <Compile Include="Entidades\Rol.cs" />
     <Compile Include="Entidades\Usuario.cs" />
     <Compile Include="Entidades\Venta.cs" />

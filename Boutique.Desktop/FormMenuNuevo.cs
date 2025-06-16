@@ -365,5 +365,11 @@ namespace Boutique.Desktop
         {
 
         }
+
+        private void btnRepVentas_Click_1(object sender, EventArgs e)
+        {
+            OpenChildFrom(new FormReporteVentas(), sender);
+            hideSubMenu();
+        }
     }
 }
