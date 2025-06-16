@@ -111,3 +111,5 @@ C:\Users\jazmi\Downloads\BellezaPura\Boutique.Desktop\bin\Debug\Boutique.Entity.
 C:\Users\jazmi\Downloads\BellezaPura\Boutique.Desktop\obj\Debug\Boutique.CCD0CBF0.Up2Date
 C:\Users\jazmi\Downloads\BellezaPura\Boutique.Desktop\obj\Debug\Boutique.Desktop.exe
 C:\Users\jazmi\Downloads\BellezaPura\Boutique.Desktop\obj\Debug\Boutique.Desktop.pdb
+C:\Users\usuario\Desktop\BoutiqueProgram\Boutique.Desktop\obj\Debug\Boutique.Desktop.FormReporteVentas.resources
+C:\Users\usuario\Desktop\BoutiqueProgram\Boutique.Desktop\obj\Debug\Boutique.Desktop.FormCompra.resources

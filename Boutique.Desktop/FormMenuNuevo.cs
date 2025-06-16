@@ -242,12 +242,13 @@ namespace Boutique.Desktop
 
         private void btnCompras_Click(object sender, EventArgs e)
         {
-
+            
         }
 
         private void btnDetCompra_Click(object sender, EventArgs e)
         {
-
+            OpenChildFrom(new FormCompra(_user), sender);
+            hideSubMenu();
         }
 
         private void btnVentas_Click(object sender, EventArgs e)
