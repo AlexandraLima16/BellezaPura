@@ -9,7 +9,7 @@ namespace Boutique.Entity.Entidades
     public class ReportVentas
         {
             public int VentaId { get; set; }
-            public string  ProductoId { get; set; }
+            public string  ProductoId  { get; set; }
             public DateTime Fecha { get; set; }
             public int Cantidad { get; set; }
             public decimal Total { get; set; }
