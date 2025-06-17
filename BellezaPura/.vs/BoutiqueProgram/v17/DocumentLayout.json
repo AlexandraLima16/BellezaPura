@@ -3,12 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\usuario\\Desktop\\Boutique\\BellezaPura\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{DBDA4918-225C-4C8A-AEDC-765D4EEC1C05}|Boutique.Desktop\\Boutique.Desktop.csproj|C:\\Users\\usuario\\Desktop\\Boutique\\BellezaPura\\boutique.desktop\\formmenunuevo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBDA4918-225C-4C8A-AEDC-765D4EEC1C05}|Boutique.Desktop\\Boutique.Desktop.csproj|solutionrelative:boutique.desktop\\formmenunuevo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{DBDA4918-225C-4C8A-AEDC-765D4EEC1C05}|Boutique.Desktop\\Boutique.Desktop.csproj|c:\\users\\usuario\\desktop\\boutique\\bellezapura\\boutique.desktop\\formmenunuevo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{DBDA4918-225C-4C8A-AEDC-765D4EEC1C05}|Boutique.Desktop\\Boutique.Desktop.csproj|solutionrelative:boutique.desktop\\formmenunuevo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DBDA4918-225C-4C8A-AEDC-765D4EEC1C05}|Boutique.Desktop\\Boutique.Desktop.csproj|c:\\users\\usuario\\desktop\\boutique\\bellezapura\\boutique.desktop\\formmenunuevo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DBDA4918-225C-4C8A-AEDC-765D4EEC1C05}|Boutique.Desktop\\Boutique.Desktop.csproj|solutionrelative:boutique.desktop\\formmenunuevo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DBDA4918-225C-4C8A-AEDC-765D4EEC1C05}|Boutique.Desktop\\Boutique.Desktop.csproj|c:\\users\\usuario\\desktop\\boutique\\bellezapura\\boutique.desktop\\formcompra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBDA4918-225C-4C8A-AEDC-765D4EEC1C05}|Boutique.Desktop\\Boutique.Desktop.csproj|solutionrelative:boutique.desktop\\formcompra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBDA4918-225C-4C8A-AEDC-765D4EEC1C05}|Boutique.Desktop\\Boutique.Desktop.csproj|c:\\users\\usuario\\desktop\\boutique\\bellezapura\\boutique.desktop\\formcompra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{DBDA4918-225C-4C8A-AEDC-765D4EEC1C05}|Boutique.Desktop\\Boutique.Desktop.csproj|solutionrelative:boutique.desktop\\formcompra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,24 +26,49 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
+              "Title": "FormCompra.cs",
+              "DocumentMoniker": "C:\\Users\\usuario\\Desktop\\Boutique\\BellezaPura\\Boutique.Desktop\\FormCompra.cs",
+              "RelativeDocumentMoniker": "Boutique.Desktop\\FormCompra.cs",
+              "ToolTip": "C:\\Users\\usuario\\Desktop\\Boutique\\BellezaPura\\Boutique.Desktop\\FormCompra.cs",
+              "RelativeToolTip": "Boutique.Desktop\\FormCompra.cs",
+              "ViewState": "AQIAAMgAAAAAAAAAAADgv5EAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T06:59:36.39Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FormCompra.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\usuario\\Desktop\\Boutique\\BellezaPura\\Boutique.Desktop\\FormCompra.cs",
+              "RelativeDocumentMoniker": "Boutique.Desktop\\FormCompra.cs",
+              "ToolTip": "C:\\Users\\usuario\\Desktop\\Boutique\\BellezaPura\\Boutique.Desktop\\FormCompra.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Boutique.Desktop\\FormCompra.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T06:59:34.568Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "FormMenuNuevo.cs",
               "DocumentMoniker": "C:\\Users\\usuario\\Desktop\\Boutique\\BellezaPura\\Boutique.Desktop\\FormMenuNuevo.cs",
               "RelativeDocumentMoniker": "Boutique.Desktop\\FormMenuNuevo.cs",
               "ToolTip": "C:\\Users\\usuario\\Desktop\\Boutique\\BellezaPura\\Boutique.Desktop\\FormMenuNuevo.cs",
               "RelativeToolTip": "Boutique.Desktop\\FormMenuNuevo.cs",
-              "ViewState": "AQIAAGEAAAAAAAAAAAAcwG0AAAAUAAAA",
+              "ViewState": "AQIAAKwAAAAAAAAAAAASwJ8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-17T06:33:20.668Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "FormMenuNuevo.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\usuario\\Desktop\\Boutique\\BellezaPura\\Boutique.Desktop\\FormMenuNuevo.cs",
               "RelativeDocumentMoniker": "Boutique.Desktop\\FormMenuNuevo.cs",
