@@ -38,11 +38,14 @@ namespace Boutique.DataAcces.DAL
                 using (SqlCommand cmd = new SqlCommand("Ventas.SpDevolucionInsert", conn))
                 {
                     cmd.CommandType = CommandType.StoredProcedure;
+                    cmd.Parameters.AddWithValue("@DetCompraId", entity.Descripcion);
+                    cmd.Parameters.AddWithValue("@FechaDevolucion", entity.FechaDevolucion);
                     cmd.Parameters.AddWithValue("@Descripcion", entity.Descripcion);
+ 
                     cmd.Parameters.AddWithValue("@FechaDevolucion", entity.FechaDevolucion);
                     cmd.Parameters.AddWithValue("@Cantidad", entity.Cantidad);
                     cmd.Parameters.AddWithValue("@Precio", entity.Precio);
-                    cmd.Parameters.AddWithValue("@DetVentaId", entity.DetVentaId);
+                
                     conn.Open();
                     result = cmd.ExecuteNonQuery() > 0;
 
@@ -64,6 +67,7 @@ namespace Boutique.DataAcces.DAL
                     cmd.CommandType = CommandType.StoredProcedure;
 
                     cmd.Parameters.AddWithValue("@DevolcionId", entity.DevolucionId);
+                    cmd.Parameters.AddWithValue("@DetCompraId", entity.DevolucionId);
                     cmd.Parameters.AddWithValue("@Descripcion", entity.Descripcion);
                     cmd.Parameters.AddWithValue("@FechaDevolucion", entity.FechaDevolucion);
                     cmd.Parameters.AddWithValue("@Cantidad", entity.Cantidad);

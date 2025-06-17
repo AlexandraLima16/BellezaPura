@@ -122,7 +122,7 @@ namespace Boutique.DataAcces.DAL
 
             using (SqlConnection conn = new SqlConnection(_cadena))
             {
-                using (SqlCommand cmd = new SqlCommand("Vent", conn))
+                using (SqlCommand cmd = new SqlCommand("Ventas.SpInventarioSelectAll", conn))
                 {
                     cmd.CommandType = CommandType.StoredProcedure;
 

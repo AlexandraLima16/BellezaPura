@@ -119,3 +119,14 @@ C:\Users\usuario\Desktop\Boutique\BellezaPura\Boutique.BusinessLogic\obj\Debug\B
 C:\Users\usuario\Desktop\Boutique\BellezaPura\Boutique.BusinessLogic\obj\Debug\Boutique.A82F0603.Up2Date
 C:\Users\usuario\Desktop\Boutique\BellezaPura\Boutique.BusinessLogic\obj\Debug\Boutique.BusinessLogic.dll
 C:\Users\usuario\Desktop\Boutique\BellezaPura\Boutique.BusinessLogic\obj\Debug\Boutique.BusinessLogic.pdb
+C:\Users\jazmi\Downloads\BellezaPura\BellezaPura\Boutique.BusinessLogic\bin\Debug\Boutique.BusinessLogic.dll
+C:\Users\jazmi\Downloads\BellezaPura\BellezaPura\Boutique.BusinessLogic\bin\Debug\Boutique.BusinessLogic.pdb
+C:\Users\jazmi\Downloads\BellezaPura\BellezaPura\Boutique.BusinessLogic\bin\Debug\Boutique.DataAcces.dll
+C:\Users\jazmi\Downloads\BellezaPura\BellezaPura\Boutique.BusinessLogic\bin\Debug\Boutique.Entity.dll
+C:\Users\jazmi\Downloads\BellezaPura\BellezaPura\Boutique.BusinessLogic\bin\Debug\Boutique.DataAcces.pdb
+C:\Users\jazmi\Downloads\BellezaPura\BellezaPura\Boutique.BusinessLogic\bin\Debug\Boutique.Entity.pdb
+C:\Users\jazmi\Downloads\BellezaPura\BellezaPura\Boutique.BusinessLogic\obj\Debug\Boutique.BusinessLogic.csproj.AssemblyReference.cache
+C:\Users\jazmi\Downloads\BellezaPura\BellezaPura\Boutique.BusinessLogic\obj\Debug\Boutique.BusinessLogic.csproj.CoreCompileInputs.cache
+C:\Users\jazmi\Downloads\BellezaPura\BellezaPura\Boutique.BusinessLogic\obj\Debug\Boutique.A82F0603.Up2Date
+C:\Users\jazmi\Downloads\BellezaPura\BellezaPura\Boutique.BusinessLogic\obj\Debug\Boutique.BusinessLogic.dll
+C:\Users\jazmi\Downloads\BellezaPura\BellezaPura\Boutique.BusinessLogic\obj\Debug\Boutique.BusinessLogic.pdb

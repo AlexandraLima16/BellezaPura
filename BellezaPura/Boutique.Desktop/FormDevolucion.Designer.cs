@@ -35,7 +35,7 @@
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.Editar = new System.Windows.Forms.DataGridViewImageColumn();
             this.DevolucionId = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.DetVentaId = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.DetCompraId = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.FechaDevolucion = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Descripcion = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Cantidad = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -60,7 +60,7 @@
             // 
             this.textBox1.BackColor = System.Drawing.SystemColors.ControlLight;
             this.textBox1.Location = new System.Drawing.Point(81, 45);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(2);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(415, 20);
             this.textBox1.TabIndex = 22;
@@ -86,7 +86,7 @@
             this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Editar,
             this.DevolucionId,
-            this.DetVentaId,
+            this.DetCompraId,
             this.FechaDevolucion,
             this.Descripcion,
             this.Cantidad,
@@ -116,14 +116,12 @@
             this.DevolucionId.Name = "DevolucionId";
             this.DevolucionId.ReadOnly = true;
             // 
-            // DetVentaId
+            // DetCompraId
             // 
-            this.DetVentaId.DataPropertyName = "DetVentaId";
-            this.DetVentaId.HeaderText = "Venta";
-            this.DetVentaId.MinimumWidth = 6;
-            this.DetVentaId.Name = "DetVentaId";
-            this.DetVentaId.ReadOnly = true;
-            this.DetVentaId.Width = 125;
+            this.DetCompraId.DataPropertyName = "DetCompraId";
+            this.DetCompraId.HeaderText = "D.Compra";
+            this.DetCompraId.Name = "DetCompraId";
+            this.DetCompraId.ReadOnly = true;
             // 
             // FechaDevolucion
             // 
@@ -196,7 +194,7 @@
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.DataGridViewImageColumn Editar;
         private System.Windows.Forms.DataGridViewTextBoxColumn DevolucionId;
-        private System.Windows.Forms.DataGridViewTextBoxColumn DetVentaId;
+        private System.Windows.Forms.DataGridViewTextBoxColumn DetCompraId;
         private System.Windows.Forms.DataGridViewTextBoxColumn FechaDevolucion;
         private System.Windows.Forms.DataGridViewTextBoxColumn Descripcion;
         private System.Windows.Forms.DataGridViewTextBoxColumn Cantidad;

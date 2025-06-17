@@ -245,13 +245,13 @@ namespace Boutique.Desktop
 
         private void btnCompras_Click(object sender, EventArgs e)
         {
-            
+            OpenChildFrom(new FormCompra(_user), sender);
+            hideSubMenu();
         }
 
         private void btnDetCompra_Click(object sender, EventArgs e)
         {
-            OpenChildFrom(new FormCompra(_user), sender);
-            hideSubMenu();
+          
         }
 
         private void btnVentas_Click(object sender, EventArgs e)
@@ -384,7 +384,8 @@ namespace Boutique.Desktop
 
         private void button14_Click_1(object sender, EventArgs e)
         {
-
+            OpenChildFrom(new FormReporteCompra(), sender);
+            hideSubMenu();
         }
     }
 }
